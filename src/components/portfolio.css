@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFBF00;
+  color: rgb(255, 255, 255);
+}
+
+.sort-options select {
+  margin-left: 10px;
+  color: #000; /* Set the default text color */
+  background-color: #fff; /* Set the background color */
+}
+
+.sort-options select option {
+  color: #000; /* Set the text color of options */
+  background-color: #fff; /* Set the background color of options */
+}
+
+.portfolio {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.portfolio-list {
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.portfolio-item h2 {
+  margin: 0;
+}
+
+.portfolio-item p {
+  margin: 5px 0;
+}
+
+.project-details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.project-details h2 {
+  margin: 0;
+}
+
+.project-details p {
+  margin: 5px 0;
+}
+
+.project-details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #FFBF00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.project-details button:hover {
+  background-color: #FFA500;
+}

@@ -1,0 +1,85 @@
+/* Universal box-sizing for all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Body styling to use Verdana font */
+  body {
+    font-family: Verdana, sans-serif;
+  }
+  
+  /* Hide all slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Vertically align images to the middle */
+  img {
+    vertical-align: middle;
+  }
+  
+  /* Slideshow container styling */
+  .slideshow-container {
+    max-width: 1000px; /* Maximum width of the slideshow */
+    position: relative; /* Relative positioning for inner elements */
+    margin: auto; /* Center the container */
+  }
+  
+  /* Caption text styling */
+  .text {
+    color: #f2f2f2; /* Text color */
+    font-size: 15px; /* Font size */
+    padding: 8px 12px; /* Padding around the text */
+    position: absolute; /* Absolute positioning within the container */
+    bottom: 8px; /* Position from the bottom */
+    width: 100%; /* Full width */
+    text-align: center; /* Centered text */
+  }
+  
+  /* Number text styling */
+  .numbertext {
+    color: #f2f2f2; /* Text color */
+    font-size: 12px; /* Font size */
+    padding: 8px 12px; /* Padding around the text */
+    position: absolute; /* Absolute positioning within the container */
+    top: 0; /* Position from the top */
+  }
+  
+  /* Dot indicator styling */
+  .dot {
+    height: 15px; /* Height of dots */
+    width: 15px; /* Width of dots */
+    margin: 0 2px; /* Margin between dots */
+    background-color: #bbb; /* Background color of dots */
+    border-radius: 50%; /* Rounded dots */
+    display: inline-block; /* Inline-block display */
+    transition: background-color 0.6s ease; /* Transition effect for background color */
+  }
+  
+  /* Active dot indicator styling */
+  .active {
+    background-color: #717171; /* Background color for active dot */
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s; /* Duration of fade animation */
+  }
+  
+  /* Keyframes for fade animation */
+  @keyframes fade {
+    from {
+      opacity: 0.4; /* Start with lower opacity */
+    }
+    to {
+      opacity: 1; /* End with full opacity */
+    }
+  }
+  
+  /* Responsive text size for smaller screens */
+  @media only screen and (max-width: 300px) {
+    .text {
+      font-size: 11px; /* Smaller font size for smaller screens */
+    }
+  }

@@ -1,0 +1,83 @@
+/* Ensure the html and body take the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main container for the contact page that takes the full height of the viewport */
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least 100% of the viewport height */
+}
+
+/* Container for the content between the header and footer, centered both vertically and horizontally */
+.contact-content {
+  flex: 1; /* Take up remaining space between the header and footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  width: 100%; /* Ensure the container takes full width */
+  padding: 20px; /* Add some padding for better layout */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+/* Styles for the contact details and contact form side by side */
+.side-by-side {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+/* Ensure contact details have a side margin */
+.my-contact-details {
+  flex: 1;
+  margin-right: 20vh; /* Margin between the contact details and the contact form */
+}
+
+/* Styles for the contact form container */
+.contact-form {
+  flex: 2;
+  width: 100%; /* Ensure form takes full width of the container */
+  max-width: 600px; /* Optional: Limit the max width of the form */
+}
+
+/* Styles for each contact information item */
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Margin for icons within contact information items */
+.info-item svg {
+  margin-right: 10px;
+}
+
+/* Styles for the boxes around contact information items */
+.rounded-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%; /* Ensure rounded boxes take full width */
+}
+
+/* Responsive design for screens less than 800px wide */
+@media (max-width: 800px) {
+  .side-by-side {
+    flex-direction: column;
+  }
+
+  .my-contact-details, .contact-form {
+    margin-right: 0; /* Remove margin when stacked vertically */
+    min-width: 100%;
+  }
+}
+
+/* Styles for the centered text */
+.centered-text {
+  text-align: center;
+  margin-top: 7vh; /* Add some margin below the text */
+}

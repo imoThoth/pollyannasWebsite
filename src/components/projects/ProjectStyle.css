@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box
+  } 
+  
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .tabs:not(:last-child){
+    /* Adds the line in between each button/tab */
+    border-right: 1px solid rgba(0,0,0,0.274);
+  }
+  
+  .active-tabs{
+    /* Changes the background for tab clicked on */
+    background: white;
+    border-bottom: 1px solid transparent;
+  }
+  
+  .active-tabs::before{
+    /* Adds blue line at the top */
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
+    background: #FFBF00;
+  }
+  
+  button{
+    border: none;
+    width: 120px;
+    height: 60px;
+    padding: 10px 20px; /* Increase padding to make the buttons taller and wider */
+    font-size: 16px; /* Increase font size for better readability */
+    margin: 5px; /* Add some space between buttons */
+    cursor: pointer; /* Changes the cursor to a pointer to indicate these are clickable */
+  
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .content-tabs{
+    flex-grow: 1;
+  
+    min-width: 360px; /* For 3 buttons each approximately 120px wide */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+  }
+  
+  .content{
+    background: white;
+    padding: 20px;
+    /* width: 100%; */
+    max-width: 360px;
+    height: 100%;
+    display: none;  /*Shows content*/
+  }
+  
+  .content h2{
+    padding: 0px 0 5px 0px;
+  }
+  
+  .content hr{
+    width: 100px;
+    height: 2px;
+    background: #222;
+    margin-bottom: 5px;
+  }
+  
+  .content p{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .active-content{
+    display: block;
+  }
+  
+  .container {
+    max-width: 390px; /* Example width; adjust as necessary */
+    border:1px solid black;
+    margin: 0 auto; /* Center the container */
+  
+    /* Move div to centre */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -180px;
+    margin-left: 300px;
+   
+  }
+  
+  .bloc-tabs, .content-tabs {
+    min-width: 360px; /* Ensure both take up the full width of their parent */
+  }
+  
+  .projectContainer{
+    text-align: left;
+    width: 33%;
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* Alternative to word-wrap, use depending on browser support */
+    margin-left: 200px;
+  }
+  
+  /* Media query for screens smaller than 1000px */
+  @media (max-width: 1000px) {
+    .content-tabs {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .projectContainer {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .container {
+      width: 90%;
+      max-width: 100%;
+      position: static;
+      margin: 0 auto;
+      transform: none;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
