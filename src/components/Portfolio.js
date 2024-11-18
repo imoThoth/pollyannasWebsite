@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./portfolio.css";
+import headerImage from '../images/scenicMountain.jpeg';
 
 const portfolioData = [
   { id: 1, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Short Film" },
@@ -46,18 +48,23 @@ const Header = ({ setPortfolioData }) => {
   };
 
   return (
-    <header>
-      <h1>Portfolio</h1>
-      <div className="sort-options">
-        <label htmlFor="sort">Sort by:</label>
-        <select id="sort" value={sortBy} onChange={handleSortChange}>
-          <option value="Costume Design">Costume Design</option>
-          <option value="Set Design">Set Design</option>
-          <option value="Theatre">Theatre</option>
-          <option value="Short Films">Short Films</option>
-          <option value="Year">Year Ascending</option>
-          <option value="Year Descending">Year Descending</option>
-        </select>
+    <header className="full-width-header">
+      <div className="header-content">
+        <h1>Portfolio</h1>
+        <div className="sort-options">
+          <label htmlFor="sort">Sort by:</label>
+          <select id="sort" value={sortBy} onChange={handleSortChange}>
+            <option value="Costume Design">Costume Design</option>
+            <option value="Set Design">Set Design</option>
+            <option value="Theatre">Theatre</option>
+            <option value="Short Films">Short Films</option>
+            <option value="Year">Year Ascending</option>
+            <option value="Year Descending">Year Descending</option>
+          </select>
+        </div>
+      </div>
+      <div className="header-image">
+        <img src = {headerImage} alt="Portfolio Background" />
       </div>
     </header>
   );
@@ -78,13 +85,17 @@ const Portfolio = () => {
       <div className="portfolio-list">
         {portfolioDataState.map((item) => (
           <div className="portfolio-item" key={item.id} onClick={() => handleItemClick(item.id)}>
-            <h2>{item.title} ({item.year})</h2>
+            <h2>
+              <Link to={`${item.id}`}>
+                {item.title} ({item.year})
+              </Link>
+            </h2>
             <p>{item.location}</p>
           </div>
         ))}
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;

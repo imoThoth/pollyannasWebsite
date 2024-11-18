@@ -1,70 +1,149 @@
-/* Body styling to remove default margin and set font family */
+/* Reset margin and padding, set default font and background color */
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fcfcfc;
+}
+
+/* Main navigation bar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background-color: #d770b6; /* Background color of the navbar */
+  padding: 0 15px; /* Padding to give space inside the navbar */
+  z-index: 1000; /* Ensures navbar is above all other elements */
+  width: 100%; /* Ensures the navbar spans the full width of the screen */
+  position: relative;
+  box-sizing: border-box; /* Includes padding in the element's width and height */
+}
+
+/* Logo styling */
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #2f234f; /* Color of the logo text */
+}
+
+/* Menu icon styling, initially hidden for larger screens */
+.menu-icon {
+  display: none;
+  color: #2f234f; /* Color of the menu icon */
+}
+
+/* Navigation elements container */
+.nav-elements {
+}
+
+/* List of navigation links, aligned horizontally by default */
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%; /* Ensures that the list spans the entire width */
+  align-items: center; /* Aligns links and logo text vertically */
+}
+
+/* Adds margin to the right of each navigation link except the last one */
+.nav-elements ul li:not(:last-child) {
+  margin-right: 60px;
+}
+
+/* Styling for the links in the navigation bar */
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2f234f; /* Ensure text color contrasts with the navbar background */
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for the navigation links */
+.nav-elements ul a:hover {
+  color: #e890ce; /* Change text color on hover */
+  background-color: #2f234f; /* Change background color on hover */
+  padding: 6px 12px; /* Adds padding for better hover visibility */
+  border-radius: 4px; /* Rounded corners for the hover effect */
+}
+
+/* Styling for the active link in the navbar */
+.nav-elements ul a.active {
+  color: #574c4c;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Underline effect for the active link */
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #574c4c;
+}
+
+/* Adjusts the margin between list items for smaller screens */
+@media (max-width: 768px) {
+  .nav-elements ul li:not(:last-child) {
+    margin-right: 30px;
   }
-  
-  /* Styling for the top navigation bar */
-.topnav {
-    overflow: hidden; /* Ensures that floating children are contained */
-    background-color: #333; /* Sets the background color of the navigation bar */
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 600px) {
+  /* Display the menu icon on smaller screens */
+  .menu-icon {
+    display: block;
+    cursor: pointer;
   }
 
-  /* Styling for each link in the navigation bar */
-.topnav a {
-    float: left; /* Aligns links to the left */
-    display: block; /* Makes the links block elements to control dimensions */
-    color: #f2f2f2; /* Sets the text color of the links */
-    text-align: center; /* Centers text within each link */
-    padding: 14px 16px; /* Adds padding around the links */
-    text-decoration: none; /* Removes the underline from the links */
-    font-size: 17px; /* Sets the font size for the links */
+  /* Initially hide the navigation links on smaller screens */
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    background-color: #fef7e5;
+    width: 0px;
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+    z-index: 1000; /* Ensures dropdown is above all other elements */
+    max-height: 0; /* Collapses the height initially */
   }
 
-  /* Styling for links when hovered */
-.topnav a:hover {
-    background-color: #ddd; /* Changes background color on hover */
-    color: black; /* Changes text color on hover */
+  /* When active, show the navigation links in a dropdown */
+  .nav-elements.active {
+    width: 270px; /* Set width when menu is expanded */
+    max-height: 400px; /* Allow it to grow naturally with content */
+    overflow: visible;
+    padding-bottom: 20px; /* Adds extra space below the last item */
   }
 
-  
-/* Styling for the active link */
-.topnav a.active {
-    background-color: #04AA6D; /* Sets background color for the active link */
-    color: white; /* Sets text color for the active link */
+  /* Stack the navigation links vertically in the dropdown */
+  .nav-elements ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns all items to the left */
   }
 
-  /* Styling for the menu icon (hamburger icon) */
-.topnav .icon {
-    display: none; /* Hides the icon by default */
+  /* Remove right margin and add top margin for dropdown items */
+  .nav-elements ul li {
+    margin-right: unset;
+    margin-top: 22px;
+    width: 100%; /* Ensures each link takes full width */
   }
-  
-  /* Media query for screen sizes less than 600px */
-  @media screen and (max-width: 600px) {
-    /* Hides all links except the first one (Home) */
-    .topnav a:not(:first-child) {
-      display: none; /* Hides non-first links */
-    }
-    /* Displays the menu icon (hamburger icon) */
-    .topnav a.icon {
-      float: right; /* Aligns the icon to the right */
-      display: block; /* Displays the icon */
-    }
+
+  /* Ensures that each link is aligned properly and fills the dropdown */
+  .nav-elements ul a {
+    width: 100%; /* Makes sure links take up full width */
+    text-align: center; /* Align text to the left */
+    padding: 10px 16px; /* Adds padding around links */
+    box-sizing: border-box; /* Includes padding within the width */
   }
-  
-  /* Media query for responsive class applied to the navigation bar */
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {
-      position: relative; /* Allows positioning of elements relative to the topnav */
-    }
-    .topnav.responsive .icon {
-      position: absolute; /* Positions the icon absolutely */
-      right: 0; /* Aligns the icon to the right */
-      top: 0; /* Aligns the icon to the top */
-    }
-    .topnav.responsive a {
-      float: none; /* Removes floating from links */
-      display: block; /* Displays each link as a block element */
-      text-align: left; /* Aligns text to the left */
-    }
-  }
+}

@@ -1,40 +1,43 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
- import './TopNav.css';
- import {Link} from 'react-router-dom';
+import './TopNav.css';
+import { Link } from 'react-router-dom';
 
 const TopNavigation = () => {
+    // State to control whether the navbar is visible or not
+    const [showNavbar, setShowNavbar] = useState(false);
 
-  const [isResponsive, setIsResponsive] = useState(false);
+    // Function to toggle the visibility of the navbar
+    const handleShowNavbar = () => {
+        setShowNavbar(!showNavbar);
+    };
 
-  const toggleResponsive = () => {
-
-  }
-
-  return(
-     <>
-        <div className={`topnav ${isResponsive ? 'responsive' : ''}`} id='myTopnav'>
-            <div className='active'>
-                <Link to = "/">Home</Link>
+    return (
+        <nav className="navbar">
+            <div className="logo">
+                <h1>Pollyanna Elston</h1>
             </div>
-            <div >
-                <Link to ="/projects">Project</Link>
+            <div className="menu-icon" onClick={handleShowNavbar}>
+                {/* FontAwesome icon for the menu button */}
+                <i className="fa fa-bars"></i>
             </div>
-            <div >
-                <Link to = "/contact">Contact</Link>
+            <div className={`nav-elements ${showNavbar && 'active'}`}>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/portfolio">Portfolio</Link>
+                    </li>
+                    <li>
+                        <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                </ul>
             </div>
-            <div >
-                <Link to ='/about'>About</Link>
-            </div>
-            <a href="javascript:void(0);" className="icon" onClick={toggleResponsive}>
-                <FontAwesomeIcon icon={faBars} />
-            </a>
-        </div>
- 
-    </>
-  )
-   
-}
+        </nav>
+    );
+};
 
-export default TopNavigation
+export default TopNavigation;

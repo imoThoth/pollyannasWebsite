@@ -4,6 +4,9 @@ import costume from "../images/costume.jpeg";
 import deepThoughtCostume from "../images/deepThoughtCostume.jpeg";
 import './Carousel.css';
 
+
+
+// NOT BEING USED
 const Carousel = () => {
   const slideIndex = useRef(0);
 

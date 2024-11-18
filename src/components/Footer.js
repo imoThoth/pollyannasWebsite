@@ -4,7 +4,7 @@ import './footer.css'; // Import custom CSS for additional styles if needed
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white text-center py-3 mt-auto">
+    <footer className="footer-custom text-white text-center py-3 mt-auto">
       <div className="row mx-0 w-100">
         <div className="col-12 col-md-6 mb-2 mb-md-0 d-flex justify-content-center justify-content-md-start">
           <p className="mb-0">© 2024 Your Company. All rights reserved.</p>

@@ -8,6 +8,7 @@ import Contact from './components/contactPage/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
 import './App.css'; // Import custom CSS for layout adjustments
+import TestProject from './components/projects/TestProject';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <main className="flex-grow-1">
           <Routes>
             <Route path='/' element={<BootStrapCarousel />} />
-            <Route path='/projects' element={<Portfolio />} />
+            <Route path='/portfolio' element={<Portfolio />} />
+            <Route path='/portfolio/1' element={<TestProject />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

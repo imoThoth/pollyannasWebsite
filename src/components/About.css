@@ -1,5 +1,40 @@
 /* about.css */
 
+#body {
+background-color: lightblue;
+}
+
+
+.about-full-width-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Full width of the screen */
+  padding: 20px;
+  position: relative; /* Allows positioning of the image inside the header */
+  overflow: hidden;
+  margin-top: 3vh;
+  height: 20vh; /* Adjust this value to control the height of the header */
+}
+
+/* Image inside the header */
+.about-header-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.3; /* Slight transparency for better readability of text */
+  height: 100%; /* Ensure the image container takes the full height */
+}
+
+.about-header-image img {
+  width: 100%;
+  height: 100%; /* Ensure the image fills the entire container height */
+  object-fit: cover;
+}
+
 .custom-container {
     margin-left: auto;
     margin-right: auto;

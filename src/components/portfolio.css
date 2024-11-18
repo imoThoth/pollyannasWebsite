@@ -1,31 +1,69 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-header {
+
+/* Full-width header styling */
+.full-width-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%; /* Full width of the screen */
+  /* background-color: #e087d3; */
+  /* color: rgb(255, 255, 255); */
   padding: 20px;
-  background-color: #FFBF00;
-  color: rgb(255, 255, 255);
+  height: 20vh;
+  position: relative; /* Allows positioning of the image inside the header */
+  overflow: hidden;
+}
+
+/* Content inside the header (text and dropdown) */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 1; /* Ensure content is above the background image */
+}
+
+/* Title on the left side */
+.header-content h1 {
+  margin: 0;
+  flex-grow: 1; /* Allows the title to take up available space */
+}
+
+/* Sort by options, aligned to the right */
+.sort-options {
+  display: flex;
+  align-items: center;
+}
+
+.sort-options label {
+  margin-right: 10px; /* Space between label and dropdown */
 }
 
 .sort-options select {
-  margin-left: 10px;
   color: #000; /* Set the default text color */
   background-color: #fff; /* Set the background color */
 }
 
-.sort-options select option {
-  color: #000; /* Set the text color of options */
-  background-color: #fff; /* Set the background color of options */
+/* Image inside the header */
+.header-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  opacity: 0.3; /* Slight transparency for better readability of text */
 }
 
+.header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Portfolio section */
 .portfolio {
-  max-width: 800px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -51,7 +89,7 @@ header {
 }
 
 .project-details {
-  border: 1px solid #ccc;
+  border: 1px solid #561212;
   border-radius: 5px;
   padding: 10px;
   margin-top: 20px;

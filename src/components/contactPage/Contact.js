@@ -1,58 +1,69 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import emailjs from 'emailjs-com'; // Import EmailJS
 import './ContactCss.css';  // Import the CSS file
+import zenMountain from "../../images/coolWAll.jpeg";
 
 const ContactPage = () => {
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ceutald', 'template_heywaom', e.target, 'USBsDUXAiEaDR-nEk')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message. Please try again later.');
+      });
+    e.target.reset(); // Reset the form after submission
+  };
+
   return (
-    // Main container for the contact page
     <div className="contact-page">
-      {/* Container for the contact content, ensuring it's centered and takes up remaining space */}
-       {/* Centered text for the headings */}
+       <header className="contact-full-width-header">
        <div className="centered-text">
           <h2>Contact Me</h2>
           <h4>Get In Touch</h4>
         </div>
+          <div className="contact-header-image">
+            <img src={zenMountain} alt="Portfolio Background" />
+          </div>
+        </header>
+
       <Container fluid="md" className="contact-content">
-        {/* Flex container to position contact details and form side by side */}
         <div className="side-by-side">
-          {/* Row for the contact details */}
           <Row className="my-contact-details">
-            {/* Column for the phone number */}
             <Col md={12} className="info-item rounded-box">
               <FaPhone />
-              <span>07845001675</span>
+              <span>07787411549</span>
             </Col>
-            {/* Column for the email address */}
             <Col md={12} className="info-item rounded-box">
               <FaEnvelope />
-              <span>pa@gmail.com</span>
+              <span>pollyannaelston@gmail.com</span>
             </Col>
-            {/* Column for the location */}
             <Col md={12} className="info-item rounded-box">
               <FaMapMarkerAlt />
               <span>London</span>
             </Col>
           </Row>
-          {/* Form for the contact messages */}
+
           <div className="contact-form">
-            <Form>
-              {/* Form group for the name input */}
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form onSubmit={sendEmail}> {/* Add onSubmit handler */}
+              <Form.Group className="mb-3" controlId="formName">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Your Name" />
+                <Form.Control type="text" name="name" placeholder="Your Name" required />
               </Form.Group>
-              {/* Form group for the email input */}
-              <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Group className="mb-3" controlId="formEmail">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" name="email_id" placeholder="name@example.com" required />
               </Form.Group>
-              {/* Form group for the message textarea */}
-              <Form.Group className="mb-3 message-group" controlId="exampleForm.ControlTextarea1">
+              <Form.Group className="mb-3 message-group" controlId="formMessage">
                 <Form.Label>Your Message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control as="textarea" name="message" rows={3} required />
               </Form.Group>
-              {/* Submit button for the form */}
               <Button variant="primary" type="submit">
                 Send Message
               </Button>
