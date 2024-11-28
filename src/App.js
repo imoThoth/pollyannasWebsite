@@ -8,7 +8,9 @@ import Contact from './components/contactPage/Contact';
 import About from './components/About';
 import Footer from './components/Footer';
 import './App.css'; // Import custom CSS for layout adjustments
-import TestProject from './components/projects/TestProject';
+import Project1 from './components/projects/Project1';
+import CoffeeGuy from './components/projects/CoffeeGuy';
+
 
 function App() {
   return (
@@ -19,7 +21,8 @@ function App() {
           <Routes>
             <Route path='/' element={<BootStrapCarousel />} />
             <Route path='/portfolio' element={<Portfolio />} />
-            <Route path='/portfolio/1' element={<TestProject />} />
+            <Route path='/portfolio/The Boys' element={<Project1 />} />
+            <Route path='/portfolio/Coffee Guy' element={<CoffeeGuy />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

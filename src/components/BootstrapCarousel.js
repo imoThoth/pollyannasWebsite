@@ -6,15 +6,15 @@ import costume from '../images/costume.jpeg';
 import deepThoughtCostume from '../images/deepThoughtCostume.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CarouselBootstrap.css';
-import headerImage from '../images/scenicMountain.jpeg';
+import headerImage from '../images/pollyNavbarSmall.jpg';
 
 const images = [
-  { src: audience, location: 'Los Angeles', date: '2023', name: 'The Boys' },
-  { src: costume, location: 'Chicago', date: '2023', name: 'Coffee Guy' },
-  { src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Coffee Guy' },
-  { src: audience, location: 'Los Angeles', date: '2023', name: 'Blah' },
-  { src: costume, location: 'Chicago', date: '2023', name: 'Kah' },
-  { src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Pgfasfas' }
+  {id: 1, src: audience, location: 'Los Angeles', date: '2023', name: 'The Boys' },
+  {id: 2, src: costume, location: 'Chicago', date: '2023', name: 'Coffee Guy' },
+  {id: 3, src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Coffee Guy' },
+  {id: 4, src: audience, location: 'Los Angeles', date: '2023', name: 'Blah' },
+  {id: 5, src: costume, location: 'Chicago', date: '2023', name: 'Kah' },
+  {id: 6, src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Pgfasfas' }
 ];
 
 const BootStrapCarousel = () => {
@@ -77,9 +77,11 @@ const BootStrapCarousel = () => {
                         <Card.Body>
                           <Card.Title className="card-title">{image.location}</Card.Title>
                           <Card.Text className="card-text">{image.date}</Card.Text>
-                          <Link to = {`portfolio/1`}>
+                          <div  onClick={(e) => e.stopPropagation()}>
+                            <Link to={`portfolio/${image.name}`} >
                               <Card.Text className="card-text">{image.name}</Card.Text>
                           </Link>
+                          </div>
                         </Card.Body>
                       </Card>
                     </Col>

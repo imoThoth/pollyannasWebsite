@@ -19,7 +19,7 @@ const portfolioImages = [
   { id: 7, type: "Set", src: zenMountain }
 ];
 
-const TestProject = () => {
+const CoffeeGuy = () => {
   return (
     <div>
       <div>
@@ -67,4 +67,4 @@ const TestProject = () => {
   );
 };
 
-export default TestProject;
+export default CoffeeGuy;
