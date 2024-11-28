@@ -7,14 +7,22 @@ import deepThoughtCostume from '../images/deepThoughtCostume.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CarouselBootstrap.css';
 import headerImage from '../images/pollyNavbarSmall.jpg';
+import pollyannaIcequeen from '../images/pollyannaIcequeen.jpg';
+import pollyannaMacbeth from '../images/pollyannaMacbeth.jpg';
+import pollyannaMuchado from '../images/pollyannaMuchado.jpg';
+import pollyannaTestIImageSun from '../images/pollyannaTestIImageSun.jpg';
+import pollyannaTestImageSeat from '../images/pollyannaTestImageSeat.jpg';
+import pollyannaTestImg from '../images/pollyannaTestImg.jpg';
+
+
 
 const images = [
-  {id: 1, src: audience, location: 'Los Angeles', date: '2023', name: 'The Boys' },
-  {id: 2, src: costume, location: 'Chicago', date: '2023', name: 'Coffee Guy' },
-  {id: 3, src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Coffee Guy' },
-  {id: 4, src: audience, location: 'Los Angeles', date: '2023', name: 'Blah' },
-  {id: 5, src: costume, location: 'Chicago', date: '2023', name: 'Kah' },
-  {id: 6, src: deepThoughtCostume, location: 'New York', date: '2023', name: 'Pgfasfas' }
+  {id: 1, src: pollyannaIcequeen, location: 'Los Angeles', date: '2023', name: 'The Boys' },
+  {id: 2, src: pollyannaMacbeth, location: 'Chicago', date: '2023', name: 'Coffee Guy' },
+  {id: 3, src: pollyannaMuchado, location: 'New York', date: '2023', name: 'Coffee Guy' },
+  {id: 4, src: pollyannaTestIImageSun, location: 'Los Angeles', date: '2023', name: 'Blah' },
+  {id: 5, src: pollyannaTestImageSeat, location: 'Chicago', date: '2023', name: 'Kah' },
+  {id: 6, src: pollyannaTestImg, location: 'New York', date: '2023', name: 'Pgfasfas' }
 ];
 
 const BootStrapCarousel = () => {
