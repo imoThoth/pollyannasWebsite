@@ -1,17 +1,26 @@
+/* Reset body and html padding and margin */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure consistent box model */
+}
 
-
-/* Full-width header styling */
+/* Full-width header styling with enhancements */
 .full-width-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* Full width of the screen */
-  /* background-color: #e087d3; */
-  /* color: rgb(255, 255, 255); */
-  padding: 20px;
-  height: 20vh;
-  position: relative; /* Allows positioning of the image inside the header */
-  overflow: hidden;
+  display: flex; /* Aligns header content in a row */
+  justify-content: space-between; /* Space out the content evenly */
+  align-items: center; /* Vertically center the content */
+  width: 100%; /* Makes the header span the full width */
+  padding: 20px; /* Adds space inside the header */
+  height: 20vh; /* Sets the height of the header */
+  position: relative; /* Allows positioning of child elements like the image */
+  overflow: hidden; /* Ensures no overflow from child elements */
+  background-color: #fff; /* Adds a white background for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Creates a subtle shadow for depth */
+  border-radius: 10px; /* Adds rounded corners for a polished look */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect for interactivity */
+  margin-top: 3vh;
+
 }
 
 /* Content inside the header (text and dropdown) */
@@ -23,12 +32,25 @@
   z-index: 1; /* Ensure content is above the background image */
 }
 
-/* Title on the left side */
+/* Title styling inside the header */
 .header-content h1 {
-  margin: 0;
-  flex-grow: 1; /* Allows the title to take up available space */
+  font-size: 2rem; /* Increases font size for prominence */
+  font-weight: bold; /* Makes the text bold */
+  color: yellow; /* Darker color for readability */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Adds shadow to enhance visibility */
 }
 
+
+/* Image inside the header */
+.header-image img {
+  position: absolute;
+  top: 0;
+  left: 0; /* Ensure the image starts from the very left */
+  width: 100%; /* Make the image span the full width */
+  height: 100%; /* Cover the header's height */
+  object-fit: cover; /* Ensures the image covers the space proportionally */
+  z-index: 1; /* Position the image behind the content */
+}
 /* Sort by options, aligned to the right */
 .sort-options {
   display: flex;
@@ -36,13 +58,28 @@
 }
 
 .sort-options label {
-  margin-right: 10px; /* Space between label and dropdown */
+  font-size: 1rem; /* Sets label font size */
+  color: yellow; /* Neutral color for the label */
+  font-weight: bold;
+  margin-right: 10px; /* Adds space between label and dropdown */
 }
 
 .sort-options select {
-  color: #000; /* Set the default text color */
-  background-color: #fff; /* Set the background color */
+  font-size: 1rem; /* Sets font size for dropdown text */
+  padding: 5px 10px; /* Adds padding inside the dropdown */
+  border-radius: 5px; /* Rounds the corners */
+  border: 1px solid #ccc; /* Adds a light border for structure */
+  background-color: #f9f9f9; /* Light background for subtle contrast */
+  color: #333; /* Sets text color for readability */
+  transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Adds smooth hover transition */
 }
+
+/* Hover effect for dropdown */
+.sort-options select:hover {
+  background-color: #fff; /* Brightens the background on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a slight shadow on hover */
+}
+
 
 /* Image inside the header */
 .header-image {
@@ -52,7 +89,7 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  opacity: 0.3; /* Slight transparency for better readability of text */
+  opacity: 0.7; /* Slight transparency for better readability of text */
 }
 
 .header-image img {
@@ -73,20 +110,48 @@
 }
 
 .portfolio-item {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
+  border: none; /* Remove the border for a cleaner look */
+  border-radius: 10px; /* Add rounded corners */
+  padding: 15px;
+  margin-bottom: 15px;
   cursor: pointer;
+  background-color: #fff; /* Ensure a contrasting background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth effects */
+}
+
+/* Add hover effect for interactivity */
+.portfolio-item:hover {
+  transform: scale(1.03); /* Slight enlargement on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
 .portfolio-item h2 {
   margin: 0;
 }
 
-.portfolio-item p {
-  margin: 5px 0;
+/* Hot pink link styling inside portfolio items */
+.portfolio-item h2 a {
+  color: rgb(214, 4, 197); /* Set link color to hot pink */
+  font-weight: bold; /* Make the link text bold */
+ 
 }
+
+/* Link hover effect */
+.portfolio-item h2 a:hover {
+  color: deeppink; /* Change to a darker pink on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling for item.location */
+.portfolio-item p {
+  font-size: 1.2rem; /* Slightly larger font for readability */
+  color: white; /* High-contrast text color for visibility */
+  font-weight: bold; /* Make the text bold for emphasis */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add shadow for better visibility */
+  margin: 10px 0 0; /* Add spacing above the text */
+}
+
 
 .project-details {
   border: 1px solid #561212;

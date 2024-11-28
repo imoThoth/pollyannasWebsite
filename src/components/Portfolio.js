@@ -1,16 +1,24 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./portfolio.css";
-import headerImage from '../images/scenicMountain.jpeg';
+import headerImage from '../images/pollyNavbarSmall.jpg';
+import pollyannaIcequeen from '../images/pollyannaIcequeen.jpg';
+import pollyannaMacbeth from '../images/pollyannaMacbeth.jpg';
+import pollyannaMuchado from '../images/pollyannaMuchado.jpg';
+import pollyannaTestIImageSun from '../images/pollyannaTestIImageSun.jpg';
+import pollyannaTestImageSeat from '../images/pollyannaTestImageSeat.jpg';
+import pollyannaTestImg from '../images/pollyannaTestImg.jpg';
+import pollyNavbarSmall from '../images/pollyNavbarSmall.jpg';
+
 
 const portfolioData = [
-  { id: 1, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Short Film" },
-  { id: 2, title: "Aida", year: 2023, location: "Metropolitan Opera, New York, United States, North America", type: "Costume Design", videography: "Theatre" },
-  { id: 3, title: "Annabelle", year: 2022, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Short Film" },
-  { id: 4, title: "Guess Who", year: 2021, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Theatre" },
-  { id: 5, title: "Not So Afraid", year: 2020, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Theatre" },
-  { id: 6, title: "The Smurf", year: 2019, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Theatre" },
-  { id: 7, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre" },
+  { id: 1, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Short Film", src: pollyannaIcequeen},
+  { id: 2, title: "Aida", year: 2023, location: "Metropolitan Opera, New York, United States, North America", type: "Costume Design", videography: "Theatre" , src: pollyannaMacbeth},
+  { id: 3, title: "Annabelle", year: 2022, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Short Film" , src: pollyannaMuchado},
+  { id: 4, title: "Guess Who", year: 2021, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Theatre" , src: pollyannaTestIImageSun},
+  { id: 5, title: "Not So Afraid", year: 2020, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Theatre", src: pollyannaTestImageSeat},
+  { id: 6, title: "The Smurf", year: 2019, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Theatre", src: pollyannaTestImg },
+  { id: 7, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
 ];
 
 const Header = ({ setPortfolioData }) => {
@@ -80,13 +88,23 @@ const Portfolio = () => {
   };
 
   return (
+    <div>
+    <Header setPortfolioData={setPortfolioDataState} />
     <div className="portfolio">
-      <Header setPortfolioData={setPortfolioDataState} />
       <div className="portfolio-list">
         {portfolioDataState.map((item) => (
-          <div className="portfolio-item" key={item.id} onClick={() => handleItemClick(item.id)}>
+          <div className="portfolio-item" 
+               key={item.id} 
+               onClick={() => handleItemClick(item.id)}
+               style={{
+                backgroundImage: `url(${item.src})`, // Dynamically set the image as the background
+                backgroundSize: 'cover', // Ensure the image covers the entire div
+                backgroundPosition: 'center', // Center the image
+                backgroundRepeat: 'no-repeat', // Avoid repeating the image
+                opacity: 1 /* Slight transparency for better readability of text */
+              }}>
             <h2>
-              <Link to={`${item.id}`}>
+              <Link to={`${item.title}`}>
                 {item.title} ({item.year})
               </Link>
             </h2>
@@ -94,6 +112,9 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
+
+    </div>
+
     </div>
   );
 };

@@ -1,7 +1,10 @@
-html, body {
-  background-color: rgb(247, 243, 2); /* Makes the entire page background green */
-  margin: 0; /* Removes default browser margin for a clean look */
-  height: 100%; /* Ensures the background covers the entire page */
+
+/* Not in use, add later */
+.background {
+  background-color: green;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  margin: 0;
+  padding: 0;
 }
 
 .carousel-full-width-header {

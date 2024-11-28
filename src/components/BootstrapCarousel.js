@@ -65,7 +65,7 @@ const BootStrapCarousel = () => {
   const groupedImages = getGroupedImages(images);
 
   return (
-    <div>
+    <div className='background-color'>
       <header className="carousel-full-width-header">
         <div className="carousel-header-image">
           <img src={headerImage} alt="Portfolio Background" />
