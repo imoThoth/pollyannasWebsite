@@ -1,3 +1,9 @@
+html, body {
+  background-color: rgb(247, 243, 2); /* Makes the entire page background green */
+  margin: 0; /* Removes default browser margin for a clean look */
+  height: 100%; /* Ensures the background covers the entire page */
+}
+
 .carousel-full-width-header {
   display: flex;
   justify-content: space-between;
@@ -81,7 +87,7 @@
 .card-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: yellow;
+  color: hotpink;
 }
 
 .card-text {
@@ -89,12 +95,6 @@
   font-weight: bold;
   color: hotpink;}
 
-
-/* Change link color on hover */
-.carousel-container a:hover {
-  color: hotpink;
-  text-decoration: underline;
-}
 
 /* Media queries for responsive design */
 @media (max-width: 800px) {
