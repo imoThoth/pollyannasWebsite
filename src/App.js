@@ -1,15 +1,19 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TopNavigation from './components/TopNavigation';
-import BootStrapCarousel from './components/BootstrapCarousel';
-import Portfolio from './components/Portfolio';
+import TopNavigation from './components/topNavigation/TopNavigation';
+import BootStrapCarousel from './components/homePage/BootstrapCarousel';
+import Portfolio from './components/portoflioPage/Portfolio';
 import Contact from './components/contactPage/Contact';
-import About from './components/About';
-import Footer from './components/Footer';
+import About from './components/aboutPage/About';
+import Footer from './components/footerComponent/Footer';
 import './App.css'; // Import custom CSS for layout adjustments
 import Project1 from './components/projects/Project1';
 import CoffeeGuy from './components/projects/CoffeeGuy';
+import EnitansGame from './components/projects/EnitansGame';
+import TwelfthNight from './components/projects/TwelfthNight';
+import OneEighty from './components/projects/OneEighty';
+import WildShortAnimal from './components/projects/WildShortAnimal';
 
 
 function App() {
@@ -17,12 +21,17 @@ function App() {
     <Router>
       <div className="d-flex flex-column min-vh-100">
         <TopNavigation />
+
         <main className="flex-grow-1">
           <Routes>
             <Route path='/' element={<BootStrapCarousel />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/portfolio/The Boys' element={<Project1 />} />
             <Route path='/portfolio/Coffee Guy' element={<CoffeeGuy />} />
+            <Route path='/portfolio/EnitansGame' element={<EnitansGame />} />
+            <Route path='/portfolio/TwelfthNight' element={<TwelfthNight />} />
+            <Route path='/portfolio/180' element={<OneEighty />} />
+            <Route path='/portfolio/WildAnimal' element={<WildShortAnimal />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

@@ -3,14 +3,14 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import emailjs from 'emailjs-com'; // Import EmailJS
 import './ContactCss.css';  // Import the CSS file
-import zenMountain from "../../images/coolWAll.jpeg";
+import zenMountain from "../../images/pollyNavbarNewer.jpg";
 
 const ContactPage = () => {
   
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ceutald', 'template_heywaom', e.target, 'USBsDUXAiEaDR-nEk')
+    emailjs.sendForm('service_30q1lom', 'template_faqj3kl', e.target, 'hsh40GmmXRkKzyCIJ')
       .then((result) => {
           console.log(result.text);
           alert('Message sent successfully!');

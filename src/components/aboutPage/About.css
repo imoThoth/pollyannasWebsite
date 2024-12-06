@@ -1,0 +1,96 @@
+/* App-wide background color */
+body {
+  background-color: rgba(255, 255, 0, 0.6); /* Subdued yellow for the entire page */
+  margin: 0; /* Remove default margin */
+}
+
+/* Full-width header styling */
+.about-full-width-header {
+  display: flex;
+  justify-content: center; /* Center the title */
+  align-items: center; /* Vertically center the content */
+  width: 100%; /* Full width of the screen */
+  height: 30vh; /* Increase the height for emphasis */
+  padding: 20px;
+  position: relative; /* Allow positioning of the background image */
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.6); /* Add a dark overlay for contrast */
+  margin-top: 1vh;
+}
+
+.about-full-width-header h1 {
+  font-size: 3rem; /* Larger title font */
+  color: yellow; /* Make the title yellow */
+  z-index: 1; /* Ensure it appears above the background image */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for better readability */
+}
+
+.about-header-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0; /* Place behind text */
+}
+
+.about-header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image fills the space */
+}
+
+/* Main content container */
+.custom-container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  max-width: 1200px;
+  margin: 20px auto; /* Center the container */
+}
+
+.custom-container p {
+  font-size: 1.2rem; /* Larger font for readability */
+  line-height: 1.8; /* Add spacing between lines */
+  color: #333; /* Darker text for better contrast */
+}
+
+/* Styling for circular images */
+.custom-container img {
+  border-radius: 50%; /* Make the image a circle */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add depth to the circular image */
+  max-width: 100%; /* Ensure responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the circle without distortion */
+}
+
+/* Styling for the CV download button */
+.cv-download-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px; /* Button padding */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Make the text bold */
+  color: white; /* Button text color */
+  background-color: #007bff; /* Blue background */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.cv-download-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-container .col-lg-8 {
+    order: 2; /* Move text below the image */
+    text-align: center; /* Center-align text for smaller screens */
+  }
+
+  .custom-container .col-lg-4 {
+    order: 1; /* Move the image above the text */
+  }
+}

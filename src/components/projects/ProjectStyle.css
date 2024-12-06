@@ -12,7 +12,7 @@
   position: relative; /* Allows positioning of the image inside the header */
   overflow: hidden;
   margin-top: 3vh;
-  height: 20vh; /* Adjust this value to control the height of the header */
+  height: 30vh; /* Adjust this value to control the height of the header */
 }
 
 /* Image inside the header */
@@ -23,7 +23,7 @@
   bottom: 0;
   left: 0;
   z-index: 0;
-  opacity: 0.3; /* Slight transparency for better readability of text */
+  /* opacity: 0.3; Slight transparency for better readability of text */
   height: 100%; /* Ensure the image container takes the full height */
 }
 
@@ -40,8 +40,8 @@
 }
 
 /* Carousel adjustments */
-.carousel img {
-  height: 50vh; /* Adjust the height of the carousel images */
+.project-page .carousel img {
+  height: 100%; /* Adjust the height of the carousel images */
   object-fit: cover; /* Ensures images cover the carousel area */
 }
 

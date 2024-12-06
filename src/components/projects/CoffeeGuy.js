@@ -7,7 +7,7 @@ import scenic from "../../images/scenic.jpeg";
 import scenicMountain from "../../images/scenicMountain.jpeg";
 import scenicMountainBig from "../../images/scenicMountainBig.jpeg";
 import zen from "../../images/zen.jpeg";
-import zenMountain from "../../images/zenMountain.jpeg";
+import zenMountain from "../../images/pollyNavbarNewer.jpg";
 
 const portfolioImages = [
   { id: 1, type: "Costume", src: coolWall },
@@ -51,7 +51,7 @@ const CoffeeGuy = () => {
         </Carousel>
 
         {/* Styled div for the project description */}
-        <div className="project-description">
+        {/* <div className="project-description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
@@ -61,7 +61,7 @@ const CoffeeGuy = () => {
           <p>Type - Theatre</p>
           <p>Genre - Short Film</p>
           <p>Year - 2024</p>
-        </div>
+        </div> */}
       </Container>
     </div>
   );
