@@ -10,7 +10,6 @@ import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
 import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
 import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
 
-
 const portfolioData = [
   { id: 1, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Short Film", src: pollyannaIcequeen},
   { id: 2, title: "Aida", year: 2023, location: "Metropolitan Opera, New York, United States, North America", type: "Costume Design", videography: "Theatre" , src: pollyannaMacbeth},
@@ -19,6 +18,16 @@ const portfolioData = [
   { id: 5, title: "Not So Afraid", year: 2020, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Theatre", src: pollyannaTestImageSeat},
   { id: 6, title: "The Smurf", year: 2019, location: "The Joyce Theater, New York, United States", type: "Set Design", videography: "Theatre", src: pollyannaTestImg },
   { id: 7, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 8, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 9, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 10, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 11, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 12, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 13, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 14, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 15, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 16, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+
 ];
 
 const Header = ({ setPortfolioData }) => {
@@ -82,39 +91,67 @@ const Portfolio = () => {
   const [portfolioDataState, setPortfolioDataState] = useState(portfolioData);
   const [selectedProject, setSelectedProject] = useState(null);
 
+  // New states for pagination
+  const [currentPage, setCurrentPage] = useState(0);
+  const itemsPerPage = 7;
+
   const handleItemClick = (id) => {
     const project = portfolioData.find(item => item.id === id);
     setSelectedProject(project);
   };
 
+  // Calculate the items to display based on currentPage
+  const startIndex = currentPage * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const displayedItems = portfolioDataState.slice(startIndex, endIndex);
+
+  const hasNextPage = endIndex < portfolioDataState.length;
+
+  const handleNextPage = () => {
+    if (hasNextPage) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
   return (
     <div>
-    <Header setPortfolioData={setPortfolioDataState} />
-    <div className="portfolio">
-      <div className="portfolio-list">
-        {portfolioDataState.map((item) => (
-          <div className="portfolio-item" 
-               key={item.id} 
-               onClick={() => handleItemClick(item.id)}
-               style={{
-                backgroundImage: `url(${item.src})`, // Dynamically set the image as the background
-                backgroundSize: 'cover', // Ensure the image covers the entire div
-                backgroundPosition: 'center', // Center the image
-                backgroundRepeat: 'no-repeat', // Avoid repeating the image
-                opacity: 1 /* Slight transparency for better readability of text */
-              }}>
-            <h2>
-              <Link to={`${item.title}`}>
-                {item.title} ({item.year})
-              </Link>
-            </h2>
-            <p>{item.location}</p>
+      <Header setPortfolioData={setPortfolioDataState} />
+      <div className="portfolio">
+        <div className="portfolio-list">
+          {displayedItems.map((item) => (
+            <div className="portfolio-item"
+                 key={item.id}
+                 onClick={() => handleItemClick(item.id)}
+                 style={{
+                   backgroundImage: `url(${item.src})`,
+                   backgroundSize: 'cover',
+                   backgroundPosition: 'center',
+                   backgroundRepeat: 'no-repeat',
+                   opacity: 1
+                 }}>
+              <h2>
+                <Link to={`${item.title}`}>
+                  {item.title} ({item.year})
+                </Link>
+              </h2>
+              <p>{item.location}</p>
+            </div>
+          ))}
+        </div>
+        <div className="pagination-container">
+            {currentPage > 0 && (
+              <button className="prev-page-button" onClick={() => setCurrentPage(currentPage - 1)}>
+                Previous Page
+              </button>
+            )}
+            
+            {hasNextPage && (
+              <button className="next-page-button" onClick={handleNextPage}>
+                Next Page
+              </button>
+            )}
           </div>
-        ))}
       </div>
-
-    </div>
-
     </div>
   );
 };

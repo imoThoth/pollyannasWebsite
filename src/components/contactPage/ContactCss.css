@@ -79,17 +79,24 @@ body {
 }
 
 .my-contact-details .info-item {
-  padding: 15px; /* Add padding for better spacing */
-  margin-bottom: 20px; /* Space between items */
-  flex: 1; /* Allow each item to stretch evenly */
-  text-align: center; /* Center align the text */
-  font-size: 1.2rem; /* Larger text for readability */
-  font-weight: bold; /* Make text more prominent */
-  color: #333; /* Dark text for better contrast */
-  border: 2px solid #007bff; /* Add a blue border to make it pop */
-  border-radius: 10px; /* Rounded corners for a modern look */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  background-color: wheat;
+  display: flex;             /* Switches the container to a flex container, allowing easy centering of its children */
+  justify-content: center;   /* Horizontally centers the content within the flex container */
+  align-items: center;       /* Vertically centers the content within the flex container */
+  padding: 15px;             /* Adds space inside the item for better spacing around the text */
+  margin-bottom: 20px;       /* Adds spacing between each contact detail item */
+  flex: 1;                   /* Allows the item to stretch and share available space with other items in the column */
+  font-size: 1.2rem;         /* Increases the text size for better readability */
+  font-weight: bold;         /* Makes the text stand out by making it bold */
+  color: #333;               /* Sets the text color to a dark grey for good contrast */
+  border: 2px solid #007bff; /* Adds a blue border around the item, making it more visually distinct */
+  border-radius: 10px;       /* Rounds the corners of the border for a modern, smoother look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow beneath the item for depth */
+  background-color: hsl(317, 92%, 76%); /* Gives the item a pinkish background color to stand out */
+  text-align: center;        /* Ensures multi-line text remains centered within the flex container */
+}
+
+.my-contact-details .info-item svg {
+  margin-right: 10px; /* Adds space between the icon and the text */
 }
 
 /* Contact form */

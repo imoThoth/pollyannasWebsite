@@ -4,10 +4,10 @@ body {
   margin: 0; /* Remove default margin */
 }
 
-/* Full-width header styling */
+/* Full-width header steyling */
 .about-full-width-header {
   display: flex;
-  justify-content: center; /* Center the title */
+  justify-content: flex-start; /* Center the title */
   align-items: center; /* Vertically center the content */
   width: 100%; /* Full width of the screen */
   height: 30vh; /* Increase the height for emphasis */
@@ -17,6 +17,7 @@ body {
   background-color: rgba(0, 0, 0, 0.6); /* Add a dark overlay for contrast */
   margin-top: 1vh;
 }
+
 
 .about-full-width-header h1 {
   font-size: 3rem; /* Larger title font */
@@ -73,7 +74,7 @@ body {
   font-size: 1rem; /* Font size */
   font-weight: bold; /* Make the text bold */
   color: white; /* Button text color */
-  background-color: #007bff; /* Blue background */
+  background-color: #ffd000; /* Blue background */
   text-decoration: none; /* Remove underline */
   border-radius: 5px; /* Rounded corners */
   transition: background-color 0.3s ease; /* Smooth hover effect */

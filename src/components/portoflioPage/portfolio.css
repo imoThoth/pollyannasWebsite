@@ -1,4 +1,4 @@
-/* Reset body and html padding and margin */
+Reset body and html padding and margin
 html, body {
   margin: 0;
   padding: 0;
@@ -179,4 +179,28 @@ html, body {
 
 .project-details button:hover {
   background-color: #FFA500;
+}
+
+/* Bottom Button Previous and Forward */
+.pagination-container {
+  display: flex; 
+  justify-content: space-between; /* Places first child on the left and second on the right */
+  margin-top: 20px; 
+}
+
+/* Style both buttons identically */
+.prev-page-button, .next-page-button {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+/* Hover state for both buttons */
+.prev-page-button:hover, .next-page-button:hover {
+  background-color: #45586d; /* Slightly darker blue on hover */
 }
