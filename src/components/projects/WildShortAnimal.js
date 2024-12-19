@@ -13,9 +13,8 @@ import animal9 from "../../images/wildShortAnimal/animal9.jpg";
 import animal12 from "../../images/wildShortAnimal/animal12.jpg";
 import animal11 from "../../images/wildShortAnimal/animal11.jpg";
 
-
 import zen from "../../images/zen.jpeg";
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const portfolioImages = [
   { id: 1, type: "Costume", src: animal1 },

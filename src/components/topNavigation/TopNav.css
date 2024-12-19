@@ -28,6 +28,11 @@ body {
   color: #2f234f; /* Color of the logo text */
 }
 
+.logo a {
+  text-decoration: none;
+  color: inherit; /* Inherit the text color from the parent */
+}
+
 /* Menu icon styling, initially hidden for larger screens */
 .menu-icon {
   display: none;

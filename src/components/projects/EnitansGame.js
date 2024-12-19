@@ -10,7 +10,7 @@ import punchDrunkArtworkMan from "../../images/enitansGame/punchDrunkArtworkMan.
 import punchDrunkArtworkWoman from "../../images/enitansGame/punchDrunkArtworkWoman.JPG";
 
 import zen from "../../images/zen.jpeg";
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const portfolioImages = [
   { id: 1, type: "Costume", src: punchDrunk2 },

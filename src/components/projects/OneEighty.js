@@ -5,18 +5,18 @@ import oneEightyCarousel from "../../images/oneEighty/180carousel.JPG";
 import oneEightyImage from "../../images/oneEighty/image1.png";
 import oneEightyImageTwo from "../../images/oneEighty/image2.png";
 import oneEightyDay1 from "../../images/oneEighty/180day1.JPG";
-import oneEightyDay11 from "../../images/oneEighty/180day1.1.JPG";
-import oneEightyDay12 from "../../images/oneEighty/180day1.2.JPG";
-import oneEightyDay13 from "../../images/oneEighty/180day1.3.JPG";
-import oneEightyDay14 from "../../images/oneEighty/180day1.4.JPG";
-import oneEightyDay21 from "../../images/oneEighty/180day2.1.JPG";
-import oneEightyDay22 from "../../images/oneEighty/180day2.2.JPG";
-import oneEightyDay23 from "../../images/oneEighty/180day2.3.JPG";
-import oneEightyDay31 from "../../images/oneEighty/180day3.1.JPG";
-import oneEightyDay32 from "../../images/oneEighty/180day3.2.JPG";
-import oneEightyDay33 from "../../images/oneEighty/180day3.3.JPG";
-import oneEightyDay34 from "../../images/oneEighty/180day3.4.JPG";
-import pollyNavbarNewer from "../../images/pollyNavbarNewer.jpg";
+import oneEightyDay11 from "../../images/oneEighty/180day1_1.JPG";
+import oneEightyDay12 from "../../images/oneEighty/180day1_2.JPG";
+import oneEightyDay13 from "../../images/oneEighty/180day1_3.JPG";
+import oneEightyDay14 from "../../images/oneEighty/180day1_4.JPG";
+import oneEightyDay21 from "../../images/oneEighty/180day2_1.JPG";
+import oneEightyDay22 from "../../images/oneEighty/180day2_2.JPG";
+import oneEightyDay23 from "../../images/oneEighty/180day2_3.JPG";
+import oneEightyDay31 from "../../images/oneEighty/180day3_1.JPG";
+import oneEightyDay32 from "../../images/oneEighty/180day3_2.JPG";
+import oneEightyDay33 from "../../images/oneEighty/180day3_3.JPG";
+import oneEightyDay34 from "../../images/oneEighty/180day3_4.JPG";
+import pollyNavbarNewer from "../../images/navBarNewNew.jpg";
 
 
 

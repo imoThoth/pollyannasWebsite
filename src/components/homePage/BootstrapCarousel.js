@@ -1,33 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel, Row, Col, Container, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import audience from '../../images/audience.jpeg';
-import costume from '../../images/costume.jpeg';
-import deepThoughtCostume from '../../images/deepThoughtCostume.jpeg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './CarouselBootstrap.css';
-import headerImage from '../../images/pollyNavbarNewer.jpg';
-import pollyannaIcequeen from '../../images/pollyannaIcequeen.jpg';
-import pollyannaMacbeth from '../../images/pollyannaMacbeth.jpg';
-import pollyannaMuchado from '../../images/pollyannaMuchado.jpg';
-import pollyannaTestIImageSun from '../../images/pollyannaTestIImageSun.jpg';
-import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
-import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
+import headerImage from '../../images/navBarNewNew.jpg';
+import hitchikersGuide from '../../images/HitchikerWebsite/zapho_carousel.jpg';
+import mimiCarousel from '../../images/MIMI_DRAG/mimi_carousel.jpg';
+import WildAnimal from '../../images/wildShortAnimal/wildAnimalCarousel.jpg';
 import punchDrunkCarousel from '../../images/enitansGame/punchDrunkCarousel.jpg';
-import twelfthNightCarousel from '../../images/twelfthNight/twelfthNightCarousel.jpg';
-import oneEightyCarousel from '../../images/oneEighty/180carousel.JPG';
-import WildAnimal from '../../images/wildShortAnimal/animalCarousel.jpg';
-
-
-
+import Morroccan from '../../images/Morroccan/moroccoCarousel.jpg';
+import oneEightyCarousel from '../../images/oneEighty/oneEightyCarousel.jpg';
+import niceWorkCarousel from '../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg';
+import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 
 const images = [
-  {id: 1, src: pollyannaIcequeen, location: 'Los Angeles', date: '2023', name: 'The Boys' },
-  {id: 2, src: pollyannaMacbeth, location: 'Chicago', date: '2023', name: 'Coffee Guy' },
+  {id: 1, src: niceWorkCarousel, location: 'London', date: '2018', name: 'Nice Work If You Can Get It' },
+  {id: 2, src: mimiCarousel, location: 'Alnwick Castle', date: '2023', name: 'MX DRAG UK' },
   {id: 3, src: oneEightyCarousel, location: 'London', date: '2024', name: '180' },
   {id: 4, src: punchDrunkCarousel, location: 'London', date: '2024', name: 'EnitansGame' },
-  {id: 5, src: twelfthNightCarousel, location: 'London', date: '2024', name: 'TwelfthNight' },
-  {id: 6, src: WildAnimal, location: 'Wales', date: '2023', name: 'WildAnimal' }
+  {id: 5, src: Morroccan, location: 'London', date: '2024', name: 'Immersive: Morrocan Birthday Experience' },
+  {id: 6, src: hitchikersGuide, location: 'Amsterdam', date: '2021', name: 'Immersive: Hitchikers Guide to the Galaxy' },
+  {id: 7, src: WildAnimal, location: 'Wales', date: '2023', name: 'WildAnimal' },
+  {id: 8, src: FishWife, location: 'Wales', date: '2021', name: 'Fish Wife' },
 ];
 
 const BootStrapCarousel = () => {
@@ -90,7 +84,7 @@ const BootStrapCarousel = () => {
                         <Card.Body>
                           <Card.Title className="card-title">{image.location}</Card.Title>
                           <Card.Text className="card-text">{image.date}</Card.Text>
-                          <div  onClick={(e) => e.stopPropagation()}>
+                          <div className='link_text' onClick={(e) => e.stopPropagation()} >
                             <Link to={`portfolio/${image.name}`} >
                               <Card.Text className="card-text">{image.name}</Card.Text>
                           </Link>

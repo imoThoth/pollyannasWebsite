@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./portfolio.css";
-import headerImage from '../../images/pollyNavbarNewer.jpg';
+import headerImage from '../../images/navBarNewNew.jpg';
 import pollyannaIcequeen from '../../images/pollyannaIcequeen.jpg';
 import pollyannaMacbeth from '../../images/pollyannaMacbeth.jpg';
 import pollyannaMuchado from '../../images/pollyannaMuchado.jpg';

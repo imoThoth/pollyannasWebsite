@@ -3,7 +3,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import emailjs from 'emailjs-com'; // Import EmailJS
 import './ContactCss.css';  // Import the CSS file
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const ContactPage = () => {
   

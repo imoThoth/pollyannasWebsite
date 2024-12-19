@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer-custom text-white text-center py-3 mt-auto">
       <div className="row mx-0 w-100">
         <div className="col-12 col-md-6 mb-2 mb-md-0 d-flex justify-content-center justify-content-md-start">
-          <p className="mb-0">© 2024 Your Company. All rights reserved.</p>
+          <p className="mb-0">© 2024 Pollyanna Elston. All rights reserved.</p>
         </div>
         <div className="col-12 col-md-6 d-flex justify-content-center justify-content-md-end">
           <p className="mb-0">
@@ -18,7 +18,7 @@ const Footer = () => {
         rel="noopener noreferrer"
         style={{ marginLeft: '10px' }} /* Optional: Add a small margin if needed */
       >
-       Instagram <FaInstagram size={24} color="#fff" /> {/* Adjust size/color as desired */}
+          <FaInstagram size={24} color="#fff" /> {/* Adjust size/color as desired */}
       </a>
           </p>
         </div>

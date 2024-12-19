@@ -7,7 +7,7 @@ import scenic from "../../images/scenic.jpeg";
 import scenicMountain from "../../images/scenicMountain.jpeg";
 import scenicMountainBig from "../../images/scenicMountainBig.jpeg";
 import zen from "../../images/zen.jpeg";
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const portfolioImages = [
   { id: 1, type: "Costume", src: coolWall },

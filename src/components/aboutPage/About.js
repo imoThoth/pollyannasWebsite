@@ -2,7 +2,7 @@ import React from 'react';
 import pollyanna from "../../images/pollyannaFace.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const About = () => {
     return (

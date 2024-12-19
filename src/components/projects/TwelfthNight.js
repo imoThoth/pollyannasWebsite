@@ -15,7 +15,7 @@ import twelfthNight11 from "../../images/twelfthNight/twelfthNight11.jpg";
 
 
 import zen from "../../images/zen.jpeg";
-import zenMountain from "../../images/pollyNavbarNewer.jpg";
+import zenMountain from "../../images/navBarNewNew.jpg";
 
 const portfolioImages = [
   { id: 1, type: "Costume", src: twelfthNight1 },
