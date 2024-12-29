@@ -17,15 +17,15 @@ const About = () => {
                 <div className="row">
                     <div className="col-12 col-lg-8">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-                        <p>
-                            Aliquam purus sit amet luctus venenatis. Nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Vitae purus faucibus ornare suspendisse. Urna neque viverra justo nec ultrices. Eget nulla facilisi etiam dignissim diam quis enim. Id neque aliquam vestibulum morbi blandit cursus.
+                        Pollyanna Elston is multifaceted Designer and Maker who works across Theatre, Film, Events and Digital Media both in the UK and globally. Originally from the Pembrokeshire Coast in South West Wales she moved
+                        to London to study Foundation Art at Camberwell College of Art, and then carried on to graduate from Wimbledon College of Art with a BA in Theatre Design in 2017. She is known for her attention to detail and her
+                        bright colourful palettes which have become a trademark across all of her practices. She lives in South West London where she continues her love for cold water swimming in Brockwell Lido, and always wears
+                        colourful clothes.
                         </p>
                           {/* Add CV download link, public/pollyannaElstonPDF */}
                           <a
-                            href="/cv.pdf" /* Path to the CV file in the public folder */
-                            download="Pollyanna_Elston_CV.pdf" /* File name for download */
+                            href="/myCV.pdf" /* Path to the CV file in the public folder */
+                            download="/myCV.pdf" /* File name for download */
                             className="cv-download-button"
                         >
                             Download My C.V
