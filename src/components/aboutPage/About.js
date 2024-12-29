@@ -25,7 +25,7 @@ const About = () => {
                           {/* Add CV download link, public/pollyannaElstonPDF */}
                           <a
                             href="/pollyannaCV.pdf" /* Path to the CV file in the public folder */
-                            download="pollyannaCV.pdf" /* File name for download */
+                            download="/pollyannaCV.pdf" /* File name for download */
                             className="cv-download-button"
                         >
                             Download My C.V
