@@ -24,8 +24,8 @@ const About = () => {
                         </p>
                           {/* Add CV download link, public/pollyannaElstonPDF */}
                           <a
-                            href="/myCV.pdf" /* Path to the CV file in the public folder */
-                            download="/myCV.pdf" /* File name for download */
+                            href="./pollyannaCV.pdf" /* Path to the CV file in the public folder */
+                            download="pollyannaCV.pdf" /* File name for download */
                             className="cv-download-button"
                         >
                             Download My C.V
