@@ -3,6 +3,7 @@ import pollyanna from "../../images/pollyannaFace.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 import zenMountain from "../../images/navBarNewNew.jpg";
+import pollyannaCV from "../../assets/pollyannaElstonPDF.pdf"
 
 const About = () => {
     return (
@@ -24,7 +25,7 @@ const About = () => {
                         </p>
                           {/* Add CV download link, public/pollyannaElstonPDF */}
                           <a
-                            href="/pollyannaCV.pdf" /* Path to the CV file in the public folder */
+                            href={pollyannaCV} /* Path to the CV file in the public folder */
                             download="/pollyannaCV.pdf" /* File name for download */
                             className="cv-download-button"
                         >
