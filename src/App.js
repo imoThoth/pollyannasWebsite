@@ -14,6 +14,12 @@ import EnitansGame from './components/projects/EnitansGame';
 import TwelfthNight from './components/projects/TwelfthNight';
 import OneEighty from './components/projects/OneEighty';
 import WildShortAnimal from './components/projects/WildShortAnimal';
+import ImmersiveMorrocan from './components/projects/ImmersiveMorrocan';
+import NiceWork from './components/projects/NiceWorkIfYouCanGetIt';
+import MX_DRAG_UK from './components/projects/MIMI_DRAG';
+import Fish_Wife from './components/projects/Fish_Wife';
+import HitchHikers from './components/projects/HitchHikers';
+
 
 
 
@@ -33,6 +39,11 @@ function App() {
             <Route path='/portfolio/TwelfthNight' element={<TwelfthNight />} />
             <Route path='/portfolio/180' element={<OneEighty />} />
             <Route path='/portfolio/WildAnimal' element={<WildShortAnimal />} />
+            <Route path='/portfolio/Immersive: Morrocan Birthday Experience' element={<ImmersiveMorrocan />} />
+            <Route path='/portfolio/Nice Work If You Can Get It' element={<NiceWork />} />
+            <Route path='/portfolio/MX DRAG UK' element={<MX_DRAG_UK />} />
+            <Route path='/portfolio/Fish Wife' element={<Fish_Wife />} />
+            <Route path='/portfolio/Immersive: Hitchiker Guide to the Galaxy' element={<HitchHikers />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

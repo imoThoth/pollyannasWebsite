@@ -27,6 +27,12 @@ const portfolioData = [
   { id: 14, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
   { id: 15, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
   { id: 16, title: "Die Another Day", year: 2018, location: "The Joyce Theater, New York, United States", type: "Costume Theatre Design", videography: "Theatre", src: pollyNavbarSmall },
+  { id: 17, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Costume Design", videography: "Short Film", src: pollyannaIcequeen},
+  { id: 18, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Props And Scenic", videography: "Short Film", src: pollyannaIcequeen},
+  { id: 19, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Props And Scenicn", videography: "Short Film", src: pollyannaIcequeen},
+  { id: 20, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Props And Scenic", videography: "Short Film", src: pollyannaIcequeen},
+  { id: 21, title: "Max Roach 100", year: 2024, location: "The Joyce Theater, New York, United States", type: "Props And Scenic", videography: "Short Film", src: pollyannaIcequeen},
+
 
 ];
 
@@ -71,6 +77,7 @@ const Header = ({ setPortfolioData }) => {
         <div className="sort-options">
           <label htmlFor="sort">Sort by:</label>
           <select id="sort" value={sortBy} onChange={handleSortChange}>
+            <option value="Costume Design">Props And Scenic</option>
             <option value="Costume Design">Costume Design</option>
             <option value="Set Design">Set Design</option>
             <option value="Theatre">Theatre</option>

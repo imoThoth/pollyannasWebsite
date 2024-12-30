@@ -18,10 +18,10 @@ const images = [
   {id: 2, src: mimiCarousel, location: 'Alnwick Castle', date: '2023', name: 'MX DRAG UK' },
   {id: 3, src: oneEightyCarousel, location: 'London', date: '2024', name: '180' },
   {id: 4, src: punchDrunkCarousel, location: 'London', date: '2024', name: 'EnitansGame' },
-  {id: 5, src: Morroccan, location: 'London', date: '2024', name: 'Immersive: Morrocan Birthday Experience' },
-  {id: 6, src: hitchikersGuide, location: 'Amsterdam', date: '2021', name: 'Immersive: Hitchikers Guide to the Galaxy' },
+  {id: 5, src: Morroccan, location: 'London', date: '2021', name: 'Immersive: Morrocan Birthday Experience' },
+  {id: 6, src: hitchikersGuide, location: 'Amsterdam', date: '2021', name: 'Immersive: Hitchiker Guide to the Galaxy' },
   {id: 7, src: WildAnimal, location: 'Wales', date: '2023', name: 'WildAnimal' },
-  {id: 8, src: FishWife, location: 'Wales', date: '2021', name: 'Fish Wife' },
+  {id: 8, src: FishWife, location: 'Wales', date: '2021', name: 'Fish Wife' }
 ];
 
 const BootStrapCarousel = () => {
