@@ -19,9 +19,7 @@ import NiceWork from './components/projects/NiceWorkIfYouCanGetIt';
 import MX_DRAG_UK from './components/projects/MIMI_DRAG';
 import Fish_Wife from './components/projects/Fish_Wife';
 import HitchHikers from './components/projects/HitchHikers';
-
-
-
+import MasonryProject from './components/projects/MasonryProject';
 
 function App() {
   return (
@@ -41,9 +39,10 @@ function App() {
             <Route path='/portfolio/WildAnimal' element={<WildShortAnimal />} />
             <Route path='/portfolio/Immersive: Morrocan Birthday Experience' element={<ImmersiveMorrocan />} />
             <Route path='/portfolio/Nice Work If You Can Get It' element={<NiceWork />} />
-            <Route path='/portfolio/MX DRAG UK' element={<MX_DRAG_UK />} />
+            <Route path='/portfolio/Drag Mx Great Britain' element={<MX_DRAG_UK />} />
             <Route path='/portfolio/Fish Wife' element={<Fish_Wife />} />
             <Route path='/portfolio/Immersive: Hitchiker Guide to the Galaxy' element={<HitchHikers />} />
+            <Route path='/portfolio/sample' element={<MasonryProject />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

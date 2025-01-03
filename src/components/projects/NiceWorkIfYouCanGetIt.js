@@ -17,7 +17,6 @@ import morrocoEvent7 from "../../images/Morroccan/morrocoEvent7.jpg";
 import morrocoEvent8 from "../../images/Morroccan/morrocoEvent8.jpg";
 import morrocoEvent9 from "../../images/Morroccan/morrocoEvent9.jpg";
 
-
 import zen from "../../images/zen.jpeg";
 import zenMountain from "../../images/navBarNewNew.jpg";
 

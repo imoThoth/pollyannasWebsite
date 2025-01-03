@@ -1,0 +1,172 @@
+/* 
+  Header styling: 30vh high, background image behind the text 
+  -----------------------------------------------------------
+  - The header includes a title (z-index: 1) over a background image (z-index: 0).
+*/
+.project-full-width-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1vh;
+  height: 30vh;
+}
+
+.project-full-width-header h1 {
+  z-index: 1; /* Ensure title is above the background */
+  color: white;
+  font-size: 2rem;
+}
+
+/* 
+  Background image inside the header
+  ----------------------------------
+  Positioned absolutely to fill the entire header area.
+*/
+.project-header-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0; /* Send image behind the title */
+  height: 100%;
+}
+
+.project-header-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Fill header with image */
+}
+
+/* 
+  Dynamic Masonry Layout
+  ----------------------
+  - We'll set gridTemplateColumns and gridTemplateRows inline in JS to create
+    an even distribution of images based on the best factor pair.
+  - gap: 0 ensures no extra space between items (images).
+*/
+.masonry-container {
+  display: grid;
+  gap: 0;
+  padding: 0;
+  margin: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* Individual grid items */
+.masonry-item {
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px; /* Optional: Rounded corners */
+  cursor: pointer;    /* Visual feedback that the item is clickable */
+}
+
+.masonry-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 
+   MODAL OVERLAY & CONTENT 
+   -----------------------
+   The overlay covers the entire screen with a dark, semi-transparent background.
+   The modal-content is centered and contains navigation + the image + caption.
+*/
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Above other elements */
+}
+
+/* 
+   Allow vertical scrolling if content exceeds screen height
+   by setting max-height on .modal-content and overflow-y: auto.
+*/
+/* MODAL CONTENT as a relatively positioned container */
+.modal-content {
+  position: relative; 
+  max-width: 80%;
+  max-height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 
+   The image can fill more space if desired, 
+   but we might still cap it at ~80-90% height 
+   so the text is fully visible within the screen.
+*/
+.modal-image {
+  max-width: 90%;
+  max-height: 80vh; 
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* 
+   CAPTION OVERLAY 
+   ---------------
+   - Absolutely positioned at the bottom of .modal-content 
+   - Slight background if needed for readability 
+   - White text
+*/
+.modal-caption {
+  position: absolute;
+  bottom: 10px;     /* 10px from bottom edge of modal-content */
+  left: 50%;        /* Center horizontally */
+  transform: translateX(-50%);
+  color: white;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, 0.4); /* Optional background for contrast */
+  padding: 0.5rem 1rem;                 /* Padding around the text */
+  border-radius: 4px;                   /* Slight rounding of the caption box */
+  max-width: 80%;                       /* Ensure text doesn't overflow horizontally */
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* 
+   Buttons remain absolutely positioned as before 
+   so they don't overlap the caption.
+*/
+.close-button,
+.prev-button,
+.next-button {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50%;
+  z-index: 1001;
+}
+.close-button {
+  top: 10px;
+  right: 10px;
+}
+.prev-button {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.next-button {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
