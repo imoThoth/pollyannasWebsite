@@ -113,6 +113,8 @@ const MasonryProject = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  const isEven = images.length % 2 === 0;
+
   /**
    * Opens the modal and sets the current index to the clicked image
    */
@@ -170,7 +172,7 @@ const MasonryProject = () => {
         The inline style sets the columns and rows based on best factor pairs.
       */}
       <div
-        className="masonry-container"
+        className={`masonry-container ${isEven ? 'even' : 'odd'}`}
         style={{
           gridTemplateColumns: `repeat(${columns}, 1fr)`,
           gridTemplateRows: `repeat(${rows}, auto)`,

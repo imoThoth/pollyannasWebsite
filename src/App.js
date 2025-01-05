@@ -33,15 +33,15 @@ function App() {
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/portfolio/The Boys' element={<Project1 />} />
             <Route path='/portfolio/Coffee Guy' element={<CoffeeGuy />} />
-            <Route path='/portfolio/EnitansGame' element={<EnitansGame />} />
+            <Route path='/portfolio/Enitans Game' element={<EnitansGame />} />
             <Route path='/portfolio/TwelfthNight' element={<TwelfthNight />} />
-            <Route path='/portfolio/180' element={<OneEighty />} />
-            <Route path='/portfolio/WildAnimal' element={<WildShortAnimal />} />
-            <Route path='/portfolio/Immersive: Morrocan Birthday Experience' element={<ImmersiveMorrocan />} />
+            <Route path='/portfolio/One Hundred and Eighty' element={<OneEighty />} />
+            <Route path='/portfolio/Wild Animal' element={<WildShortAnimal />} />
+            <Route path='/portfolio/Immersive 70s Marrakesh' element={<ImmersiveMorrocan />} />
             <Route path='/portfolio/Nice Work If You Can Get It' element={<NiceWork />} />
             <Route path='/portfolio/Drag Mx Great Britain' element={<MX_DRAG_UK />} />
             <Route path='/portfolio/Fish Wife' element={<Fish_Wife />} />
-            <Route path='/portfolio/Immersive: Hitchiker Guide to the Galaxy' element={<HitchHikers />} />
+            <Route path='/portfolio/Immersive Hitchhikers Guide to The Galaxy' element={<HitchHikers />} />
             <Route path='/portfolio/sample' element={<MasonryProject />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />

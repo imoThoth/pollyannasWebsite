@@ -41,19 +41,6 @@ function getBestFactorPair(num) {
   return bestPair;
 }
 
-const portfolioImages = [
-  { id: 1, type: "Costume", src: animal1 },
-  { id: 2, type: "Costume", src: animal2 },
-  { id: 3, type: "Costume", src: animal3 },
-  { id: 4, type: "Costume", src: animal4 },
-  { id: 5, type: "Costume", src: animal5 },
-  { id: 6, type: "Costume", src: animal6 },
-  { id: 7, type: "Costume", src: animal7 },
-  { id: 8, type: "Costume", src: animal8 }, 
-  { id: 9, type: "Costume", src: animal9 },
-  { id: 10, type: "Costume", src: animal10 }
-];
-
 const MIMI_DRAG = () => {
    // Example images, each with a "caption" property to display in the modal
    const images = [
@@ -119,12 +106,15 @@ const MIMI_DRAG = () => {
     },
   ];
 
+  
   // -- Determine best rows x columns for our images --
   const [rows, columns] = getBestFactorPair(images.length);
 
   // -- Modal State --
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  const isEven = images.length % 2 === 0;
 
   /**
    * Opens the modal and sets the current index to the clicked image
@@ -183,7 +173,7 @@ const MIMI_DRAG = () => {
         The inline style sets the columns and rows based on best factor pairs.
       */}
       <div
-        className="masonry-container"
+        className={`masonry-container ${isEven ? 'even' : 'odd'}`}
         style={{
           gridTemplateColumns: `repeat(${columns}, 1fr)`,
           gridTemplateRows: `repeat(${rows}, auto)`,

@@ -51,10 +51,23 @@
 */
 .masonry-container {
   display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 0;
   padding: 0;
   margin: 1rem;
   margin-bottom: 3rem;
+}
+
+/* When screen width is under 600px, switch to 2 or 3 columns. */
+@media (max-width: 600px) {
+  /* If container has "even" class => use 2 columns */
+  .masonry-container.even {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  /* If container has "odd" class => use 3 columns */
+  .masonry-container.odd {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
 }
 
 /* Individual grid items */
@@ -146,16 +159,31 @@
 .close-button,
 .prev-button,
 .next-button {
+  width: 100px;
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
   color: white;
   border: none;
   padding: 10px;
   cursor: pointer;
-  font-size: 18px;
-  border-radius: 50%;
+  font-size: 30px;
+  border-radius: 100%;
   z-index: 1001;
+  background: transparent; 
+  color: white;
 }
+
+
+/* 
+  When user hovers, the button background becomes pink.
+  (You can also use a pink color code like #ffc0cb or a custom brand color.)
+*/
+.close-button:hover,
+.prev-button:hover,
+.next-button:hover {
+  background: pink;   /* Pink background on hover */
+  color: white;       /* Keep arrow/text white or set to desired color */
+}
+
 .close-button {
   top: 10px;
   right: 10px;
