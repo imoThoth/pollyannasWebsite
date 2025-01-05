@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Carousel, Container } from 'react-bootstrap';
+import React, { useState, useEffect } from "react";
+import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
 import animal1 from "../../images/niceWorkIfYouCanGetIt/IMG_2694.JPG";
 import animal2 from "../../images/niceWorkIfYouCanGetIt/IMG_2923.JPG";
@@ -109,138 +109,165 @@ const NiceWorkIfYouCanGetIt = () => {
     },
   ];
 
- // -- Determine best rows x columns for our images --
- const [rows, columns] = getBestFactorPair(images.length);
+  // Determine best rows x columns for our images
+  const [rows, columns] = getBestFactorPair(images.length);
 
- // -- Modal State --
- const [isModalOpen, setIsModalOpen] = useState(false);
- const [currentIndex, setCurrentIndex] = useState(0);
+  // Modal State
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
- const isEven = images.length % 2 === 0;
+  // NEW: isLoading state to show spinner until images are ready
+  const [isLoading, setIsLoading] = useState(true);
 
- /**
-  * Opens the modal and sets the current index to the clicked image
-  */
- const openModal = (index) => {
-   setCurrentIndex(index);
-   setIsModalOpen(true);
- };
+  // We check if there's an even or odd number of images
+  const isEven = images.length % 2 === 0;
 
- /**
-  * Closes the modal
-  */
- const closeModal = () => {
-   setIsModalOpen(false);
- };
+  // EFFECT: Wait for all images to load
+  useEffect(() => {
+    // Create an array of Promises that resolve once each image is loaded
+    const loadPromises = images.map((image) => {
+      return new Promise((resolve, reject) => {
+        const imgObj = new Image();
+        imgObj.src = image.src;
+        imgObj.onload = () => resolve(true);
+        imgObj.onerror = (err) => reject(err);
+      });
+    });
 
- /**
-  * Shows the previous image in the gallery
-  */
- const goToPrevious = () => {
-   setCurrentIndex((prevIndex) =>
-     prevIndex === 0 ? images.length - 1 : prevIndex - 1
-   );
- };
+    // Wait until all images are loaded
+    Promise.all(loadPromises)
+      .then(() => {
+        setIsLoading(false); // All images are now loaded
+      })
+      .catch((err) => {
+        console.error("Error loading images:", err);
+        setIsLoading(false); // Even if one fails, let's hide the loader
+      });
+  }, [images]);
 
- /**
-  * Shows the next image in the gallery
-  */
- const goToNext = () => {
-   setCurrentIndex((prevIndex) =>
-     prevIndex === images.length - 1 ? 0 : prevIndex + 1
-   );
- };
+  // If we're still loading images, show a spinner
+  if (isLoading) {
+    return (
+      <div className="preloader-container">
+        <TailSpin
+          height="80"
+          width="80"
+          color="#ff00ff"
+          ariaLabel="loading"
+        />
+        <p style={{ color: "white", marginTop: "1rem" }}>
+          Loading images...
+        </p>
+      </div>
+    );
+  }
 
- /**
-  * Click outside the modal to close it (if desired)
-  */
- const handleClickOutside = (e) => {
-   if (e.target.classList.contains("modal-overlay")) {
-     closeModal();
-   }
- };
+  /**
+   * Opens the modal for the clicked image
+   */
+  const openModal = (index) => {
+    setCurrentIndex(index);
+    setIsModalOpen(true);
+  };
 
- return (
-   <>
-     {/* Header Section */}
-     <header className="project-full-width-header">
-       <h1>Nice Work If You Can Get It</h1>
-       <div className="project-header-image">
-         <img src={zenMountain} alt="Portfolio Background" />
-       </div>
-     </header>
+  /**
+   * Close the modal
+   */
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
-     {/* 
-       Masonry Container with dynamic row/col count
-       The inline style sets the columns and rows based on best factor pairs.
-     */}
-     <div
-       className={`masonry-container ${isEven ? 'even' : 'odd'}`}
-       style={{
-         gridTemplateColumns: `repeat(${columns}, 1fr)`,
-         gridTemplateRows: `repeat(${rows}, auto)`,
-       }}
-     >
-       {images.map((image, index) => (
-         <div
-           key={index}
-           className="masonry-item"
-           onClick={() => openModal(index)}
-         >
-           <img src={image.src} alt={`Image ${index + 1}`} />
-         </div>
-       ))}
-     </div>
+  /**
+   * Show previous image
+   */
+  const goToPrevious = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
 
-     {isModalOpen && (
-       /* 
-         Modal Overlay 
-         ------------
-         - Covers the screen with a dark background.
-         - Clicking on this overlay (except the modal-content area) closes the modal.
-       */
-       <div
-         className="modal-overlay"
-         onClick={handleClickOutside}
-         role="dialog"
-         aria-modal="true"
-       >
-         <div className="modal-content">
-           {/* Close Button */}
-           <button className="close-button" onClick={closeModal}>
-             &times;
-           </button>
+  /**
+   * Show next image
+   */
+  const goToNext = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+    );
+  };
 
-           {/* Previous Button */}
-           <button className="prev-button" onClick={goToPrevious}>
-             &#8249;
-           </button>
+  /**
+   * Click outside the modal to close
+   */
+  const handleClickOutside = (e) => {
+    if (e.target.classList.contains("modal-overlay")) {
+      closeModal();
+    }
+  };
 
-           {/* The main image displayed in the modal */}
-           <img
-             src={images[currentIndex].src}
-             alt={`Image ${currentIndex + 1}`}
-             className="modal-image"
-           />
+  // Render the actual content after images are loaded
+  return (
+    <>
+      {/* Header Section */}
+      <header className="project-full-width-header">
+        <h1>Nice Work If You Can Get It</h1>
+        <div className="project-header-image">
+          <img src={zenMountain} alt="Portfolio Background" />
+        </div>
+      </header>
 
-           {/* 
-             Image Caption 
-             -------------
-             A simple paragraph to show text associated with the current image.
-           */}
-           <p className="modal-caption">
-             {images[currentIndex].caption}
-           </p>
+      {/* Masonry Container */}
+      <div
+        className={`masonry-container ${isEven ? "even" : "odd"}`}
+        style={{
+          gridTemplateColumns: `repeat(${columns}, 1fr)`,
+          gridTemplateRows: `repeat(${rows}, auto)`,
+        }}
+      >
+        {images.map((image, index) => (
+          <div
+            key={index}
+            className="masonry-item"
+            onClick={() => openModal(index)}
+          >
+            <img src={image.src} alt={`Image ${index + 1}`} />
+          </div>
+        ))}
+      </div>
 
-           {/* Next Button */}
-           <button className="next-button" onClick={goToNext}>
-             &#8250;
-           </button>
-         </div>
-       </div>
-     )}
-   </>
- );
+      {isModalOpen && (
+        <div
+          className="modal-overlay"
+          onClick={handleClickOutside}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="modal-content">
+            <button className="close-button" onClick={closeModal}>
+              &times;
+            </button>
+
+            <button className="prev-button" onClick={goToPrevious}>
+              &#8249;
+            </button>
+
+            <img
+              src={images[currentIndex].src}
+              alt={`Image ${currentIndex + 1}`}
+              className="modal-image"
+            />
+
+            <p className="modal-caption">
+              {images[currentIndex].caption}
+            </p>
+
+            <button className="next-button" onClick={goToNext}>
+              &#8250;
+            </button>
+          </div>
+        </div>
+      )}
+    </>
+  );
 };
 
 export default NiceWorkIfYouCanGetIt;

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
 import animal1 from "../../images/wildShortAnimal/animal1.jpg";
 import animal2 from "../../images/wildShortAnimal/animal2.jpg";
@@ -60,17 +61,61 @@ const WildShortAnimal = () => {
   ];
   
 
-  // -- Determine best rows x columns for our images --
+  // Determine best rows x columns for our images
   const [rows, columns] = getBestFactorPair(images.length);
 
-  // -- Modal State --
+  // Modal State
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
 
+  // NEW: isLoading state to show spinner until images are ready
+  const [isLoading, setIsLoading] = useState(true);
+
+  // We check if there's an even or odd number of images
   const isEven = images.length % 2 === 0;
 
+  // EFFECT: Wait for all images to load
+  useEffect(() => {
+    // Create an array of Promises that resolve once each image is loaded
+    const loadPromises = images.map((image) => {
+      return new Promise((resolve, reject) => {
+        const imgObj = new Image();
+        imgObj.src = image.src;
+        imgObj.onload = () => resolve(true);
+        imgObj.onerror = (err) => reject(err);
+      });
+    });
+
+    // Wait until all images are loaded
+    Promise.all(loadPromises)
+      .then(() => {
+        setIsLoading(false); // All images are now loaded
+      })
+      .catch((err) => {
+        console.error("Error loading images:", err);
+        setIsLoading(false); // Even if one fails, let's hide the loader
+      });
+  }, [images]);
+
+  // If we're still loading images, show a spinner
+  if (isLoading) {
+    return (
+      <div className="preloader-container">
+        <TailSpin
+          height="80"
+          width="80"
+          color="#ff00ff"
+          ariaLabel="loading"
+        />
+        <p style={{ color: "white", marginTop: "1rem" }}>
+          Loading images...
+        </p>
+      </div>
+    );
+  }
+
   /**
-   * Opens the modal and sets the current index to the clicked image
+   * Opens the modal for the clicked image
    */
   const openModal = (index) => {
     setCurrentIndex(index);
@@ -78,14 +123,14 @@ const WildShortAnimal = () => {
   };
 
   /**
-   * Closes the modal
+   * Close the modal
    */
   const closeModal = () => {
     setIsModalOpen(false);
   };
 
   /**
-   * Shows the previous image in the gallery
+   * Show previous image
    */
   const goToPrevious = () => {
     setCurrentIndex((prevIndex) =>
@@ -94,7 +139,7 @@ const WildShortAnimal = () => {
   };
 
   /**
-   * Shows the next image in the gallery
+   * Show next image
    */
   const goToNext = () => {
     setCurrentIndex((prevIndex) =>
@@ -103,7 +148,7 @@ const WildShortAnimal = () => {
   };
 
   /**
-   * Click outside the modal to close it (if desired)
+   * Click outside the modal to close
    */
   const handleClickOutside = (e) => {
     if (e.target.classList.contains("modal-overlay")) {
@@ -111,6 +156,7 @@ const WildShortAnimal = () => {
     }
   };
 
+  // Render the actual content after images are loaded
   return (
     <>
       {/* Header Section */}
@@ -121,12 +167,9 @@ const WildShortAnimal = () => {
         </div>
       </header>
 
-      {/* 
-        Masonry Container with dynamic row/col count
-        The inline style sets the columns and rows based on best factor pairs.
-      */}
+      {/* Masonry Container */}
       <div
-        className={`masonry-container ${isEven ? 'even' : 'odd'}`}
+        className={`masonry-container ${isEven ? "even" : "odd"}`}
         style={{
           gridTemplateColumns: `repeat(${columns}, 1fr)`,
           gridTemplateRows: `repeat(${rows}, auto)`,
@@ -144,12 +187,6 @@ const WildShortAnimal = () => {
       </div>
 
       {isModalOpen && (
-        /* 
-          Modal Overlay 
-          ------------
-          - Covers the screen with a dark background.
-          - Clicking on this overlay (except the modal-content area) closes the modal.
-        */
         <div
           className="modal-overlay"
           onClick={handleClickOutside}
@@ -157,33 +194,24 @@ const WildShortAnimal = () => {
           aria-modal="true"
         >
           <div className="modal-content">
-            {/* Close Button */}
             <button className="close-button" onClick={closeModal}>
               &times;
             </button>
 
-            {/* Previous Button */}
             <button className="prev-button" onClick={goToPrevious}>
               &#8249;
             </button>
 
-            {/* The main image displayed in the modal */}
             <img
               src={images[currentIndex].src}
               alt={`Image ${currentIndex + 1}`}
               className="modal-image"
             />
 
-            {/* 
-              Image Caption 
-              -------------
-              A simple paragraph to show text associated with the current image.
-            */}
             <p className="modal-caption">
               {images[currentIndex].caption}
             </p>
 
-            {/* Next Button */}
             <button className="next-button" onClick={goToNext}>
               &#8250;
             </button>
