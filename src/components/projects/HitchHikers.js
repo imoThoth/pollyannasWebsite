@@ -6,7 +6,7 @@ import animal2 from "../../images/HitchikerWebsite/arthur_dent_irl.jpg";
 import animal3 from "../../images/HitchikerWebsite/caste_alot.jpg";
 import animal4 from "../../images/HitchikerWebsite/ford_prefect_idea.png";
 import animal5 from "../../images/HitchikerWebsite/ford_prefect_irl.jpg";
-import animal6 from "../../images/HitchikerWebsite/slarti_bartifact_idea.JPG";
+import animal6 from "../../images/HitchikerWebsite/slarti_bartifact_idea.jpg";
 import animal7 from "../../images/HitchikerWebsite/slarti_bartifact_irl.jpg";
 import animal8 from "../../images/HitchikerWebsite/slarti_bartifact.jpg";
 import animal9 from "../../images/HitchikerWebsite/slarti_unchained.jpg";

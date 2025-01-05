@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/fish_wife/Fishwife_Poster.JPG";
-import animal2 from "../../images/fish_wife/Fishwife_11.JPG";
-import animal3 from "../../images/fish_wife/Fishwife_12.JPG";
-import animal4 from "../../images/fish_wife/Fishwife_20.JPG";
-import animal5 from "../../images/fish_wife/Fishwife_36.JPG";
-import animal6 from "../../images/fish_wife/Fishwife_43.JPG";
-import animal7 from "../../images/fish_wife/Fishwife_60.JPG";
-import animal8 from "../../images/fish_wife/Fishwife_73.JPG";
-import animal9 from "../../images/fish_wife/Fishwife_80.JPG";
-import animal12 from "../../images/fish_wife/Fishwife_108.JPG";
-import animal11 from "../../images/fish_wife/Fishwife_134.JPG";
-import morrocoEvent6 from "../../images/fish_wife/Fishwife_146.JPG";
-import morrocoEvent7 from "../../images/fish_wife/Fishwife_182.JPG";
-import morrocoEvent8 from "../../images/fish_wife/Fishwife_199.JPG";
-import morrocoEvent9 from "../../images/fish_wife/Fishwife_269.JPG";
+import animal1 from "../../images/fish_wife/Fishwife_Poster.jpg";
+import animal2 from "../../images/fish_wife/Fishwife_11.jpg";
+import animal3 from "../../images/fish_wife/Fishwife_12.jpg";
+import animal4 from "../../images/fish_wife/Fishwife_20.jpg";
+import animal5 from "../../images/fish_wife/Fishwife_36.jpg";
+import animal6 from "../../images/fish_wife/Fishwife_43.jpg";
+import animal7 from "../../images/fish_wife/Fishwife_60.jpg";
+import animal8 from "../../images/fish_wife/Fishwife_73.jpg";
+import animal9 from "../../images/fish_wife/Fishwife_80.jpg";
+import animal12 from "../../images/fish_wife/Fishwife_108.jpg";
+import animal11 from "../../images/fish_wife/Fishwife_134.jpg";
+import morrocoEvent6 from "../../images/fish_wife/Fishwife_146.jpg";
+import morrocoEvent7 from "../../images/fish_wife/Fishwife_182.jpg";
+import morrocoEvent8 from "../../images/fish_wife/Fishwife_199.jpg";
+import morrocoEvent9 from "../../images/fish_wife/Fishwife_269.jpg";
 
 
 import zen from "../../images/zen.jpeg";

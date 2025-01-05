@@ -3,8 +3,8 @@ import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from r
 /* Import images (example with 10) */
 import animal1 from "../../images/MIMI_DRAG/MimidragMx1_P.jpg";
 import animal2 from "../../images/MIMI_DRAG/MimiDragMX2_P.jpg";
-import animal3 from "../../images/MIMI_DRAG/MimidragMx3_P.JPG";
-import animal4 from "../../images/MIMI_DRAG/MimidragMX4_P.JPG";
+import animal3 from "../../images/MIMI_DRAG/MimidragMx3_P.jpg";
+import animal4 from "../../images/MIMI_DRAG/MimidragMX4_P.jpg";
 import animal5 from "../../images/MIMI_DRAG/MimidragMX5_L.jpg";
 import animal6 from "../../images/MIMI_DRAG/MimidragMX6_P.jpg";
 import animal7 from "../../images/MIMI_DRAG/MimidragMX7_P.jpg";

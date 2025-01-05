@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/niceWorkIfYouCanGetIt/IMG_2694.JPG";
-import animal2 from "../../images/niceWorkIfYouCanGetIt/IMG_2923.JPG";
-import animal3 from "../../images/niceWorkIfYouCanGetIt/IMG_2923.JPG";
-import animal4 from "../../images/niceWorkIfYouCanGetIt/IMG_2924.JPG";
-import animal5 from "../../images/niceWorkIfYouCanGetIt/IMG_2925.JPG";
-import animal6 from "../../images/niceWorkIfYouCanGetIt/IMG_2927.JPG";
-import animal7 from "../../images/niceWorkIfYouCanGetIt/IMG_2928.JPG";
-import animal8 from "../../images/niceWorkIfYouCanGetIt/IMG_2929.JPG";
+import animal1 from "../../images/niceWorkIfYouCanGetIt/IMG_2694.jpg";
+import animal2 from "../../images/niceWorkIfYouCanGetIt/IMG_2923.jpg";
+import animal3 from "../../images/niceWorkIfYouCanGetIt/IMG_2923.jpg";
+import animal4 from "../../images/niceWorkIfYouCanGetIt/IMG_2924.jpg";
+import animal5 from "../../images/niceWorkIfYouCanGetIt/IMG_2925.jpg";
+import animal6 from "../../images/niceWorkIfYouCanGetIt/IMG_2927.jpg";
+import animal7 from "../../images/niceWorkIfYouCanGetIt/IMG_2928.jpg";
+import animal8 from "../../images/niceWorkIfYouCanGetIt/IMG_2929.jpg";
 import animal9 from "../../images/niceWorkIfYouCanGetIt/IMG_2930.jpg";
-import animal10 from "../../images/niceWorkIfYouCanGetIt/image_thougts.JPG";
+import animal10 from "../../images/niceWorkIfYouCanGetIt/image_thougts.jpg";
 import animal11 from "../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg";
 
 

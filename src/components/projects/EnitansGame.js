@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
 import punchDrunkTelephone from "../../images/enitansGame/punchDrunkTelephone.jpg";
-import punchDrunkManStyle from "../../images/enitansGame/punchDrunkManStyle.JPG";
+import punchDrunkManStyle from "../../images/enitansGame/punchDrunkManStyle.jpg";
 import punchDrunkMain from "../../images/enitansGame/punchDrunkMain.jpg";
-import punchDrunkjacketStyle from "../../images/enitansGame/punchDrunkjacketStyle.JPG";
+import punchDrunkjacketStyle from "../../images/enitansGame/punchDrunkjacketStyle.jpg";
 import punchDrunkJacket from "../../images/enitansGame/punchDrunkJacket.jpg";
 import punchDrunkCarousel from "../../images/enitansGame/punchDrunkCarousel.jpg";
 import punchDrunkActorSpeak from "../../images/enitansGame/punchDrunkActorSpeak.jpg";
