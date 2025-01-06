@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/fish_wife/Fishwife_Poster.jpg";
-import animal2 from "../../images/fish_wife/Fishwife_11.jpg";
-import animal3 from "../../images/fish_wife/Fishwife_12.jpg";
-import animal4 from "../../images/fish_wife/Fishwife_20.jpg";
-import animal5 from "../../images/fish_wife/Fishwife_36.jpg";
-import animal6 from "../../images/fish_wife/Fishwife_43.jpg";
-import animal7 from "../../images/fish_wife/Fishwife_60.jpg";
-import animal8 from "../../images/fish_wife/Fishwife_73.jpg";
-import animal9 from "../../images/fish_wife/Fishwife_80.jpg";
-import animal12 from "../../images/fish_wife/Fishwife_108.jpg";
-import animal11 from "../../images/fish_wife/Fishwife_134.jpg";
-import morrocoEvent6 from "../../images/fish_wife/Fishwife_146.jpg";
-import morrocoEvent7 from "../../images/fish_wife/Fishwife_182.jpg";
-import morrocoEvent8 from "../../images/fish_wife/Fishwife_199.jpg";
-import morrocoEvent9 from "../../images/fish_wife/Fishwife_269.jpg";
+import animal1 from "../../images/fish_wife/fishwife1.jpg";
+import animal2 from "../../images/fish_wife/fishwife2.jpg";
+import animal3 from "../../images/fish_wife/fishwife3.jpg";
+import animal4 from "../../images/fish_wife/fishwife4.png";
+import animal5 from "../../images/fish_wife/fishwife5.jpg";
+import animal6 from "../../images/fish_wife/fishwife6.jpg";
+import animal7 from "../../images/fish_wife/fishwife7.jpg";
+import animal8 from "../../images/fish_wife/fishwife8.jpg";
+import animal9 from "../../images/fish_wife/fishwife9.jpg";
+import animal12 from "../../images/fish_wife/fishwife10.jpg";
+import animal11 from "../../images/fish_wife/fishwife11.jpg";
+import morrocoEvent6 from "../../images/fish_wife/fishwife12.jpg";
+import morrocoEvent7 from "../../images/fish_wife/fishwifedesign1.png";
+import morrocoEvent8 from "../../images/fish_wife/fishwifedesign2.png";
+import morrocoEvent9 from "../../images/fish_wife/fishwifedesign3.png";
 
 
 import zen from "../../images/zen.jpeg";
@@ -52,9 +52,9 @@ function getBestFactorPair(num) {
 const Fish_Wife = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: animal6, caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: animal1, caption: "This is the first image caption",  },
-    { id: 3, type: "Costume", src: animal11 , caption: "This is the first image caption", },
+    { id: 1, type: "Costume", src: morrocoEvent7, caption: "This is the first image caption", },
+    { id: 2, type: "Costume", src: morrocoEvent8, caption: "This is the first image caption",  },
+    { id: 3, type: "Costume", src: morrocoEvent9 , caption: "This is the first image caption", },
     { id: 4, type: "Costume", src: animal4, caption: "This is the first image caption",  },
     { id: 5, type: "Costume", src: animal5 , caption: "This is the first image caption", },
     { id: 6, type: "Costume", src: animal2, caption: "This is the first image caption",  },
@@ -64,6 +64,9 @@ const Fish_Wife = () => {
     { id: 10, type: "Costume", src: animal12 , caption: "This is the first image caption", },
     { id: 11, type: "Costume", src: animal3, caption: "This is the first image caption",  },
     { id: 12, type: "Costume", src: morrocoEvent6, caption: "This is the first image caption",  },
+    { id: 13, type: "Costume", src: animal6, caption: "This is the first image caption",  },
+    { id: 14, type: "Costume", src: animal1, caption: "This is the first image caption",  },
+    { id: 15, type: "Costume", src: animal11, caption: "This is the first image caption",  },
 
   ];
 
