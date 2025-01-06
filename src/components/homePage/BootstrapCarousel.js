@@ -9,7 +9,7 @@ import mimiCarousel from '../../images/MIMI_DRAG/mimi_carousel.jpg';
 import WildAnimal from '../../images/wildShortAnimal/wildAnimalCarousel.jpg';
 import punchDrunkCarousel from '../../images/enitansGame/punchDrunkCarousel.jpg';
 import Morroccan from '../../images/Morroccan/moroccoCarousel.jpg';
-import oneEightyCarousel from '../../images/oneEighty/oneEightyCarousel.jpg';
+import oneEightyCarousel from '../../images/oneEighty/onehundredandeighty5.jpg';
 import niceWorkCarousel from '../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg';
 import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 

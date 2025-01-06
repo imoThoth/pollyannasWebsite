@@ -1,21 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "../projects/ProjectStyle.css";
-import oneEightyCarousel from "../../images/oneEighty/oneEightyCarousel.jpg";
-import oneEightyImage from "../../images/oneEighty/image1.png";
-import oneEightyImageTwo from "../../images/oneEighty/image2.png";
-import oneEightySetDesign from "../../images/oneEighty/oneEightyday3_setDesign.jpg";
-import oneEightydayOne_announcer from "../../images/oneEighty/oneEightydayOne_announcer.jpg";
-import oneEightyDayOne_barMaid from "../../images/oneEighty/oneEightyDayOne_barMaid.jpg";
-import oneEightydayOne_dartsBoard from "../../images/oneEighty/oneEightydayOne_dartsBoard.jpg";
-import oneEightydayOne_jacket_darts from "../../images/oneEighty/oneEightydayOne_jacket_darts.jpg";
-import oneEightydayThree_actorsDance from "../../images/oneEighty/oneEightydayThree_actorsDance.jpg";
-import actorsTogether from "../../images/oneEighty/oneEightydayThree_actorsTogether.jpg";
-import oneEightydayThree_fallScene from "../../images/oneEighty/oneEightydayThree_fallScene.jpg";
-import oneEightyDayTwo_standAlone from "../../images/oneEighty/oneEightyDayTwo_standAlone.jpg";
-import oneEightyDayTwo_standNexToDarts from "../../images/oneEighty/oneEightyDayTwo_standNexToDarts.jpg";
-import oneEightyDayTwo_throwDarts from "../../images/oneEighty/oneEightyDayTwo_throwDarts.jpg";
-import oneEightyDayJacket from "../../images/oneEighty/oneEightyJacket.jpg";
+import oneEightyCarousel from "../../images/oneEighty/onehundredandeighty1.jpg";
+import oneEightySetDesign from "../../images/oneEighty/onehundredandeighty2.jpg";
+import oneEightydayOne_announcer from "../../images/oneEighty/onehundredandeighty3.jpg";
+import oneEightyDayOne_barMaid from "../../images/oneEighty/onehundredandeighty4.jpg";
+import oneEightydayOne_dartsBoard from "../../images/oneEighty/onehundredandeighty5.jpg";
+import oneEightydayOne_jacket_darts from "../../images/oneEighty/onehundredandeighty6.jpg";
+import oneEightydayThree_actorsDance from "../../images/oneEighty/onehundredandeighty7.jpg";
+import actorsTogether from "../../images/oneEighty/onehundredandeighty8.jpg";
+import oneEightydayThree_fallScene from "../../images/oneEighty/onehundredandeighty9.jpg";
+import oneEightyDayTwo_standAlone from "../../images/oneEighty/onehundredandeighty10.jpg";
+import oneEightyDayTwo_standNexToDarts from "../../images/oneEighty/onehundredandeighty11.jpg";
+import oneEightyDayTwo_throwDarts from "../../images/oneEighty/onehundredandeighty12.jpg";
 import pollyNavbarNewer from "../../images/navBarNewNew.jpg";
 
 
@@ -51,10 +48,10 @@ const OneEighty = () => {
   const images = [
     { id: 1, type: "Costume", src: oneEightyCarousel,
       caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: oneEightyImage,
-      caption: "This is the first image caption", },
-    { id: 3, type: "Costume", src: oneEightyImageTwo,
-      caption: "This is the first image caption", },
+    // { id: 2, type: "Costume", src: oneEightyImage,
+    //   caption: "This is the first image caption", },
+    // { id: 3, type: "Costume", src: oneEightyImageTwo,
+    //   caption: "This is the first image caption", },
     { id: 4, type: "Costume", src: oneEightySetDesign,
       caption: "This is the first image caption", },
     { id: 4, type: "Costume", src: oneEightydayOne_announcer,
@@ -77,8 +74,8 @@ const OneEighty = () => {
       caption: "This is the first image caption",},
     { id: 13, type: "Costume", src: oneEightyDayTwo_throwDarts,
       caption: "This is the first image caption", },
-    { id: 14, type: "Costume", src: oneEightyDayJacket ,
-      caption: "This is the first image caption",}
+    // { id: 14, type: "Costume", src: oneEightyDayJacket ,
+    //   caption: "This is the first image caption",}
   ];
   // Determine best rows x columns for our images
   const [rows, columns] = getBestFactorPair(images.length);
