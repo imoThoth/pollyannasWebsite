@@ -16,7 +16,7 @@ const portfolioData = [
   { id: 3, title: "Enitans Game", year: 2024, location: " PunchDrunk Enrichment, London", type: "Costume", btype: "Theatre" , src: pollyannaMuchado},
   { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Dark Avenue Film, on location in England", type: "Costume", btype: "Set Design", ctype: "Short Film", src: pollyannaTestIImageSun},
   { id: 5, title: "Twelfth Night", year: 2024, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: pollyannaTestImageSeat},
-  { id: 6, title: "The Lightning Thief ( UK Premier)", year: 2023, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: pollyannaTestImg },
+  { id: 6, title: "The Lightning Thief (UK Premier)", year: 2023, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: pollyannaTestImg },
   { id: 7, title: "Drag Mx Great Britain", year: 2023, location: " Alnwick Castle", type: "Costume", videography: "Events", src: pollyNavbarSmall },
   { id: 8, title: "Latitude and Glastonbury Festivals", year: 2023, location: " Suffolk and Glastonbury", type: "Costume", btype: "Events", src: pollyNavbarSmall },
   { id: 9, title: "Wild Animal", year: 2023, location: "Backscatter Productions, on location in Wales ",type: "Costume", btype: " Set Design", ctype: "Short Film", src: pollyNavbarSmall },
@@ -32,13 +32,15 @@ const portfolioData = [
   { id: 19, title: "Immersive Hitchhikers Guide to The Galaxy", year: 2021, location: " Private Client, Shotgun Carousel, Amsterdam", type: "Costume", btype: "Events",  src: pollyNavbarSmall },
   { id: 20, title: "Fish Wife", year: 2021, location: "On location in Wales", type: "Costume", btype: "Set Design", ctype: "Short Film",  src: pollyNavbarSmall },
   { id: 21, title: "Park and Reed", year: 2020, location: " So and So Productions, on location in London", type: " Set Design", btype: "Short Film",  src: pollyNavbarSmall },
- { id: 22, title: "Oliver Twist", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
- { id: 23, title: "Taming of the Shrew and The Empty Chair", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
- { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: " Rudolf Steiner House,London ", type: " Costume", btype: "Theatre",  src: pollyNavbarSmall },
- { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "The Gatehouse, London", type: " Set Design", btype: "Costume", ctype: "Theatre", src: pollyNavbarSmall },
- { id: 26, title: "Macbeth and The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
- { id: 27, title: "Prop Making", year: [2018,2019,2020,2021,2022,2023,2024], location: " London, Germany, Suffolk, France, China", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
- { id: 28, title: "Scenic Painting", year: [2018,2019,2020,2021,2022,2023,2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 22, title: "Taming of the Shrew", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
+  { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
+  { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: " Rudolf Steiner House,London ", type: " Costume", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "The Gatehouse, London", type: " Set Design", btype: "Costume", ctype: "Theatre", src: pollyNavbarSmall },
+  { id: 26, title: "Macbeth and The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
+  { id: 27, title: "Prop Making", year: [2018-2024], location: " London, Germany, Suffolk, France, China", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 28, title: "Scenic Painting", year: [2018-2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 29, title: "Scenic Painting", year: [2018,2019,2020,2021,2022,2023,2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+
 ];
 
 const Header = ({ setPortfolioData }) => {
