@@ -36,10 +36,11 @@ const portfolioData = [
   { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
   { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: " Rudolf Steiner House,London ", type: " Costume", btype: "Theatre",  src: pollyNavbarSmall },
   { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "The Gatehouse, London", type: " Set Design", btype: "Costume", ctype: "Theatre", src: pollyNavbarSmall },
-  { id: 26, title: "Macbeth and The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
-  { id: 27, title: "Prop Making", year: [2018-2024], location: " London, Germany, Suffolk, France, China", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
-  { id: 28, title: "Scenic Painting", year: [2018-2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
-  { id: 29, title: "Scenic Painting", year: [2018,2019,2020,2021,2022,2023,2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 26, title: "The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
+  { id: 27, title: "Macbeth", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: pollyannaIcequeen},
+  { id: 28, title: "Prop Making", year: [2018-2024], location: " London, Germany, Suffolk, France, China", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 29, title: "Scenic Painting", year: [2018-2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
+  { id: 30, title: "Scenic Painting", year: [2018,2019,2020,2021,2022,2023,2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
 
 ];
 
