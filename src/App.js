@@ -55,7 +55,7 @@ function App() {
             <Route path='/portfolio/The Boys' element={<Project1 />} />
             <Route path='/portfolio/Coffee Guy' element={<CoffeeGuy />} />
             <Route path='/portfolio/Enitans Game' element={<EnitansGame />} />
-            <Route path='/portfolio/TwelfthNight' element={<TwelfthNight />} />
+            <Route path='/portfolio/Twelfth Night' element={<TwelfthNight />} />
             <Route path='/portfolio/One Hundred and Eighty' element={<OneEighty />} />
             <Route path='/portfolio/Wild Animal' element={<WildShortAnimal />} />
             <Route path='/portfolio/Immersive 70s Marrakesh' element={<ImmersiveMorrocan />} />

@@ -1,16 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/mimiDragMX/mimiDragMx1_P.jpg";
-import animal2 from "../../images/mimiDragMX/mimiDragMX2_P.jpg";
-import animal3 from "../../images/mimiDragMX/mimiDragMx3_P.jpg";
-import animal4 from "../../images/mimiDragMX/mimiDragMX4_P.jpg";
-import animal5 from "../../images/mimiDragMX/mimiDragMX5_L.jpg";
-import animal6 from "../../images/mimiDragMX/mimiDragMX6_P.jpg";
-import animal7 from "../../images/mimiDragMX/mimiDragMX7_P.jpg";
-import animal8 from "../../images/mimiDragMX/mimiDragMX8_P.jpg";
-import animal9 from "../../images/mimiDragMX/mimiDragMX9_P.jpg";
-import animal10 from "../../images/mimiDragMX/mimiDragUK10_P.jpg";
+import animal1 from "../../images/fiveYears/fiveYears1_L.jpg";
+import animal2 from "../../images/fiveYears/fiveYears2_P.jpg";
+import animal3 from "../../images/fiveYears/fiveYears3_L.jpg";
+import animal4 from "../../images/fiveYears/fiveYears4_L.jpg";
+import animal5 from "../../images/fiveYears/fiveYears5 _P.jpg";
+import animal7 from "../../images/fiveYears/fiveYears6_L.jpg";
+import animal8 from "../../images/fiveYears/fiveYears7_L.jpg";
+import animal9 from "../../images/fiveYears/fiveYears8_L.jpg";
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -76,12 +74,6 @@ const FiveYears = () => {
       caption: "Fifth image showing a different style",
     },
     {
-      id: 6,
-      type: "Costume",
-      src: animal6,
-      caption: "Sixth image with a golden costume",
-    },
-    {
       id: 7,
       type: "Costume",
       src: animal7,
@@ -98,12 +90,6 @@ const FiveYears = () => {
       type: "Costume",
       src: animal9,
       caption: "Ninth image in the costume series",
-    },
-    {
-      id: 10,
-      type: "Costume",
-      src: animal10,
-      caption: "Tenth and final costume image",
     },
   ];
 

@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/mimiDragMX/mimiDragMx1_P.jpg";
-import animal2 from "../../images/mimiDragMX/mimiDragMX2_P.jpg";
-import animal3 from "../../images/mimiDragMX/mimiDragMx3_P.jpg";
-import animal4 from "../../images/mimiDragMX/mimiDragMX4_P.jpg";
-import animal5 from "../../images/mimiDragMX/mimiDragMX5_L.jpg";
-import animal6 from "../../images/mimiDragMX/mimiDragMX6_P.jpg";
-import animal7 from "../../images/mimiDragMX/mimiDragMX7_P.jpg";
-import animal8 from "../../images/mimiDragMX/mimiDragMX8_P.jpg";
-import animal9 from "../../images/mimiDragMX/mimiDragMX9_P.jpg";
-import animal10 from "../../images/mimiDragMX/mimiDragUK10_P.jpg";
+import animal1 from "../../images/parkAndReed/parkAndReed1_L.jpg";
+import animal2 from "../../images/parkAndReed/parkAndReed2_L.jpg";
+import animal3 from "../../images/parkAndReed/parkAndReed3_L.jpg";
+import animal4 from "../../images/parkAndReed/parkAndReed4_L.jpg";
+import animal5 from "../../images/parkAndReed/parkAndReed5_L.jpg";
+import animal6 from "../../images/parkAndReed/parkAndReed6_L.jpg";
+import animal7 from "../../images/parkAndReed/parkAndReed7_L.jpg";
+import animal8 from "../../images/parkAndReed/parkAndReed8_L.jpg";
+
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -92,19 +91,7 @@ const ParkAndReed = () => {
       type: "Costume",
       src: animal8,
       caption: "Caption for the eighth image",
-    },
-    {
-      id: 9,
-      type: "Costume",
-      src: animal9,
-      caption: "Ninth image in the costume series",
-    },
-    {
-      id: 10,
-      type: "Costume",
-      src: animal10,
-      caption: "Tenth and final costume image",
-    },
+    }
   ];
 
   

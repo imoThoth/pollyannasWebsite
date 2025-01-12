@@ -1,16 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/mimiDragMX/mimiDragMx1_P.jpg";
-import animal2 from "../../images/mimiDragMX/mimiDragMX2_P.jpg";
-import animal3 from "../../images/mimiDragMX/mimiDragMx3_P.jpg";
-import animal4 from "../../images/mimiDragMX/mimiDragMX4_P.jpg";
-import animal5 from "../../images/mimiDragMX/mimiDragMX5_L.jpg";
-import animal6 from "../../images/mimiDragMX/mimiDragMX6_P.jpg";
-import animal7 from "../../images/mimiDragMX/mimiDragMX7_P.jpg";
-import animal8 from "../../images/mimiDragMX/mimiDragMX8_P.jpg";
-import animal9 from "../../images/mimiDragMX/mimiDragMX9_P.jpg";
-import animal10 from "../../images/mimiDragMX/mimiDragUK10_P.jpg";
+import animal1 from "../../images/whiteHorse24/romeoandJuliet10_L.jpg";
+import animal2 from "../../images/whiteHorse24/romeoandJuliet11_L.jpg";
+import animal3 from "../../images/whiteHorse24/romeoandJuliet12_L.jpg";
+import animal4 from "../../images/whiteHorse24/romeoandJuliet13_L.jpg";
+import animal5 from "../../images/whiteHorse24/romeoandJuliet14_P.jpg";
+import animal6 from "../../images/whiteHorse24/romeoandJuliet15_P.jpg";
+import animal7 from "../../images/whiteHorse24/romeoandJuliet1_L.jpg";
+import animal8 from "../../images/whiteHorse24/romeoandJuliet2_L.jpg";
+import animal9 from "../../images/whiteHorse24/romeoandJuliet5_L.jpg";
+import animal10 from "../../images/whiteHorse24/romeoandJuliet6_P.jpg";
+import animal11 from "../../images/whiteHorse24/romeoandJuliet7_L.jpg";
+import animal12 from "../../images/whiteHorse24/romeoandJuliet8_L.jpg";
+import animal13 from "../../images/whiteHorse24/romeoandJuliet9L.jpg";
+import animal14 from "../../images/whiteHorse24/romeoandjuliet3_P.jpg";
+import animal15 from "../../images/whiteHorse24/romeoandjuliet4_L.jpg";
+
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -103,6 +109,36 @@ const RomeoJuliet = () => {
       id: 10,
       type: "Costume",
       src: animal10,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 14,
+      type: "Costume",
+      src: animal14,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 15,
+      type: "Costume",
+      src: animal15,
       caption: "Tenth and final costume image",
     },
   ];

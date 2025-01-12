@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/mimiDragMX/mimiDragMx1_P.jpg";
-import animal2 from "../../images/mimiDragMX/mimiDragMX2_P.jpg";
-import animal3 from "../../images/mimiDragMX/mimiDragMx3_P.jpg";
-import animal4 from "../../images/mimiDragMX/mimiDragMX4_P.jpg";
-import animal5 from "../../images/mimiDragMX/mimiDragMX5_L.jpg";
-import animal6 from "../../images/mimiDragMX/mimiDragMX6_P.jpg";
-import animal7 from "../../images/mimiDragMX/mimiDragMX7_P.jpg";
-import animal8 from "../../images/mimiDragMX/mimiDragMX8_P.jpg";
-import animal9 from "../../images/mimiDragMX/mimiDragMX9_P.jpg";
-import animal10 from "../../images/mimiDragMX/mimiDragUK10_P.jpg";
+import animal1 from "../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg";
+import animal2 from "../../images/tamingOfTheShrew/tamingOfTheShrew1_P.jpg";
+import animal3 from "../../images/tamingOfTheShrew/tamingOfTheShrew2_L.jpg";
+import animal4 from "../../images/tamingOfTheShrew/tamingOfTheShrew3_P.jpg";
+import animal5 from "../../images/tamingOfTheShrew/tamingOfTheShrew4_L.jpg";
+import animal6 from "../../images/tamingOfTheShrew/tamingOfTheShrew5_P.jpg";
+import animal7 from "../../images/tamingOfTheShrew/tamingOfTheShrew6_P.jpg";
+import animal8 from "../../images/tamingOfTheShrew/tamingOfTheShrew7_P.jpg";
+import animal9 from "../../images/tamingOfTheShrew/tamingOfTheShrew8_L.jpg";
+import animal10 from "../../images/tamingOfTheShrew/tamingOfTheShrew9_P.jpg";
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
