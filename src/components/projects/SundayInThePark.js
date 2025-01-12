@@ -10,7 +10,6 @@ import animal6 from "../../images/sunday/sunday4_L.jpg";
 import animal7 from "../../images/sunday/sunday6_P.jpg";
 import animal8 from "../../images/sunday/sunday8_L.jpg";
 import animal9 from "../../images/sunday/sunday9_L.jpg";
-import animal10 from "../../images/sunday/sunday5_L.jpg";
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -99,12 +98,7 @@ const SundayInThePark = () => {
       src: animal9,
       caption: "Ninth image in the costume series",
     },
-    {
-      id: 10,
-      type: "Costume",
-      src: animal10,
-      caption: "Tenth and final costume image",
-    },
+
   ];
 
   
