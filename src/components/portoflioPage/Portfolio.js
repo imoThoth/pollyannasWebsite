@@ -24,7 +24,7 @@ import sunday6_P from '../../images/sunday/sunday6_P.jpg';
 import tamingOfTheShrew9_P from '../../images/tamingOfTheShrew/tamingOfTheShrew9_P.jpg';
 import twelfthNight5_L from '../../images/twelfthNight/twelfthNight5_L.jpg';
 import romeoandJuliet13_L from '../../images/whiteHorse24/romeoandJuliet13_L.jpg';
-import wildAnimal14_P from '../../images/wildShortAnimal/wildAnimal14_P.jpg';
+import wildAnimal14_P from '../../images/wildShortAnimal/wildAnimal2_L.jpg';
 import wintersTale4_L from '../../images/wintersTale/wintersTale4_L.jpg';
 import oneEIghty from '../../images/oneEighty/oneHundredAndEightyCarousel.jpg';
 

@@ -10,10 +10,7 @@ import animal6 from "../../images/wildShortAnimal/wildAnimal6_P.jpg";
 import animal7 from "../../images/wildShortAnimal/wildAnimal7_L.jpg";
 import animal8 from "../../images/wildShortAnimal/wildAnimal8_L.jpg";
 import animal9 from "../../images/wildShortAnimal/wildAnimal9_P.jpg";
-import animal13 from "../../images/wildShortAnimal/wildAnimal13_L.jpg";
-import animal14 from "../../images/wildShortAnimal/wildAnimal14_P.jpg";
-import animal11 from "../../images/wildShortAnimal/wildAnimal11_L.jpg";
-import animal15 from "../../images/wildShortAnimal/wildAnimal15_L.jpg";
+
 
 
 
@@ -52,17 +49,13 @@ const WildShortAnimal = () => {
   const images = [
     { id: 1, type: "Costume", src: animal6, caption: "This is the first image caption", },
     { id: 2, type: "Costume", src: animal1, caption: "This is the first image caption",  },
-    { id: 3, type: "Costume", src: animal11 , caption: "This is the first image caption", },
+    { id: 3, type: "Costume", src: animal3 , caption: "This is the first image caption", },
     { id: 4, type: "Costume", src: animal4, caption: "This is the first image caption",  },
     { id: 5, type: "Costume", src: animal5 , caption: "This is the first image caption", },
     { id: 6, type: "Costume", src: animal2, caption: "This is the first image caption",  },
     { id: 7, type: "Costume", src: animal7, caption: "This is the first image caption",  },
     { id: 8, type: "Costume", src: animal8 , caption: "This is the first image caption", }, 
     { id: 9, type: "Costume", src: animal9, caption: "This is the first image caption",  },
-    { id: 10, type: "Costume", src: animal11 , caption: "This is the first image caption", },
-    { id: 11, type: "Costume", src: animal13 , caption: "This is the first image caption", },
-    { id: 12, type: "Costume", src: animal14 , caption: "This is the first image caption", },
-    { id: 13, type: "Costume", src: animal15 , caption: "This is the first image caption", },
   ];
   
 

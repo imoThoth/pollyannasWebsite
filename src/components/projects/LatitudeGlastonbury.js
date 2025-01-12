@@ -8,6 +8,7 @@ import animal4 from "../../images/mimiLat/mimiLAt8_P.jpg";
 import animal5 from "../../images/mimiLat/mimiLAt9_P.jpg";
 import animal6 from "../../images/mimiLat/mimiLat10_P.jpg";
 
+
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
 
