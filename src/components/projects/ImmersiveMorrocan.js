@@ -1,21 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/Morroccan/208_rbmh_event_design_marrakesh_jma_photography.jpg";
-import animal2 from "../../images/Morroccan/212_rbmh_event_design_marrakesh_jma_photography.jpg";
-import animal3 from "../../images/Morroccan/244_rbmh_event_design_marrakesh_jma_photography.jpg";
-import animal4 from "../../images/Morroccan/271_rbmh_event_design_marrakesh_jma_photography.jpg";
-import animal5 from "../../images/Morroccan/moroccoCarousel.jpg";
-import animal6 from "../../images/Morroccan/morrocoEvent.jpg";
-import animal7 from "../../images/Morroccan/morrocoEvent1.jpg";
-import animal8 from "../../images/Morroccan/morrocoEvent2.jpg";
-import animal9 from "../../images/Morroccan/morrocoEvent3.jpg";
-import animal10 from "../../images/Morroccan/morrocoEvent4.jpg";
-import animal11 from "../../images/Morroccan/morrocoEvent5.jpg";
-import morrocoEvent6 from "../../images/Morroccan/morrocoEvent6.jpg";
-import morrocoEvent7 from "../../images/Morroccan/morrocoEvent7.jpg";
-import morrocoEvent8 from "../../images/Morroccan/morrocoEvent8.jpg";
-import morrocoEvent9 from "../../images/Morroccan/morrocoEvent9.jpg";
+import animal1 from "../../images/Morroccan/morrocan1_L.jpg";
+import animal2 from "../../images/Morroccan/morrocan_5.jpg";
+import animal3 from "../../images/Morroccan/morrocan1_9.jpg";
+import animal4 from "../../images/Morroccan/morrocan2_L.jpg";
+import animal5 from "../../images/Morroccan/morrocan3_L.jpg";
+import animal6 from "../../images/Morroccan/morrocan4_L.jpg";
+import animal7 from "../../images/Morroccan/morrocan6_L.jpg";
+import animal8 from "../../images/Morroccan/morrocan8_L.jpg";
+import animal9 from "../../images/Morroccan/morrocan7_L.jpg";
+import animal10 from "../../images/Morroccan/morrocan10_L.jpg";
+
 
 import zenMountain from "../../images/navBarNewNew.jpg";
 
@@ -58,44 +54,55 @@ const ImmersiveMorrocan = () => {
     {
       id: 2,
       type: "Costume",
-      src: morrocoEvent7,
+      src: animal1,
       caption: "A caption for the second image",
     },
     {
-      id: 3,
-      type: "Costume",
-      src: morrocoEvent8,
-      caption: "Here is the third costume image",
-    },
-
-    {
       id: 6,
       type: "Costume",
-      src: animal6,
+      src: animal2,
       caption: "Sixth image with a golden costume",
     },
     {
       id: 7,
       type: "Costume",
-      src: animal7,
+      src: animal3,
       caption: "Seventh costume photo for the gallery",
     },
     {
       id: 8,
       type: "Costume",
-      src: animal8,
+      src: animal4,
       caption: "Caption for the eighth image",
     },
     {
       id: 9,
       type: "Costume",
-      src: animal9,
+      src: animal5,
       caption: "Ninth image in the costume series",
     },
     {
       id: 10,
       type: "Costume",
-      src: morrocoEvent6,
+      src: animal6,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal8,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal7,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal9,
       caption: "Tenth and final costume image",
     },
   ];

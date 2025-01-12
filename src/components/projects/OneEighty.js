@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "../projects/ProjectStyle.css";
-import oneEightyCarousel from "../../images/oneEighty/onehundredandeighty1.jpg";
-import oneEightySetDesign from "../../images/oneEighty/onehundredandeighty2.jpg";
-import oneEightydayOne_announcer from "../../images/oneEighty/onehundredandeighty3.jpg";
-import oneEightyDayOne_barMaid from "../../images/oneEighty/onehundredandeighty4.jpg";
-import oneEightydayOne_dartsBoard from "../../images/oneEighty/onehundredandeighty5.jpg";
-import oneEightydayOne_jacket_darts from "../../images/oneEighty/onehundredandeighty6.jpg";
-import oneEightydayThree_actorsDance from "../../images/oneEighty/onehundredandeighty7.jpg";
-import actorsTogether from "../../images/oneEighty/onehundredandeighty8.jpg";
-import oneEightydayThree_fallScene from "../../images/oneEighty/onehundredandeighty9.jpg";
-import oneEightyDayTwo_standAlone from "../../images/oneEighty/onehundredandeighty10.jpg";
-import oneEightyDayTwo_standNexToDarts from "../../images/oneEighty/onehundredandeighty11.jpg";
-import oneEightyDayTwo_throwDarts from "../../images/oneEighty/onehundredandeighty12.jpg";
+import oneEightyCarousel from "../../images/oneEighty/oneHundredAndEighty1.jpg";
+import oneEightySetDesign from "../../images/oneEighty/oneHundredAndEighty2.jpg";
+import oneEightydayOne_announcer from "../../images/oneEighty/oneHundredAndEighty3.jpg";
+import oneEightyDayOne_barMaid from "../../images/oneEighty/oneHundredAndEighty4.jpg";
+import oneEightydayOne_dartsBoard from "../../images/oneEighty/oneHundredAndEighty5.jpg";
+import oneEightydayOne_jacket_darts from "../../images/oneEighty/oneHundredAndEighty5.jpg";
+import oneEightydayThree_actorsDance from "../../images/oneEighty/oneHundredAndEighty7.jpg";
+import actorsTogether from "../../images/oneEighty/oneHundredAndEighty8.jpg";
+import oneEightydayThree_fallScene from "../../images/oneEighty/oneHundredAndEighty9.jpg";
+import oneEightyDayTwo_standAlone from "../../images/oneEighty/oneHundredAndEighty10.jpg";
+import oneEightyDayTwo_standNexToDarts from "../../images/oneEighty/oneHundredAndEighty11.jpg";
+import oneEightyDayTwo_throwDarts from "../../images/oneEighty/oneHundredAndEighty12.jpg";
 import pollyNavbarNewer from "../../images/navBarNewNew.jpg";
 
 

@@ -1,14 +1,24 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/niceWorkIfYouCanGetIt/imageWorship.jpg";
-import animal2 from "../../images/niceWorkIfYouCanGetIt/imageStage.jpg";
-import animal3 from "../../images/niceWorkIfYouCanGetIt/imageGirls.jpg";
-import animal4 from "../../images/niceWorkIfYouCanGetIt/imageDancingGirls.jpg";
-import animal5 from "../../images/niceWorkIfYouCanGetIt/imageBox.jpg";
-import animal6 from "../../images/niceWorkIfYouCanGetIt/imageCouple.jpg";
-import animal7 from "../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg";
-import animal8 from "../../images/niceWorkIfYouCanGetIt/image_thougts.jpg";
+import animal1 from "../../images/niceWorkIfYouCanGetIt/niceWork1_P.jpg";
+import animal2 from "../../images/niceWorkIfYouCanGetIt/niceWork2_L.jpg";
+import animal3 from "../../images/niceWorkIfYouCanGetIt/niceWork3_P.jpg";
+import animal4 from "../../images/niceWorkIfYouCanGetIt/niceWork4_sq.jpg";
+import animal5 from "../../images/niceWorkIfYouCanGetIt/niceWork5_sq.jpg";
+import animal6 from "../../images/niceWorkIfYouCanGetIt/niceWork6_P.jpg";
+import animal7 from "../../images/niceWorkIfYouCanGetIt/niceWork8_P.jpg";
+import animal8 from "../../images/niceWorkIfYouCanGetIt/niceWork7_sq.jpg";
+import animal9 from "../../images/niceWorkIfYouCanGetIt/niceWork8_P.jpg";
+import animal10 from "../../images/niceWorkIfYouCanGetIt/niceWork9_sq.jpg";
+import animal11 from "../../images/niceWorkIfYouCanGetIt/niceWork10_L.jpg";
+import animal12 from "../../images/niceWorkIfYouCanGetIt/niceWork11_sq.jpg";
+import animal13 from "../../images/niceWorkIfYouCanGetIt/niceWork12_sq.jpg";
+import animal14 from "../../images/niceWorkIfYouCanGetIt/niceWork13_L.jpg";
+import animal15 from "../../images/niceWorkIfYouCanGetIt/niceWork14_P.jpg";
+import animal16 from "../../images/niceWorkIfYouCanGetIt/niceWork15_P.jpg";
+import animal17 from "../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg";
+
 
 
 
@@ -93,6 +103,60 @@ const NiceWorkIfYouCanGetIt = () => {
       src: animal8,
       caption: "Caption for the eighth image",
     },
+    {
+      id: 9,
+      type: "Costume",
+      src: animal9,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 10,
+      type: "Costume",
+      src: animal10,
+      caption: "Cption for the eighth image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 14,
+      type: "Costume",
+      src: animal14,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 15,
+      type: "Costume",
+      src: animal15,
+      caption: "Caption for the eighth image",
+    },
+    {
+      id: 16,
+      type: "Costume",
+      src: animal16,
+      caption: "Caption for the eighth image",
+    },
+    // {
+    //   id: 17,
+    //   type: "Costume",
+    //   src: animal17,
+    //   caption: "Caption for the eighth image",
+    // },
   ];
 
   // Determine best rows x columns for our images

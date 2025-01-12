@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './CarouselBootstrap.css';
 import headerImage from '../../images/navBarNewNew.jpg';
 import hitchikersGuide from '../../images/HitchikerWebsite/zapho_carousel.jpg';
-import mimiCarousel from '../../images/MIMI_DRAG/mimi_carousel.jpg';
+import mimiCarousel from '../../images/mimiDragMX/mimi_carousel.jpg';
 import WildAnimal from '../../images/wildShortAnimal/wildAnimalCarousel.jpg';
-import punchDrunkCarousel from '../../images/enitansGame/punchDrunkCarousel.jpg';
+import punchDrunkCarousel from '../../images/enitansGame/punchdrunkCarouselNew.jpg';
 import Morroccan from '../../images/Morroccan/moroccoCarousel.jpg';
-import oneEightyCarousel from '../../images/oneEighty/onehundredandeighty5.jpg';
+import oneEightyCarousel from '../../images/oneEighty/oneHundredAndEightyCarousel.jpg';
 import niceWorkCarousel from '../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg';
 import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 

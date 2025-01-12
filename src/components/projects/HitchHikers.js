@@ -1,20 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/HitchikerWebsite/arthur_dent_idea.png";
-import animal2 from "../../images/HitchikerWebsite/arthur_dent_irl.jpg";
-import animal3 from "../../images/HitchikerWebsite/caste_alot.jpg";
-import animal4 from "../../images/HitchikerWebsite/ford_prefect_idea.png";
-import animal5 from "../../images/HitchikerWebsite/ford_prefect_irl.jpg";
-import animal6 from "../../images/HitchikerWebsite/slarti_bartifact_idea.jpg";
-import animal7 from "../../images/HitchikerWebsite/slarti_bartifact_irl.jpg";
-import animal8 from "../../images/HitchikerWebsite/slarti_bartifact.jpg";
-import animal9 from "../../images/HitchikerWebsite/slarti_unchained.jpg";
-import animal12 from "../../images/HitchikerWebsite/zapho_carousel.jpg";
-import animal11 from "../../images/HitchikerWebsite/zapho_idea.png";
-import zapoirl from "../../images/HitchikerWebsite/zapho_irl.jpg";
-import morrocoEvent7 from "../../images/HitchikerWebsite/zapho_on_stge.jpg";
-import morrocoEvent8 from "../../images/HitchikerWebsite/zapho_stage.jpg";
+import animal1 from "../../images/HitchikerWebsite/hikers11_L.jpg";
+import animal2 from "../../images/HitchikerWebsite/hikers2_P.jpg";
+import animal3 from "../../images/HitchikerWebsite/hikers3_L.jpg";
+import animal4 from "../../images/HitchikerWebsite/hikers4_P.jpg";
+import animal5 from "../../images/HitchikerWebsite/hikers5_L.jpg";
+import animal6 from "../../images/HitchikerWebsite/hikers6_L.jpg";
+import animal7 from "../../images/HitchikerWebsite/hikers7_L.jpg";
+import animal8 from "../../images/HitchikerWebsite/hikers8_P.jpg";
+import animal9 from "../../images/HitchikerWebsite/hikers9_L.jpg";
+import animal12 from "../../images/HitchikerWebsite/hikers10_P.jpg";
+import animal11 from "../../images/HitchikerWebsite/hikers11_L.jpg";
+import zapoirl from "../../images/HitchikerWebsite/hikers12_L.jpg";
+import morrocoEvent7 from "../../images/HitchikerWebsite/hikers13_L.jpg";
+import morrocoEvent8 from "../../images/HitchikerWebsite/hikers14_P.jpg";
+import morrocoEvent9 from "../../images/HitchikerWebsite/hikers14_P.jpg";
+import morrocoEvent10 from "../../images/HitchikerWebsite/hikers15_P.jpg";
+import morrocoEvent11 from "../../images/HitchikerWebsite/hikers16_P.jpg";
+import morrocoEvent12 from "../../images/HitchikerWebsite/hikers16_P.jpg";
+
+
 
 import zenMountain from "../../images/navBarNewNew.jpg";
 
@@ -62,7 +68,12 @@ const HitchHikers = () => {
     { id: 10, type: "Costume", src: animal12 , caption: "This is the first image caption", },
     { id: 11, type: "Costume", src: animal3, caption: "This is the first image caption",  },
     { id: 12, type: "Costume", src: zapoirl, caption: "This is the first image caption",  },
-
+    { id: 13, type: "Costume", src: morrocoEvent7, caption: "This is the first image caption",  },
+    { id: 14, type: "Costume", src: morrocoEvent8, caption: "This is the first image caption",  },
+    { id: 15, type: "Costume", src: morrocoEvent9, caption: "This is the first image caption",  },
+    { id: 16, type: "Costume", src: morrocoEvent10, caption: "This is the first image caption",  },
+    { id: 17, type: "Costume", src: morrocoEvent11, caption: "This is the first image caption",  },
+    { id: 18, type: "Costume", src: morrocoEvent12, caption: "This is the first image caption",  },
   ];
 
    // Determine best rows x columns for our images

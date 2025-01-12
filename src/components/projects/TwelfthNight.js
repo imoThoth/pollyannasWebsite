@@ -1,17 +1,17 @@
 import React from 'react';
 import { Carousel, Container } from 'react-bootstrap';
 import "../projects/ProjectStyle.css";
-import twelfthNight1 from "../../images/twelfthNight/twelfthNight1.jpg";
-import twelfthNight2 from "../../images/twelfthNight/twelfthNight2.jpg";
-import twelfthNight3 from "../../images/twelfthNight/twelfthNight3.jpg";
-import twelfthNight4 from "../../images/twelfthNight/twelfthNight4.jpg";
-import twelfthNight5 from "../../images/twelfthNight/twelfthNight5.jpg";
-import twelfthNight6 from "../../images/twelfthNight/twelfthNight6.jpg";
-import twelfthNight7 from "../../images/twelfthNight/twelfthNight7.jpg";
-import twelfthNight8 from "../../images/twelfthNight/twelfthNight8.jpg";
-import twelfthNight9 from "../../images/twelfthNight/twelfthNight9.jpg";
-import twelfthNight10 from "../../images/twelfthNight/twelfthNight10.jpg";
-import twelfthNight11 from "../../images/twelfthNight/twelfthNight11.jpg";
+import twelfthNight1 from "../../images/twelfthNight/twelfthNight1_L.jpg";
+import twelfthNight2 from "../../images/twelfthNight/twelfthNight2_P.jpg";
+import twelfthNight3 from "../../images/twelfthNight/twelfthNight3_P.jpg";
+import twelfthNight4 from "../../images/twelfthNight/twelfthNight4_P.jpg";
+import twelfthNight5 from "../../images/twelfthNight/twelfthNight5_L.jpg";
+import twelfthNight6 from "../../images/twelfthNight/twelfthNight6_P.jpg";
+import twelfthNight7 from "../../images/twelfthNight/twelfthNight7_L.jpg";
+import twelfthNight8 from "../../images/twelfthNight/twelfthNight8_P.jpg";
+import twelfthNight9 from "../../images/twelfthNight/twelfthNight9_L.jpg";
+import twelfthNight10 from "../../images/twelfthNight/twelfthNight10_P.jpg";
+import twelfthNight11 from "../../images/twelfthNight/twelfthNight11_P.jpg";
 
 
 import zen from "../../images/zen.jpeg";

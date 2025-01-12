@@ -1,17 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/wildShortAnimal/animal1.jpg";
-import animal2 from "../../images/wildShortAnimal/animal2.jpg";
-import animal3 from "../../images/wildShortAnimal/animal3.jpg";
-import animal4 from "../../images/wildShortAnimal/animal4.jpg";
-import animal5 from "../../images/wildShortAnimal/animal5.jpg";
-import animal6 from "../../images/wildShortAnimal/animal6.jpg";
-import animal7 from "../../images/wildShortAnimal/animal7.jpg";
-import animal8 from "../../images/wildShortAnimal/animal8.jpg";
-import animal9 from "../../images/wildShortAnimal/animal9.jpg";
-import animal12 from "../../images/wildShortAnimal/animal12.jpg";
-import animal11 from "../../images/wildShortAnimal/animal11.jpg";
+import animal1 from "../../images/wildShortAnimal/wildAnimal1_P.jpg";
+import animal2 from "../../images/wildShortAnimal/wildAnimal2_L.jpg";
+import animal3 from "../../images/wildShortAnimal/wildAnimal3_L.jpg";
+import animal4 from "../../images/wildShortAnimal/wildAnimal4_L.jpg";
+import animal5 from "../../images/wildShortAnimal/wildAnimal5_L.jpg";
+import animal6 from "../../images/wildShortAnimal/wildAnimal6_P.jpg";
+import animal7 from "../../images/wildShortAnimal/wildAnimal7_L.jpg";
+import animal8 from "../../images/wildShortAnimal/wildAnimal8_L.jpg";
+import animal9 from "../../images/wildShortAnimal/wildAnimal9_P.jpg";
+import animal10 from "../../images/wildShortAnimal/wildAnimal10_P.jpg";
+import animal13 from "../../images/wildShortAnimal/wildAnimal13_L.jpg";
+import animal14 from "../../images/wildShortAnimal/wildAnimal14_P.jpg";
+import animal12 from "../../images/wildShortAnimal/wildAnimal12_P.jpg";
+import animal11 from "../../images/wildShortAnimal/wildAnimal11_L.jpg";
+import animal15 from "../../images/wildShortAnimal/wildAnimal15_L.jpg";
+
+
 
 import zen from "../../images/zen.jpeg";
 import zenMountain from "../../images/navBarNewNew.jpg";
@@ -56,7 +62,12 @@ const WildShortAnimal = () => {
     { id: 8, type: "Costume", src: animal8 , caption: "This is the first image caption", }, 
     { id: 9, type: "Costume", src: animal9, caption: "This is the first image caption",  },
     { id: 10, type: "Costume", src: animal12 , caption: "This is the first image caption", },
-    // { id: 11, type: "Costume", src: animal3, caption: "This is the first image caption",  },
+    { id: 11, type: "Costume", src: animal10, caption: "This is the first image caption",  },
+    { id: 10, type: "Costume", src: animal11 , caption: "This is the first image caption", },
+    { id: 10, type: "Costume", src: animal13 , caption: "This is the first image caption", },
+    { id: 10, type: "Costume", src: animal14 , caption: "This is the first image caption", },
+    { id: 10, type: "Costume", src: animal15 , caption: "This is the first image caption", },
+
   
   ];
   
