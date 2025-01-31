@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/percyJackson/percy1_L.jpg";
-import animal2 from "../../images/percyJackson/percy2_P.jpg";
-import animal3 from "../../images/percyJackson/percy3_L.jpg";
-import animal4 from "../../images/percyJackson/percy4_P.jpg";
-import animal5 from "../../images/percyJackson/percy5_L.jpg";
-import animal6 from "../../images/percyJackson/percy6_P.jpg";
-import animal7 from "../../images/percyJackson/percy7_L.jpg";
-import animal8 from "../../images/percyJackson/percy8_P.jpg";
-import animal9 from "../../images/percyJackson/percy9_P.jpg";
-
+import percyjackson1 from "../../images/percyJackson/percy1_L.jpg";
+import percyjackson6 from "../../images/percyJackson/percy2_P.jpg";
+import percyjackson3 from "../../images/percyJackson/percy3_L.jpg";
+import percyjackson4 from "../../images/percyJackson/percy4_P.jpg";
+import percyjackson5 from "../../images/percyJackson/percy5_L.jpg";
+import percyjackson2 from "../../images/percyJackson/percy6_P.jpg";
+import percyjackson7 from "../../images/percyJackson/percy7_L.jpg";
+import percyjackson8 from "../../images/percyJackson/percy8_P.jpg";
+import percyjackson9 from "../../images/percyJackson/percy9_P.jpg";
+import percyjackson10 from "../../images/percyJackson/percy10_P.jpg
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
 
@@ -47,56 +47,61 @@ const LightningThief = () => {
     {
       id: 1,
       type: "Costume",
-      src: animal1,
+      src: percyjackson1,
       caption: "This is the first image caption",
     },
     {
       id: 2,
       type: "Costume",
-      src: animal2,
+      src: percyjackson2,
       caption: "A caption for the second image",
     },
     {
       id: 3,
       type: "Costume",
-      src: animal3,
+      src: percyjackson3,
       caption: "Here is the third costume image",
     },
     {
       id: 4,
       type: "Costume",
-      src: animal4,
+      src: percyjackson4,
       caption: "The fourth image has a fun outfit",
     },
     {
       id: 5,
       type: "Costume",
-      src: animal5,
+      src: percyjackson5,
       caption: "Fifth image showing a different style",
     },
     {
       id: 6,
       type: "Costume",
-      src: animal6,
+      src: percyjackson6,
       caption: "Sixth image with a golden costume",
     },
     {
       id: 7,
       type: "Costume",
-      src: animal7,
+      src: percyjackson7,
       caption: "Seventh costume photo for the gallery",
     },
     {
       id: 8,
       type: "Costume",
-      src: animal8,
+      src: percyjackson8,
       caption: "Caption for the eighth image",
     },
     {
       id: 9,
       type: "Costume",
-      src: animal9,
+      src: percyjackson9,
       caption: "Ninth image in the costume series",
+
+      id: 10
+      type: "Costume"
+      src: percyjackson10
+      caption: ""
     }
   ];
 
