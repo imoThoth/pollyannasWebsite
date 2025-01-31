@@ -1,18 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "../projects/ProjectStyle.css";
-import oneEightyCarousel from "../../images/oneEighty/oneHundredAndEighty1.jpg";
-import oneEightySetDesign from "../../images/oneEighty/oneHundredAndEighty2.jpg";
-import oneEightydayOne_announcer from "../../images/oneEighty/oneHundredAndEighty3.jpg";
-import oneEightyDayOne_barMaid from "../../images/oneEighty/oneHundredAndEighty4.jpg";
-import oneEightydayOne_dartsBoard from "../../images/oneEighty/oneHundredAndEighty5.jpg";
-import oneEightydayOne_jacket_darts from "../../images/oneEighty/oneHundredAndEighty5.jpg";
-import oneEightydayThree_actorsDance from "../../images/oneEighty/oneHundredAndEighty7.jpg";
-import actorsTogether from "../../images/oneEighty/oneHundredAndEighty8.jpg";
-import oneEightydayThree_fallScene from "../../images/oneEighty/oneHundredAndEighty9.jpg";
-import oneEightyDayTwo_standAlone from "../../images/oneEighty/oneHundredAndEighty10.jpg";
-import oneEightyDayTwo_standNexToDarts from "../../images/oneEighty/oneHundredAndEighty11.jpg";
-import oneEightyDayTwo_throwDarts from "../../images/oneEighty/oneHundredAndEighty12.jpg";
+import oneEighty1 from "../../images/oneEighty/oneHundredAndEighty1.jpg";
+import oneEighty2 from "../../images/oneEighty/oneHundredAndEighty2.jpg";
+import oneEighty3 from "../../images/oneEighty/oneHundredAndEighty3.jpg";
+import oneEighty4 from "../../images/oneEighty/oneHundredAndEighty4.jpg";
+import oneEighty5 from "../../images/oneEighty/oneHundredAndEighty5.jpg";
+import oneEighty7 from "../../images/oneEighty/oneHundredAndEighty7.jpg";
+import oneEighty8 from "../../images/oneEighty/oneHundredAndEighty8.jpg";
+import oneEighty9 from "../../images/oneEighty/oneHundredAndEighty9.jpg";
+import oneEighty10 from "../../images/oneEighty/oneHundredAndEighty10.jpg";
+import oneEighty11 from "../../images/oneEighty/oneHundredAndEighty11.jpg";
+import oneEighty12 from "../../images/oneEighty/oneHundredAndEighty12.jpg";
 import pollyNavbarNewer from "../../images/navBarNewNew.jpg";
 
 
@@ -46,36 +45,20 @@ function getBestFactorPair(num) {
 const OneEighty = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: oneEightyCarousel,
-      caption: "This is the first image caption", },
-    // { id: 2, type: "Costume", src: oneEightyImage,
-    //   caption: "This is the first image caption", },
-    // { id: 3, type: "Costume", src: oneEightyImageTwo,
-    //   caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: oneEightySetDesign,
-      caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: oneEightydayOne_announcer,
-      caption: "This is the first image caption", },
-    { id: 5, type: "Costume", src: oneEightyDayOne_barMaid ,
-      caption: "This is the first image caption",},
-    { id: 6, type: "Costume", src: oneEightydayOne_dartsBoard,
-      caption: "This is the first image caption", },
-    { id: 7, type: "Costume", src: oneEightydayOne_jacket_darts ,
-      caption: "This is the first image caption",},
-    { id: 8, type: "Costume", src: oneEightydayThree_actorsDance ,
-      caption: "This is the first image caption",}, 
-    { id: 9, type: "Costume", src: actorsTogether ,
-      caption: "This is the first image caption",},
-    { id: 10, type: "Costume", src: oneEightydayThree_fallScene ,
-      caption: "This is the first image caption",},
-    { id: 11, type: "Costume", src: oneEightyDayTwo_standAlone ,
-      caption: "This is the first image caption",},
-    { id: 12, type: "Costume", src: oneEightyDayTwo_standNexToDarts ,
-      caption: "This is the first image caption",},
-    { id: 13, type: "Costume", src: oneEightyDayTwo_throwDarts,
-      caption: "This is the first image caption", },
-    // { id: 14, type: "Costume", src: oneEightyDayJacket ,
-    //   caption: "This is the first image caption",}
+
+
+    { id: 4, type: "Costume", src: oneEighty1,caption: "This is the first image caption", },
+    { id: 4, type: "Costume", src: oneEighty2, caption: "This is the first image caption", },
+    { id: 5, type: "Costume", src: oneEighty3, caption: "This is the first image caption",},
+    { id: 6, type: "Costume", src: oneEighty4: "This is the first image caption", },
+    { id: 7, type: "Costume", src: oneEighty5 , caption: "This is the first image caption",},
+    { id: 8, type: "Costume", src: oneEighty7, caption: "This is the first image caption",}, 
+    { id: 9, type: "Costume", src: oneEighty8, caption: "This is the first image caption",},
+    { id: 10, type: "Costume", src: oneEighty9,  caption: "This is the first image caption",},
+    { id: 11, type: "Costume", src: oneEighty10,caption: "This is the first image caption",},
+    { id: 12, type: "Costume", src: oneEighty11,caption: "This is the first image caption",},
+    { id: 13, type: "Costume", src: oneEighty12: "This is the first image caption", },
+    // { id: 14, type: "Costume", src: oneEightyDayJacket , caption: "This is the first image caption",}
   ];
   // Determine best rows x columns for our images
   const [rows, columns] = getBestFactorPair(images.length);
