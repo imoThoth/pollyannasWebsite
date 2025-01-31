@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/whiteHorse24/romeoandJuliet10_L.jpg";
-import animal2 from "../../images/whiteHorse24/romeoandJuliet11_L.jpg";
-import animal3 from "../../images/whiteHorse24/romeoandJuliet12_L.jpg";
-import animal4 from "../../images/whiteHorse24/romeoandJuliet13_L.jpg";
-import animal5 from "../../images/whiteHorse24/romeoandJuliet14_P.jpg";
-import animal6 from "../../images/whiteHorse24/romeoandJuliet15_P.jpg";
-import animal7 from "../../images/whiteHorse24/romeoandJuliet1_L.jpg";
-import animal8 from "../../images/whiteHorse24/romeoandJuliet2_L.jpg";
-import animal9 from "../../images/whiteHorse24/romeoandJuliet5_L.jpg";
-import animal10 from "../../images/whiteHorse24/romeoandJuliet6_P.jpg";
-import animal11 from "../../images/whiteHorse24/romeoandJuliet7_L.jpg";
-import animal12 from "../../images/whiteHorse24/romeoandJuliet8_L.jpg";
-import animal13 from "../../images/whiteHorse24/romeoandJuliet9L.jpg";
-import animal14 from "../../images/whiteHorse24/romeoandjuliet3_P.jpg";
-import animal15 from "../../images/whiteHorse24/romeoandjuliet4_L.jpg";
+import romeoandjuliet10 from "../../images/whiteHorse24/romeoandJuliet10_L.jpg";
+import romeoandjuliet11 from "../../images/whiteHorse24/romeoandJuliet11_L.jpg";
+import romeoandjuliet12 from "../../images/whiteHorse24/romeoandJuliet12_L.jpg";
+import romeoandjuliet13 from "../../images/whiteHorse24/romeoandJuliet13_L.jpg";
+import romeoandjuliet14 from "../../images/whiteHorse24/romeoandJuliet14_P.jpg";
+import romeoandjuliet15 from "../../images/whiteHorse24/romeoandJuliet15_P.jpg";
+import romeoandjuliet1 from "../../images/whiteHorse24/romeoandJuliet1_L.jpg";
+import romeoandjuliet2 from "../../images/whiteHorse24/romeoandJuliet2_L.jpg";
+import romeoandjuliet5 from "../../images/whiteHorse24/romeoandJuliet5_L.jpg";
+import romeoandjuliet6 from "../../images/whiteHorse24/romeoandJuliet6_P.jpg";
+import romeoandjuliet7 from "../../images/whiteHorse24/romeoandJuliet7_L.jpg";
+import romeoandjuliet8 from "../../images/whiteHorse24/romeoandJuliet8_L.jpg";
+import romeoandjuliet9 from "../../images/whiteHorse24/romeoandJuliet9L.jpg";
+import romeoandjuliet3 from "../../images/whiteHorse24/romeoandjuliet3_P.jpg";
+import romeoandjuliet4 from "../../images/whiteHorse24/romeoandjuliet4_L.jpg";
 
 
 import "./sampProj.css"; // Custom CSS
@@ -49,96 +49,96 @@ function getBestFactorPair(num) {
 }
 
 const RomeoJuliet = () => {
-  // Example images, each with a "caption" property to display in the modal
+  // This variable images contains all the images which comeo out on screen
   const images = [
     {
       id: 1,
       type: "Costume",
-      src: animal1,
+      src: romeoandjuliet1,
       caption: "This is the first image caption",
     },
     {
       id: 2,
       type: "Costume",
-      src: animal2,
+      src: romeoandjuliet2,
       caption: "A caption for the second image",
     },
     {
       id: 3,
       type: "Costume",
-      src: animal3,
+      src: romeoandjuliet3,
       caption: "Here is the third costume image",
     },
     {
       id: 4,
       type: "Costume",
-      src: animal4,
+      src: romeoandjuliet4,
       caption: "The fourth image has a fun outfit",
     },
     {
       id: 5,
       type: "Costume",
-      src: animal5,
+      src: romeoandjuliet5,
       caption: "Fifth image showing a different style",
     },
     {
       id: 6,
       type: "Costume",
-      src: animal6,
+      src: romeoandjuliet6,
       caption: "Sixth image with a golden costume",
     },
     {
       id: 7,
       type: "Costume",
-      src: animal7,
+      src: romeoandjuliet7,
       caption: "Seventh costume photo for the gallery",
     },
     {
       id: 8,
       type: "Costume",
-      src: animal8,
+      src: romeoandjuliet8,
       caption: "Caption for the eighth image",
     },
     {
       id: 9,
       type: "Costume",
-      src: animal9,
+      src: romeoandjuliet9,
       caption: "Ninth image in the costume series",
     },
     {
       id: 10,
       type: "Costume",
-      src: animal10,
+      src: romeoandjuliet10,
       caption: "Tenth and final costume image",
     },
     {
       id: 11,
       type: "Costume",
-      src: animal11,
+      src: romeoandjuliet11,
       caption: "Tenth and final costume image",
     },
     {
       id: 12,
       type: "Costume",
-      src: animal12,
+      src: romeoandjuliet12,
       caption: "Tenth and final costume image",
     },
     {
       id: 13,
       type: "Costume",
-      src: animal13,
+      src: romeoandjuliet13,
       caption: "Tenth and final costume image",
     },
     {
       id: 14,
       type: "Costume",
-      src: animal14,
+      src: romeoandjuliet14,
       caption: "Tenth and final costume image",
     },
     {
       id: 15,
       type: "Costume",
-      src: animal15,
+      src: romeoandjuliet15,
       caption: "Tenth and final costume image",
     },
   ];
