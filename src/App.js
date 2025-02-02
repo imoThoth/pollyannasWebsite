@@ -9,7 +9,6 @@ import About from './components/aboutPage/About';
 import Footer from './components/footerComponent/Footer';
 import './App.css'; // Import custom CSS for layout adjustments
 import Project1 from './components/projects/Project1';
-import CoffeeGuy from './components/projects/CoffeeGuy';
 import EnitansGame from './components/projects/EnitansGame';
 import TwelfthNight from './components/projects/TwelfthNight';
 import OneEighty from './components/projects/OneEighty';
@@ -53,7 +52,6 @@ function App() {
             <Route path='/' element={<BootStrapCarousel />} />
             <Route path='/portfolio' element={<Portfolio />} />
             <Route path='/portfolio/The Boys' element={<Project1 />} />
-            <Route path='/portfolio/Coffee Guy' element={<CoffeeGuy />} />
             <Route path='/portfolio/Enitans Game' element={<EnitansGame />} />
             <Route path='/portfolio/Twelfth Night' element={<TwelfthNight />} />
             <Route path='/portfolio/One Hundred and Eighty' element={<OneEighty />} />

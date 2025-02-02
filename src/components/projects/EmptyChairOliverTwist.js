@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
 import animal1 from "../../images/emptyChair/emptyChair1_L.jpg";
-import animal2 from "../../images/emptyChair/emptyChair12_L.jpg";
+import animal2 from "../../images/emptyChair/emptyChair2_P.jpg";
 import animal3 from "../../images/emptyChair/emptyChair3_L.jpg";
 import animal4 from "../../images/emptyChair/emptyChair4_L.jpg";
 import animal5 from "../../images/emptyChair/emptyChair5_P.jpg";
@@ -11,22 +11,8 @@ import animal7 from "../../images/emptyChair/emptyChair7_L.jpg";
 import animal8 from "../../images/emptyChair/emptyChair8_L.jpg";
 import animal9 from "../../images/emptyChair/emptyChair9_L.jpg";
 import animal10 from "../../images/emptyChair/emptyChair10_L.jpg";
-import animal11 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss13_L.jpg";
-import animal12 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss15_L.jpg";
-import animal13 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss3_P.jpg";
-import animal14 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss5_P.jpg";
-import animal15 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss6_P.jpg";
-import animal16 from "../../images/emptyChair/whiteHorseTheatreTyrantsKissL_1.jpg";
-import animal17 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss12_P.jpg";
-import animal18 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss14_L.jpg";
-import animal19 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss4_L.jpg";
-import animal20 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss9_P.jpg";
-import animal21 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss_L10.jpg";
-import animal22 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss_ 7.jpg";
-import animal23 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss_L11.jpg";
-import animal24 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss_L2.jpg";
-import animal25 from "../../images/emptyChair/emptyChair10_L.jpg";
-import animal26 from "../../images/emptyChair/emptyChair10_L.jpg";
+import animal11 from "../../images/emptyChair/emptyChair11_L.jpg";
+import animal12 from "../../images/emptyChair/emptyChair12_L.jpg";
 
 
 import "./sampProj.css"; // Custom CSS
@@ -120,6 +106,18 @@ const EmptyChairOliverTwist = () => {
       id: 10,
       type: "Costume",
       src: animal10,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 10,
+      type: "Costume",
+      src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 10,
+      type: "Costume",
+      src: animal12,
       caption: "Tenth and final costume image",
     },
   ];
@@ -225,7 +223,7 @@ const EmptyChairOliverTwist = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Empty Chair / Oliver Twist</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
