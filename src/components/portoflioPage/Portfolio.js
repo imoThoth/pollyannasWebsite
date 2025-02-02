@@ -37,11 +37,11 @@ import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
 import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
 
 const portfolioData = [
-  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "White Horse Theatre, Germany", type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: romeoandJuliet13_L},
-  { id: 2, title: "Scratch", year: 2024, location: "Dog Sky Films, on location in England", type: "Costume Design", btype: "Set Design",  ctype: "Short Film",src: scratch4_L},
-  { id: 3, title: "Enitans Game", year: 2024, location: " PunchDrunk Enrichment, London", type: "Costume", btype: "Theatre" , src: punchdrunkCarouselNew},
+  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "White Horse Theatre, Germany", type: "Costume Design", btype: "Set Design",  ctype: "Theatre", src: romeoandJuliet1},
+  { id: 2, title: "Scratch", year: 2024, location: "Dog Sky Films, on location in England", type: "Costume Design", btype: "Set Design",  ctype: "Short Film",src: scratch1},
+  { id: 3, title: "Enitans Game", year: 2024, location: " PunchDrunk Enrichment, London", type: "Costume", btype: "Theatre" , src: punchdrunk5},
   { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Dark Avenue Film, on location in England", type: "Costume", btype: "Set Design", ctype: "Short Film", src: oneEIghty},
-  { id: 5, title: "Twelfth Night", year: 2024, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: twelfthNight5_L},
+  { id: 5, title: "Twelfth Night", year: 2024, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: twelfthNight1_L},
   { id: 6, title: "The Lightning Thief (UK Premier)", year: 2023, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: percy6_P },
   { id: 7, title: "Drag Mx Great Britain", year: 2023, location: " Alnwick Castle", type: "Costume", videography: "Events", src: mimiDragMx1_P },
   { id: 8, title: "Latitude and Glastonbury Festivals", year: 2023, location: " Suffolk and Glastonbury", type: "Costume", btype: "Events", src: mimiLat4_P },

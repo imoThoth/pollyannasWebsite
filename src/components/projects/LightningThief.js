@@ -10,7 +10,7 @@ import percyjackson2 from "../../images/percyJackson/percy6_P.jpg";
 import percyjackson7 from "../../images/percyJackson/percy7_L.jpg";
 import percyjackson8 from "../../images/percyJackson/percy8_P.jpg";
 import percyjackson9 from "../../images/percyJackson/percy9_P.jpg";
-import percyjackson10 from "../../images/percyJackson/percy10_P.jpg
+import percyjackson10 from "../../images/percyJackson/percy10_P.jpg";
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
 
@@ -98,9 +98,9 @@ const LightningThief = () => {
       src: percyjackson9,
       caption: "Ninth image in the costume series",
 
-      id: 10
-      type: "Costume"
-      src: percyjackson10
+      id: 10,
+      type: "Costume",
+      src: percyjackson10,
       caption: ""
     }
   ];
