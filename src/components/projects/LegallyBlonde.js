@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/legallyBlonde/legally10_L.jpg";
-import animal2 from "../../images/legallyBlonde/legally11_L.jpg";
-import animal3 from "../../images/legallyBlonde/legally12_L.jpg";
-import animal4 from "../../images/legallyBlonde/legally13_L.jpg";
-import animal5 from "../../images/legallyBlonde/legally14_L.jpg";
-import animal6 from "../../images/legallyBlonde/legally1_L.jpg";
-import animal7 from "../../images/legallyBlonde/legally2_L.jpg";
-import animal8 from "../../images/legallyBlonde/legally4_L.jpg";
-import animal9 from "../../images/legallyBlonde/legally5_L.jpg";
-import animal10 from "../../images/legallyBlonde/legally6_L.jpg";
-import animal11 from "../../images/legallyBlonde/legally7_L.jpg";
+import animal1 from "../../images/legallyBlonde/legally1_L.jpg";
+import animal2 from "../../images/legallyBlonde/legally2_L.jpg";
+import animal3 from "../../images/legallyBlonde/legally3_L.jpg";
+import animal4 from "../../images/legallyBlonde/legally4_L.jpg";
+import animal5 from "../../images/legallyBlonde/legally5_L.jpg";
+import animal6 from "../../images/legallyBlonde/legally6_L.jpg";
+import animal7 from "../../images/legallyBlonde/legally7_L.jpg";
+import animal8 from "../../images/legallyBlonde/legally8_L.jpg";
+import animal9 from "../../images/legallyBlonde/legally9_L.jpg";
+import animal10 from "../../images/legallyBlonde/legally10_L.jpg";
+import animal11 from "../../images/legallyBlonde/legally11_L.jpg";
+import animal12 from "../../images/legallyBlonde/legally12_L.jpg";
+import animal13 from "../../images/legallyBlonde/legally13_L.jpg";
+import animal14 from "../../images/legallyBlonde/legally14_L.jpg";
+
 
 
 import "./sampProj.css"; // Custom CSS
@@ -111,6 +115,30 @@ const LegallyBlonde = () => {
       id: 10,
       type: "Costume",
       src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 14,
+      type: "Costume",
+      src: animal14,
       caption: "Tenth and final costume image",
     },
   ];
@@ -216,7 +244,7 @@ const LegallyBlonde = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Legally Blonde</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
