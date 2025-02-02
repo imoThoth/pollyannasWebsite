@@ -1,26 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import animal1 from "../../images/fish_wife/fishWife11_L.jpg";
-import animal2 from "../../images/fish_wife/fishWife2_P.jpg";
-import animal3 from "../../images/fish_wife/fishWife3_L.jpg";
-import animal4 from "../../images/fish_wife/fishWife4_P.jpg";
-import animal5 from "../../images/fish_wife/fishWife5_P.jpg";
-import animal6 from "../../images/fish_wife/fishWife6_P.jpg";
-import animal7 from "../../images/fish_wife/fishWife7_P.jpg";
-import animal8 from "../../images/fish_wife/fishWife8_L.jpg";
-import animal9 from "../../images/fish_wife/fishWife9_L.jpg";
-import animal12 from "../../images/fish_wife/fishWife10_P.jpg";
-import animal11 from "../../images/fish_wife/fishWife11_L.jpg";
-import morrocoEvent6 from "../../images/fish_wife/fishWife12_P.jpg";
-import morrocoEvent7 from "../../images/fish_wife/fishWife13_L.jpg";
-import morrocoEvent8 from "../../images/fish_wife/fishWife14_L.jpg";
-import fishWife15_P from "../../images/fish_wife/fishWife15_P.jpg";
-import fishWife16_L from "../../images/fish_wife/fishWife16_L.jpg";
-import fishWife17_L from "../../images/fish_wife/FishWife17_L.jpg";
-import fishWife18_L from "../../images/fish_wife/fishWife18_L.jpg";
-import fishWife19_P from "../../images/fish_wife/fishWife19_P.jpg";
-import fishWife20_L from "../../images/fish_wife/fishWife20_L.jpg";
+import fishwife1 from "../../images/fish_wife/fishWife11_L.jpg";
+import fishwife2 from "../../images/fish_wife/fishWife2_P.jpg";
+import fishwife3 from "../../images/fish_wife/fishWife3_L.jpg";
+import fishwife4 from "../../images/fish_wife/fishWife4_P.jpg";
+import fishwife5 from "../../images/fish_wife/fishWife5_P.jpg";
+import fishwife6 from "../../images/fish_wife/fishWife6_P.jpg";
+import fishwife7 from "../../images/fish_wife/fishWife7_P.jpg";
+import fishwife8 from "../../images/fish_wife/fishWife8_L.jpg";
+import fishwife9 from "../../images/fish_wife/fishWife9_L.jpg";
+import fishwife10 from "../../images/fish_wife/fishWife10_P.jpg";
+import fishwife11 from "../../images/fish_wife/fishWife11_L.jpg";
+import fishwife12 from "../../images/fish_wife/fishWife12_P.jpg";
+import fishwife13 from "../../images/fish_wife/fishWife13_L.jpg";
+import fishwife14 from "../../images/fish_wife/fishWife14_L.jpg";
+import fishwife15 from "../../images/fish_wife/fishWife15_P.jpg";
+import fishwife16 from "../../images/fish_wife/fishWife16_L.jpg";
+import fishwife17 from "../../images/fish_wife/FishWife17_L.jpg";
+import fishwife18 from "../../images/fish_wife/fishWife18_L.jpg";
+import fishwife19 from "../../images/fish_wife/fishWife19_P.jpg";
+import fishwife20 from "../../images/fish_wife/fishWife20_L.jpg";
 
 
 
@@ -58,26 +58,26 @@ function getBestFactorPair(num) {
 const Fish_Wife = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: morrocoEvent7, caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: morrocoEvent8, caption: "This is the first image caption",  },
-    { id: 3, type: "Costume", src: fishWife15_P , caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: animal4, caption: "This is the first image caption",  },
-    { id: 5, type: "Costume", src: animal5 , caption: "This is the first image caption", },
-    { id: 6, type: "Costume", src: animal2, caption: "This is the first image caption",  },
-    { id: 7, type: "Costume", src: animal7, caption: "This is the first image caption",  },
-    { id: 8, type: "Costume", src: animal8 , caption: "This is the first image caption", }, 
-    { id: 9, type: "Costume", src: animal9, caption: "This is the first image caption",  },
-    { id: 10, type: "Costume", src: animal12 , caption: "This is the first image caption", },
-    { id: 11, type: "Costume", src: animal3, caption: "This is the first image caption",  },
-    { id: 12, type: "Costume", src: morrocoEvent6, caption: "This is the first image caption",  },
-    { id: 13, type: "Costume", src: animal6, caption: "This is the first image caption",  },
-    { id: 14, type: "Costume", src: animal1, caption: "This is the first image caption",  },
-    { id: 15, type: "Costume", src: fishWife15_P, caption: "This is the first image caption",  },
-    { id: 16, type: "Costume", src: fishWife16_L, caption: "This is the first image caption",  },
-    { id: 17, type: "Costume", src: fishWife17_L, caption: "This is the first image caption",  },
-    { id: 18, type: "Costume", src: fishWife18_L, caption: "This is the first image caption",  },
-    { id: 19, type: "Costume", src: fishWife19_P, caption: "This is the first image caption",  },
-    { id: 20, type: "Costume", src: fishWife20_L, caption: "This is the first image caption",  },
+    { id: 1, type: "Costume", src: fishwife1, caption: "This is the first image caption", },
+    { id: 2, type: "Costume", src: fishwife2, caption: "This is the first image caption",  },
+    { id: 3, type: "Costume", src: fishwife3, caption: "This is the first image caption", },
+    { id: 4, type: "Costume", src: fishwife4, caption: "This is the first image caption",  },
+    { id: 5, type: "Costume", src: fishwife5 , caption: "This is the first image caption", },
+    { id: 6, type: "Costume", src: fishwife6, caption: "This is the first image caption",  },
+    { id: 7, type: "Costume", src: fishwife7, caption: "This is the first image caption",  },
+    { id: 8, type: "Costume", src: fishwife8 , caption: "This is the first image caption", }, 
+    { id: 9, type: "Costume", src: fishwife9, caption: "This is the first image caption",  },
+    { id: 10, type: "Costume", src: fishwife10, caption: "This is the first image caption", },
+    { id: 11, type: "Costume", src: fishwife11, caption: "This is the first image caption",  },
+    { id: 12, type: "Costume", src: fishwife12, caption: "This is the first image caption",  },
+    { id: 13, type: "Costume", src: fishwife13, caption: "This is the first image caption",  },
+    { id: 14, type: "Costume", src: fishwife14, caption: "This is the first image caption",  },
+    { id: 15, type: "Costume", src: fishwife15, caption: "This is the first image caption",  },
+    { id: 16, type: "Costume", src: fishwife16, caption: "This is the first image caption",  },
+    { id: 17, type: "Costume", src: fishwife17, caption: "This is the first image caption",  },
+    { id: 18, type: "Costume", src: fishwife18, caption: "This is the first image caption",  },
+    { id: 19, type: "Costume", src: fishwife19, caption: "This is the first image caption",  },
+    { id: 20, type: "Costume", src: fishwife20, caption: "This is the first image caption",  },
   ];
 
   // Determine best rows x columns for our images
