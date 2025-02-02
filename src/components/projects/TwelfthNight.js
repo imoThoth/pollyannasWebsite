@@ -13,6 +13,8 @@ import twelfthNight8 from "../../images/twelfthNight/twelfthNight8_P.jpg";
 import twelfthNight9 from "../../images/twelfthNight/twelfthNight9_L.jpg";
 import twelfthNight10 from "../../images/twelfthNight/twelfthNight10_P.jpg";
 import twelfthNight11 from "../../images/twelfthNight/twelfthNight11_P.jpg";
+import twelfthNight12 from "../../images/twelfthNight/twelfthNight12_P.jpg";
+
 
 
 import zen from "../../images/zen.jpeg";
@@ -27,6 +29,7 @@ import zenMountain from "../../images/navBarNewNew.jpg";
  * - 12 -> factors (3, 4)
  */
 function getBestFactorPair(num) {
+  // Try to find the best factor pair with exact factors
   let bestPair = [1, num];
   let minDiff = num - 1;
 
@@ -42,9 +45,17 @@ function getBestFactorPair(num) {
       }
     }
   }
+
+  // If the number is prime or no exact factors are found, distribute the images
+  // with the remainder in its own row
+  if (bestPair[0] === 1 || bestPair[1] === 1) {
+    const rows = Math.floor(Math.sqrt(num)); // Start with the integer part of the square root
+    const cols = Math.ceil(num / rows); // Calculate columns based on rows
+    bestPair = [rows, cols];
+  }
+
   return bestPair;
 }
-
 const TwelfthNight = () => {
   // Example images, each with a "caption" property to display in the modal
   const images = [
@@ -57,61 +68,67 @@ const TwelfthNight = () => {
     {
       id: 2,
       type: "Costume",
-      src: twelfthNight10,
+      src: twelfthNight2,
       caption: "A caption for the second image",
     },
     {
       id: 3,
       type: "Costume",
-      src: twelfthNight11,
+      src: twelfthNight3,
       caption: "Here is the third costume image",
     },
     {
       id: 4,
       type: "Costume",
-      src: twelfthNight2,
+      src: twelfthNight4,
       caption: "The fourth image has a fun outfit",
     },
     {
       id: 5,
       type: "Costume",
-      src: twelfthNight3,
+      src: twelfthNight5,
       caption: "Fifth image showing a different style",
     },
     {
       id: 6,
       type: "Costume",
-      src: twelfthNight4,
+      src: twelfthNight6,
       caption: "Sixth image with a golden costume",
     },
     {
       id: 7,
       type: "Costume",
-      src: twelfthNight5,
+      src: twelfthNight7,
       caption: "Seventh costume photo for the gallery",
     },
     {
       id: 8,
       type: "Costume",
-      src: twelfthNight6,
+      src: twelfthNight8,
       caption: "Caption for the eighth image",
     },
     {
       id: 9,
       type: "Costume",
-      src: twelfthNight7,
+      src: twelfthNight9,
       caption: "Ninth image in the costume series",
     },
-    // {
-    //   id: 10,
-    //   type: "Costume",
-    //   src: twelfthNight8,
-    //   caption: "Tenth and final costume image",
-    // }, 
+    {
+      id: 10,
+      type: "Costume",
+      src: twelfthNight10,
+      caption: "Tenth and final costume image",
+    }, 
     {
       id: 11,
       type: "Costume",
-      src: twelfthNight9,
+      src: twelfthNight11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: twelfthNight12,
       caption: "Tenth and final costume image",
     }
   ];
@@ -217,7 +234,7 @@ const TwelfthNight = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Twelfth Night</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
