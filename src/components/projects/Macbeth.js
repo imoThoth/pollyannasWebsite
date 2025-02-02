@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/macbeth/whiteHorseTheatMacbeth9_L.jpg";
-import animal2 from "../../images/macbeth/whiteHorseTheatreMacbeth1_P.jpg";
+import animal1 from "../../images/macbeth/whiteHorseTheatreMacbeth1_P.jpg";
+import animal2 from "../../images/macbeth/whiteHorseTheatreMacbeth2_L.jpg";
 import animal3 from "../../images/macbeth/whiteHorseTheatreMacbeth3_P.jpg";
-import animal4 from "../../images/macbeth/whiteHorseTheatreMacbeth8_L.jpg";
-import animal5 from "../../images/macbeth/whiteHorseTheatreMacbeth10_P.jpg";
-import animal6 from "../../images/macbeth/whiteHorseTheatreMacbeth11_P.jpg";
-import animal7 from "../../images/macbeth/whiteHorseTheatreMacbeth2_L.jpg";
-import animal8 from "../../images/macbeth/whiteHorseTheatreMacbeth4_P.jpg";
-import animal9 from "../../images/macbeth/whiteHorseTheatreMacbeth5.jpg";
-import animal10 from "../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg";
-import animal11 from "../../images/macbeth/whiteHorseTheatreMacbeth7_.jpg";
+import animal4 from "../../images/macbeth/whiteHorseTheatreMacbeth4_P.jpg";
+import animal5 from "../../images/macbeth/whiteHorseTheatreMacbeth5.jpg";
+import animal6 from "../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg";
+import animal7 from "../../images/macbeth/whiteHorseTheatreMacbeth7_.jpg";
+import animal8 from "../../images/macbeth/whiteHorseTheatreMacbeth8_L.jpg";
+import animal9 from "../../images/macbeth/whiteHorseTheatMacbeth9_L.jpg";
+import animal10 from "../../images/macbeth/whiteHorseTheatreMacbeth10_P.jpg";
+import animal11 from "../../images/macbeth/whiteHorseTheatreMacbeth11_P.jpg";
+import animal12 from "../../images/macbeth/whiteHorseTheatreMacbeth12_P.jpg";
+
 
 
 import "./sampProj.css"; // Custom CSS
@@ -111,6 +113,12 @@ const Macbeth = () => {
       id: 11,
       type: "Costume",
       src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
       caption: "Tenth and final costume image",
     },
   ];
