@@ -7,19 +7,16 @@ import animal3 from "../../images/niceWorkIfYouCanGetIt/niceWork3_P.jpg";
 import animal4 from "../../images/niceWorkIfYouCanGetIt/niceWork4_sq.jpg";
 import animal5 from "../../images/niceWorkIfYouCanGetIt/niceWork5_sq.jpg";
 import animal6 from "../../images/niceWorkIfYouCanGetIt/niceWork6_P.jpg";
-import animal7 from "../../images/niceWorkIfYouCanGetIt/niceWork8_P.jpg";
-import animal8 from "../../images/niceWorkIfYouCanGetIt/niceWork7_sq.jpg";
-import animal9 from "../../images/niceWorkIfYouCanGetIt/niceWork8_P.jpg";
-import animal10 from "../../images/niceWorkIfYouCanGetIt/niceWork9_sq.jpg";
-import animal11 from "../../images/niceWorkIfYouCanGetIt/niceWork10_L.jpg";
-import animal12 from "../../images/niceWorkIfYouCanGetIt/niceWork11_sq.jpg";
-import animal13 from "../../images/niceWorkIfYouCanGetIt/niceWork12_sq.jpg";
-import animal14 from "../../images/niceWorkIfYouCanGetIt/niceWork13_L.jpg";
-import animal15 from "../../images/niceWorkIfYouCanGetIt/niceWork14_P.jpg";
-import animal16 from "../../images/niceWorkIfYouCanGetIt/niceWork15_P.jpg";
-import animal17 from "../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg";
-
-
+import animal7 from "../../images/niceWorkIfYouCanGetIt/niceWork7_P.jpg";
+import animal8 from "../../images/niceWorkIfYouCanGetIt/niceWork8_P.jpg";
+import animal9 from "../../images/niceWorkIfYouCanGetIt/niceWork9_sq.jpg";
+import animal10 from "../../images/niceWorkIfYouCanGetIt/niceWork10_L.jpg";
+import animal11 from "../../images/niceWorkIfYouCanGetIt/niceWork11_sq.jpg";
+import animal12 from "../../images/niceWorkIfYouCanGetIt/niceWork12_sq.jpg";
+import animal13 from "../../images/niceWorkIfYouCanGetIt/niceWork13_L.jpg";
+import animal14 from "../../images/niceWorkIfYouCanGetIt/niceWork14_P.jpg";
+import animal15 from "../../images/niceWorkIfYouCanGetIt/niceWork15_P.jpg";
+import animal16 from "../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg";
 
 
 import zen from "../../images/zen.jpeg";

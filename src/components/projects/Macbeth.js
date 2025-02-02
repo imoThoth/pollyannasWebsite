@@ -12,7 +12,7 @@ import animal8 from "../../images/macbeth/whiteHorseTheatreMacbeth8_L.jpg";
 import animal9 from "../../images/macbeth/whiteHorseTheatMacbeth9_L.jpg";
 import animal10 from "../../images/macbeth/whiteHorseTheatreMacbeth10_P.jpg";
 import animal11 from "../../images/macbeth/whiteHorseTheatreMacbeth11_P.jpg";
-import animal12 from "../../images/macbeth/whiteHorseTheatreMacbeth12_P.jpg";
+import animal12 from "../../images/macbeth/macbeth12_P.jpg";
 
 
 
