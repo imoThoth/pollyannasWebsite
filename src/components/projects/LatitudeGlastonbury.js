@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
+import animal1 from "../../images/mimiLat/mimiLat1_P.jpg";
+import animal2 from "../../images/mimiLat/mimiLat2_L.jpg";
+import animal3 from "../../images/mimiLat/mimiLat3_P.jpg";
+import animal4 from "../../images/mimiLat/mimiLat4_P.jpg";
 import animal5 from "../../images/mimiLat/mimiLAt5_P.jpg";
 import animal6 from "../../images/mimiLat/mimiLAt6_P.jpg";
 import animal7 from "../../images/mimiLat/mimiLAt7_P.jpg";
@@ -42,6 +46,30 @@ function getBestFactorPair(num) {
 const LatitudeGlastonbury = () => {
   // Example images, each with a "caption" property to display in the modal
   const images = [
+    {
+      id: 1,
+      type: "Costume",
+      src: animal1,
+      caption: "This is the first image caption",
+    },
+    {
+      id: 2,
+      type: "Costume",
+      src: animal2,
+      caption: "This is the first image caption",
+    },
+    {
+      id: 3,
+      type: "Costume",
+      src: animal3,
+      caption: "This is the first image caption",
+    },
+    {
+      id: 4,
+      type: "Costume",
+      src: animal4,
+      caption: "This is the first image caption",
+    },
     {
       id: 5,
       type: "Costume",
