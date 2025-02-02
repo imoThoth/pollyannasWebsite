@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
+
+import romeoandjuliet1 from "../../images/whiteHorse24/romeoandJuliet1_L.jpg";
+import romeoandjuliet2 from "../../images/whiteHorse24/romeoandJuliet2_L.jpg";
+import romeoandjuliet3 from "../../images/whiteHorse24/romeoandjuliet3_P.jpg";
+import romeoandjuliet4 from "../../images/whiteHorse24/romeoandjuliet4_L.jpg";
+import romeoandjuliet5 from "../../images/whiteHorse24/romeoandJuliet5_L.jpg";
+import romeoandjuliet6 from "../../images/whiteHorse24/romeoandJuliet6_P.jpg";
+import romeoandjuliet7 from "../../images/whiteHorse24/romeoandJuliet7_L.jpg";
+import romeoandjuliet8 from "../../images/whiteHorse24/romeoandJuliet8_L.jpg";
+import romeoandjuliet9 from "../../images/whiteHorse24/romeoandJuliet9L.jpg";
 import romeoandjuliet10 from "../../images/whiteHorse24/romeoandJuliet10_L.jpg";
 import romeoandjuliet11 from "../../images/whiteHorse24/romeoandJuliet11_L.jpg";
 import romeoandjuliet12 from "../../images/whiteHorse24/romeoandJuliet12_L.jpg";
 import romeoandjuliet13 from "../../images/whiteHorse24/romeoandJuliet13_L.jpg";
 import romeoandjuliet14 from "../../images/whiteHorse24/romeoandJuliet14_P.jpg";
 import romeoandjuliet15 from "../../images/whiteHorse24/romeoandJuliet15_P.jpg";
-import romeoandjuliet1 from "../../images/whiteHorse24/romeoandJuliet1_L.jpg";
-import romeoandjuliet2 from "../../images/whiteHorse24/romeoandJuliet2_L.jpg";
-import romeoandjuliet5 from "../../images/whiteHorse24/romeoandJuliet5_L.jpg";
-import romeoandjuliet6 from "../../images/whiteHorse24/romeoandJuliet6_P.jpg";
-import romeoandjuliet7 from "../../images/whiteHorse24/romeoandJuliet7_L.jpg";
-import romeoandjuliet8 from "../../images/whiteHorse24/romeoandJuliet8_L.jpg";
-import romeoandjuliet9 from "../../images/whiteHorse24/romeoandJuliet9L.jpg";
-import romeoandjuliet3 from "../../images/whiteHorse24/romeoandjuliet3_P.jpg";
-import romeoandjuliet4 from "../../images/whiteHorse24/romeoandjuliet4_L.jpg";
+
+
 
 
 import "./sampProj.css"; // Custom CSS
@@ -244,7 +247,7 @@ const RomeoJuliet = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Romeo & Juliet | Dreaming in English | Maid Marian</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
