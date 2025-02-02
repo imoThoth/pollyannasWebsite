@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
+
 import animal1 from "../../images/Morroccan/morrocan1_L.jpg";
-import animal2 from "../../images/Morroccan/morrocan_5.jpg";
-import animal3 from "../../images/Morroccan/morrocan1_9.jpg";
-import animal4 from "../../images/Morroccan/morrocan2_L.jpg";
-import animal5 from "../../images/Morroccan/morrocan3_L.jpg";
-import animal6 from "../../images/Morroccan/morrocan4_L.jpg";
-import animal7 from "../../images/Morroccan/morrocan6_L.jpg";
+import animal2 from "../../images/Morroccan/morrocan2_L.jpg";
+import animal3 from "../../images/Morroccan/morrocan3_L.jpg";
+import animal4 from "../../images/Morroccan/morrocan4_L.jpg";
+import animal5 from "../../images/Morroccan/morrocan_5.jpg";
+import animal6 from "../../images/Morroccan/morrocan6_L.jpg";
+import animal7 from "../../images/Morroccan/morrocan7_L.jpg";
 import animal8 from "../../images/Morroccan/morrocan8_L.jpg";
-import animal9 from "../../images/Morroccan/morrocan7_L.jpg";
+import animal9 from "../../images/Morroccan/morrocan1_9.jpg";
 import animal10 from "../../images/Morroccan/morrocan10_L.jpg";
+import animal11 from "../../images/Morroccan/morrocan11_L.jpg";
+import animal12 from "../../images/Morroccan/morrocan12_L.jpg";
+import animal13 from "../../images/Morroccan/morrocan13_L.jpg";
+
 
 
 import zenMountain from "../../images/navBarNewNew.jpg";
@@ -24,6 +29,15 @@ import zenMountain from "../../images/navBarNewNew.jpg";
  * - 12 -> factors (3, 4)
  */
 function getBestFactorPair(num) {
+  // If the number is prime or no exact factors are found, distribute the images
+  // with the remainder in its own row
+  if (isPrime(num) || num === 1) {
+    const rows = Math.floor(Math.sqrt(num)); // Start with the integer part of the square root
+    const cols = Math.ceil(num / rows); // Calculate columns based on rows
+    return [rows, cols];
+  }
+
+  // Otherwise, find the best factor pair with exact factors
   let bestPair = [1, num];
   let minDiff = num - 1;
 
@@ -39,7 +53,17 @@ function getBestFactorPair(num) {
       }
     }
   }
+
   return bestPair;
+}
+
+// Helper function to check if a number is prime
+function isPrime(num) {
+  if (num < 2) return false;
+  for (let i = 2, sqrt = Math.sqrt(num); i <= sqrt; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
 }
 
 
@@ -48,61 +72,79 @@ const ImmersiveMorrocan = () => {
     {
       id: 1,
       type: "Costume",
-      src: animal10,
+      src: animal1,
       caption: "This is the first image caption",
     },
     {
       id: 2,
       type: "Costume",
-      src: animal1,
+      src: animal2,
       caption: "A caption for the second image",
+    },
+    {
+      id: 3,
+      type: "Costume",
+      src: animal3,
+      caption: "Sixth image with a golden costume",
+    },
+    {
+      id: 4,
+      type: "Costume",
+      src: animal4,
+      caption: "Seventh costume photo for the gallery",
+    },
+    {
+      id: 5,
+      type: "Costume",
+      src: animal5,
+      caption: "Caption for the eighth image",
     },
     {
       id: 6,
       type: "Costume",
-      src: animal2,
-      caption: "Sixth image with a golden costume",
-    },
-    {
-      id: 7,
-      type: "Costume",
-      src: animal3,
-      caption: "Seventh costume photo for the gallery",
-    },
-    {
-      id: 8,
-      type: "Costume",
-      src: animal4,
-      caption: "Caption for the eighth image",
-    },
-    {
-      id: 9,
-      type: "Costume",
-      src: animal5,
+      src: animal6,
       caption: "Ninth image in the costume series",
     },
     {
-      id: 10,
-      type: "Costume",
-      src: animal6,
-      caption: "Tenth and final costume image",
-    },
-    {
-      id: 11,
-      type: "Costume",
-      src: animal8,
-      caption: "Tenth and final costume image",
-    },
-    {
-      id: 12,
+      id: 7,
       type: "Costume",
       src: animal7,
       caption: "Tenth and final costume image",
     },
     {
-      id: 13,
+      id: 8,
+      type: "Costume",
+      src: animal8,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 9,
       type: "Costume",
       src: animal9,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 10,
+      type: "Costume",
+      src: animal10,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
       caption: "Tenth and final costume image",
     },
   ];
