@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/mimiLat/mimiLAt5_P.jpg";
-import animal2 from "../../images/mimiLat/mimiLAt6_P.jpg";
-import animal3 from "../../images/mimiLat/mimiLAt7_P.jpg";
-import animal4 from "../../images/mimiLat/mimiLAt8_P.jpg";
-import animal5 from "../../images/mimiLat/mimiLAt9_P.jpg";
-import animal6 from "../../images/mimiLat/mimiLat10_P.jpg";
+import animal5 from "../../images/mimiLat/mimiLAt5_P.jpg";
+import animal6 from "../../images/mimiLat/mimiLAt6_P.jpg";
+import animal7 from "../../images/mimiLat/mimiLAt7_P.jpg";
+import animal8 from "../../images/mimiLat/mimiLAt8_P.jpg";
+import animal9 from "../../images/mimiLat/mimiLAt9_P.jpg";
+import animal10 from "../../images/mimiLat/mimiLat10_P.jpg";
 
 
 import "./sampProj.css"; // Custom CSS
@@ -43,39 +43,39 @@ const LatitudeGlastonbury = () => {
   // Example images, each with a "caption" property to display in the modal
   const images = [
     {
-      id: 1,
-      type: "Costume",
-      src: animal1,
-      caption: "This is the first image caption",
-    },
-    {
-      id: 2,
-      type: "Costume",
-      src: animal2,
-      caption: "A caption for the second image",
-    },
-    {
-      id: 3,
-      type: "Costume",
-      src: animal3,
-      caption: "Here is the third costume image",
-    },
-    {
-      id: 4,
-      type: "Costume",
-      src: animal4,
-      caption: "The fourth image has a fun outfit",
-    },
-    {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "This is the first image caption",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
+      caption: "A caption for the second image",
+    },
+    {
+      id: 7,
+      type: "Costume",
+      src: animal7,
+      caption: "Here is the third costume image",
+    },
+    {
+      id: 8,
+      type: "Costume",
+      src: animal8,
+      caption: "The fourth image has a fun outfit",
+    },
+    {
+      id: 9,
+      type: "Costume",
+      src: animal9,
+      caption: "Fifth image showing a different style",
+    },
+    {
+      id: 10,
+      type: "Costume",
+      src: animal10,
       caption: "Sixth image with a golden costume",
     }
   ];
@@ -181,7 +181,7 @@ const LatitudeGlastonbury = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Glastonbury Latitude</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
