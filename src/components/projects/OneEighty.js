@@ -6,6 +6,7 @@ import oneEighty2 from "../../images/oneEighty/oneHundredAndEighty2.jpg";
 import oneEighty3 from "../../images/oneEighty/oneHundredAndEighty3.jpg";
 import oneEighty4 from "../../images/oneEighty/oneHundredAndEighty4.jpg";
 import oneEighty5 from "../../images/oneEighty/oneHundredAndEighty5.jpg";
+import oneEighty6 from "../../images/oneEighty/oneHundredAndEighty6.jpg";
 import oneEighty7 from "../../images/oneEighty/oneHundredAndEighty7.jpg";
 import oneEighty8 from "../../images/oneEighty/oneHundredAndEighty8.jpg";
 import oneEighty9 from "../../images/oneEighty/oneHundredAndEighty9.jpg";
@@ -47,17 +48,18 @@ const OneEighty = () => {
   const images = [
 
 
-    { id: 4, type: "Costume", src: oneEighty1, caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: oneEighty2, caption: "This is the first image caption", },
-    { id: 5, type: "Costume", src: oneEighty3, caption: "This is the first image caption",},
-    { id: 6, type: "Costume", src: oneEighty4, caption: "This is the first image caption", },
-    { id: 7, type: "Costume", src: oneEighty5, caption: "This is the first image caption",},
-    { id: 8, type: "Costume", src: oneEighty7, caption: "This is the first image caption",}, 
-    { id: 9, type: "Costume", src: oneEighty8, caption: "This is the first image caption",},
-    { id: 10, type: "Costume", src: oneEighty9, caption: "This is the first image caption",},
-    { id: 11, type: "Costume", src: oneEighty10, caption: "This is the first image caption",},
-    { id: 12, type: "Costume", src: oneEighty11, caption: "This is the first image caption",},
-    { id: 13, type: "Costume", src: oneEighty12, caption:  "This is the first image caption", },
+    { id: 1, type: "Costume", src: oneEighty1, caption: "This is the first image caption", },
+    { id: 2, type: "Costume", src: oneEighty2, caption: "This is the first image caption", },
+    { id: 3, type: "Costume", src: oneEighty3, caption: "This is the first image caption",},
+    { id: 4, type: "Costume", src: oneEighty4, caption: "This is the first image caption", },
+    { id: 5, type: "Costume", src: oneEighty5, caption: "This is the first image caption",},
+    { id: 6, type: "Costume", src: oneEighty6, caption: "This is the first image caption",},
+    { id: 7, type: "Costume", src: oneEighty7, caption: "This is the first image caption",}, 
+    { id: 8, type: "Costume", src: oneEighty8, caption: "This is the first image caption",},
+    { id: 9, type: "Costume", src: oneEighty9, caption: "This is the first image caption",},
+    { id: 10, type: "Costume", src: oneEighty10, caption: "This is the first image caption",},
+    { id: 11, type: "Costume", src: oneEighty11, caption: "This is the first image caption",},
+    { id: 12, type: "Costume", src: oneEighty12, caption:  "This is the first image caption", },
     // { id: 14, type: "Costume", src: oneEightyDayJacket , caption: "This is the first image caption",}
   ];
   // Determine best rows x columns for our images
