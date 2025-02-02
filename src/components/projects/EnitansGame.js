@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 import "./sampProj.css"; // Custom CSS
-import punchDrunkTelephone from "../../images/enitansGame/punchdrunkCarouselNew.jpg";
-import punchDrunkManStyle from "../../images/enitansGame/punchdrunk_EG_1.jpg";
-import punchDrunkMain from "../../images/enitansGame/punchdrunkEG2.jpg";
-import punchDrunkjacketStyle from "../../images/enitansGame/punchdrunkEG3.jpg";
-import punchDrunkJacket from "../../images/enitansGame/punchdrunkEG4.jpg";
-import punchDrunkCarousel from "../../images/enitansGame/punchdrunkEG5.jpg";
-import punchDrunkActorSpeak from "../../images/enitansGame/punchdrunkEG6.jpg";
-import punchDrunkActorLooks from "../../images/enitansGame/punchdrunkEG7.jpg";
-import punchDrunkActor from "../../images/enitansGame/punchdrunkEG8.jpg";
+import enitansgamecarousel from "../../images/enitansGame/punchdrunkCarouselNew.jpg";
+import enitansgame1 from "../../images/enitansGame/punchdrunk_EG_1.jpg";
+import enitansgame2 from "../../images/enitansGame/punchdrunkEG2.jpg";
+import enitansgame3 from "../../images/enitansGame/punchdrunkEG3.jpg";
+import enitansgame4 from "../../images/enitansGame/punchdrunkEG4.jpg";
+import enitansgame5 from "../../images/enitansGame/punchdrunkEG5.jpg";
+import enitansgame6 from "../../images/enitansGame/punchdrunkEG6.jpg";
+import enitansgame7 from "../../images/enitansGame/punchdrunkEG7.jpg";
+import enitansgame8 from "../../images/enitansGame/punchdrunkEG8.jpg";
 import zenMountain from "../../images/navBarNewNew.jpg";
 
 
@@ -44,16 +44,14 @@ function getBestFactorPair(num) {
 const EnitansGame = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: punchDrunkTelephone, caption: "This is the first image caption"},
-    { id: 2, type: "Set", src: punchDrunkCarousel, caption: "This is the first image caption" },
-    { id: 3, type: "Costume", src: punchDrunkMain, caption: "This is the first image caption" },
-    { id: 4, type: "Set", src: punchDrunkjacketStyle , caption: "This is the first image caption"},
-    { id: 5, type: "Set", src: punchDrunkJacket , caption: "This is the first image caption"},
-    { id: 6, type: "Costume", src: punchDrunkManStyle, caption: "This is the first image caption" },
-    { id: 7, type: "Set", src: punchDrunkActorSpeak, caption: "This is the first image caption" },
-    { id: 8, type: "Set", src: punchDrunkActorLooks , caption: "This is the first image caption"},
-    { id: 9, type: "Set", src: punchDrunkActor , caption: "This is the first image caption"},
-  
+    { id: 1, type: "Costume", src: enitansgame1, caption: "This is the first image caption"},
+    { id: 2, type: "Costume", src: enitansgame2, caption: "This is the first image caption" },
+    { id: 3, type: "Costume", src: enitansgame3, caption: "This is the first image caption" },
+    { id: 4, type: "costume", src: enitansgame4, caption: "This is the first image caption"},
+    { id: 5, type: "Costume", src: enitansgame5, caption: "This is the first image caption"},
+    { id: 6, type: "Costume", src: enitansgame6, caption: "This is the first image caption" },
+    { id: 7, type: "costume", src: enitansgame7, caption: "This is the first image caption" },
+    { id: 8, type: "Costume", src: enitansgame8, caption: "This is the first image caption"},
   ];
 
    // Determine best rows x columns for our images
