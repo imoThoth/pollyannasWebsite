@@ -1,16 +1,21 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss_P.jpg";
-import animal2 from "../../images/emptyChair/mimiDragMX2_P.jpg";
-import animal3 from "../../images/emptyChair/mimiDragMx3_P.jpg";
-import animal4 from "../../images/emptyChair/mimiDragMX4_P.jpg";
-import animal5 from "../../images/emptyChair/mimiDragMX5_L.jpg";
-import animal6 from "../../images/emptyChair/mimiDragMX6_P.jpg";
-import animal7 from "../../images/emptyChair/mimiDragMX7_P.jpg";
-import animal8 from "../../images/emptyChair/mimiDragMX8_P.jpg";
-import animal9 from "../../images/emptyChair/mimiDragMX9_P.jpg";
-import animal10 from "../../images/emptyChair/mimiDragUK10_P.jpg";
+import animal1 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss1_L.jpg";
+import animal2 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss2_L.jpg";
+import animal3 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss3_P.jpg";
+import animal4 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss4_L.jpg";
+import animal5 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss5_P.jpg";
+import animal6 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss6_P.jpg";
+import animal7 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss7_L.jpg";
+import animal8 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss8_P.jpg";
+import animal9 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss9_P.jpg";
+import animal10 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss10_L.jpg";
+import animal11 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss11_L.jpg";
+import animal12 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss12_L.jpg";
+import animal13 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss13_L.jpg";
+import animal14 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss14_L.jpg";
+
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -103,6 +108,30 @@ const TyrantsKiss = () => {
       id: 10,
       type: "Costume",
       src: animal10,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
+      caption: "Tenth and final costume image",
+    },
+    {
+      id: 14,
+      type: "Costume",
+      src: animal14,
       caption: "Tenth and final costume image",
     },
   ];
