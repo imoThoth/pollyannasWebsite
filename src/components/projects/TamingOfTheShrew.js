@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg";
-import animal2 from "../../images/tamingOfTheShrew/tamingOfTheShrew1_P.jpg";
-import animal3 from "../../images/tamingOfTheShrew/tamingOfTheShrew2_L.jpg";
-import animal4 from "../../images/tamingOfTheShrew/tamingOfTheShrew3_P.jpg";
-import animal5 from "../../images/tamingOfTheShrew/tamingOfTheShrew4_L.jpg";
-import animal6 from "../../images/tamingOfTheShrew/tamingOfTheShrew5_P.jpg";
-import animal7 from "../../images/tamingOfTheShrew/tamingOfTheShrew6_P.jpg";
-import animal8 from "../../images/tamingOfTheShrew/tamingOfTheShrew7_P.jpg";
-import animal9 from "../../images/tamingOfTheShrew/tamingOfTheShrew8_L.jpg";
-import animal10 from "../../images/tamingOfTheShrew/tamingOfTheShrew9_P.jpg";
+import animal1 from "../../images/tamingOfTheShrew/tamingOfTheShrew1_P.jpg";
+import animal2 from "../../images/tamingOfTheShrew/tamingOfTheShrew2_L.jpg";
+import animal3 from "../../images/tamingOfTheShrew/tamingOfTheShrew3_P.jpg";
+import animal4 from "../../images/tamingOfTheShrew/tamingOfTheShrew4_L.jpg";
+import animal5 from "../../images/tamingOfTheShrew/tamingOfTheShrew5_P.jpg";
+import animal6 from "../../images/tamingOfTheShrew/tamingOfTheShrew6_P.jpg";
+import animal7 from "../../images/tamingOfTheShrew/tamingOfTheShrew7_P.jpg";
+import animal8 from "../../images/tamingOfTheShrew/tamingOfTheShrew8_L.jpg";
+import animal9 from "../../images/tamingOfTheShrew/tamingOfTheShrew9_P.jpg";
+import animal10 from "../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg";
+
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -208,7 +209,7 @@ const TamingOfTheShrew = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Taming Of The Shrew</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
