@@ -1,22 +1,22 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/snowQ/snowQ10_L.jpg";
-import animal2 from "../../images/snowQ/snowQ11_P.jpg";
-import animal3 from "../../images/snowQ/snowQ12_L.jpg";
-import animal4 from "../../images/snowQ/snowQ13_P.jpg";
-import animal5 from "../../images/snowQ/snowQ14.jpg";
-import animal6 from "../../images/snowQ/snowQ15.jpg";
-import animal7 from "../../images/snowQ/snowQ16.jpg";
-import animal8 from "../../images/snowQ/snowQ1_L.jpg";
-import animal9 from "../../images/snowQ/snowQ2_L.jpg";
-import animal10 from "../../images/snowQ/snowQ3_P.jpg";
-import animal11 from "../../images/snowQ/snowQ4_L.jpg";
-import animal12 from "../../images/snowQ/snowQ5_L.jpg";
-import animal13 from "../../images/snowQ/snowQ6_L.jpg";
-import animal14 from "../../images/snowQ/snowQ7_P.jpg";
-import animal15 from "../../images/snowQ/snowQ8_L.jpg";
-import animal16 from "../../images/snowQ/snowQ9_P.jpg";
+import animal1 from "../../images/snowQ/snowQ1_L.jpg";
+import animal2 from "../../images/snowQ/snowQ2_L.jpg";
+import animal3 from "../../images/snowQ/snowQ3_P.jpg";
+import animal4 from "../../images/snowQ/snowQ4_L.jpg";
+import animal5 from "../../images/snowQ/snowQ5_L.jpg";
+import animal6 from "../../images/snowQ/snowQ6_L.jpg";
+import animal7 from "../../images/snowQ/snowQ7_P.jpg";
+import animal8 from "../../images/snowQ/snowQ8_L.jpg";
+import animal9 from "../../images/snowQ/snowQ9_P.jpg";
+import animal10 from "../../images/snowQ/snowQ10_L.jpg";
+import animal11 from "../../images/snowQ/snowQ11_P.jpg";
+import animal12 from "../../images/snowQ/snowQ12_L.jpg";
+import animal13 from "../../images/snowQ/snowQ13_P.jpg";
+import animal14 from "../../images/snowQ/snowQ14.jpg";
+import animal15 from "../../images/snowQ/snowQ15.jpg";
+import animal16 from "../../images/snowQ/snowQ16.jpg";
 
 
 
@@ -252,7 +252,7 @@ const SnowQueen = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Snow Queen</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
