@@ -1,15 +1,17 @@
 import React, { useState, useEffect } from "react";
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
 /* Import images (example with 10) */
-import animal1 from "../../images/sunday/sunday7_L.jpg";
-import animal2 from "../../images/sunday/sunday10_L.jpg";
-import animal3 from "../../images/sunday/sunday1_P.jpg";
-import animal4 from "../../images/sunday/sunday2_L.jpg";
-import animal5 from "../../images/sunday/sunday3_L.jpg";
-import animal6 from "../../images/sunday/sunday4_L.jpg";
-import animal7 from "../../images/sunday/sunday6_P.jpg";
+import animal1 from "../../images/sunday/sunday1_P.jpg";
+import animal2 from "../../images/sunday/sunday2_L.jpg";
+import animal3 from "../../images/sunday/sunday3_L.jpg";
+import animal4 from "../../images/sunday/sunday4_L.jpg";
+import animal5 from "../../images/sunday/sunday5_L.jpg";
+import animal6 from "../../images/sunday/sunday6_P.jpg";
+import animal7 from "../../images/sunday/sunday7_L.jpg";
 import animal8 from "../../images/sunday/sunday8_L.jpg";
 import animal9 from "../../images/sunday/sunday9_L.jpg";
+import animal10 from "../../images/sunday/sunday10_L.jpg";
+
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -96,6 +98,12 @@ const SundayInThePark = () => {
       id: 9,
       type: "Costume",
       src: animal9,
+      caption: "Ninth image in the costume series",
+    },  
+    {
+      id: 10,
+      type: "Costume",
+      src: animal10,
       caption: "Ninth image in the costume series",
     },
 
@@ -202,7 +210,7 @@ const SundayInThePark = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Sunday In The Park</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
