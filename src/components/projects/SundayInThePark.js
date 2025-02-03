@@ -210,7 +210,7 @@ const SundayInThePark = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Sunday In The Park</h1>
+         <h1>Sunday In The Park With George</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
