@@ -208,7 +208,7 @@ const Pippin = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>Pippin</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>

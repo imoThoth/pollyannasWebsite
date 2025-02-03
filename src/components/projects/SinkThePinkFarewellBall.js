@@ -6,8 +6,7 @@ import animal2 from "../../images/mimiSinkThePink/mimiSTP2_P.jpg";
 import animal3 from "../../images/mimiSinkThePink/mimiSTP3_p.jpg";
 import animal4 from "../../images/mimiSinkThePink/mimiSTP4_P.jpg";
 import animal5 from "../../images/mimiSinkThePink/mimiSTP5_P.jpg";
-import animal6 from "../../images/mimiSinkThePink/mimiSTP5_P.jpg";
-import animal7 from "../../images/mimiSinkThePink/mimiSTP6_P.jpg";
+import animal6 from "../../images/mimiSinkThePink/mimiSTP6_P.jpg";
 
 import "./sampProj.css"; // Custom CSS
 import zenMountain from "../../images/navBarNewNew.jpg"; // Header bg image
@@ -77,12 +76,6 @@ const SinkThePinkFarewellBall = () => {
       type: "Costume",
       src: animal6,
       caption: "Sixth image with a golden costume",
-    },
-    {
-      id: 7,
-      type: "Costume",
-      src: animal7,
-      caption: "Seventh costume photo for the gallery",
     },
   ];
 
@@ -187,7 +180,7 @@ const SinkThePinkFarewellBall = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Project Name</h1>
+         <h1>MIMI: Sink The Pink</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
