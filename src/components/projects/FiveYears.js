@@ -5,7 +5,7 @@ import animal1 from "../../images/fiveYears/fiveYears1_L.jpg";
 import animal2 from "../../images/fiveYears/fiveYears2_P.jpg";
 import animal3 from "../../images/fiveYears/fiveYears3_L.jpg";
 import animal4 from "../../images/fiveYears/fiveYears4_L.jpg";
-import animal5 from "../../images/fiveYears/fiveYears5 _P.jpg";
+import animal5 from "../../images/fiveYears/fiveYears5_P.jpg";
 import animal7 from "../../images/fiveYears/fiveYears6_L.jpg";
 import animal8 from "../../images/fiveYears/fiveYears7_L.jpg";
 import animal9 from "../../images/fiveYears/fiveYears8_L.jpg";
