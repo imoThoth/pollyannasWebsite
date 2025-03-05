@@ -31,6 +31,11 @@ import wildanimalp from '../../images/wildShortAnimal/wildAnimal5_L.jpg';
 import sundayp from '../../images/sunday/sunday9_L.jpg';
 import fiveYearsStolenJacket from '../../images/fiveYears/fiveYears3_L.jpg';
 import glastoport from '../../images/mimiGlastoPride/mimi-GP6_L.jpg';
+import legallyport from '../../images/legallyBlonde/legally2_L.jpg'
+import snowport from'../../images/snowQ/snowQ4_L.jpg'
+import morrocoport from '../../images/Morroccan/morrocan4_L.jpg';
+
+
 
 
 
@@ -61,9 +66,9 @@ const portfolioData = [
   { id: 13, title: "Happy Death Day", year: 2022, location: "Dog Sky Film, on location in England,", type: "Costume", btype: "Set Design", ctype: "Short Film", src: pollyannaMacbeth },
   { id: 14, title: "Glastonbury Festival and London Pride", year: 2022, location: "London and Glastonbury", type: "Costume", btype: " Events", src: glastoport },
   { id: 15, title: "Sink The Pink Farewell Ball", year: 2022, location: "Printworks,London ", type: "Costume", btype: "Events", src: sinkPink },
-  { id: 16, title: "Legally Blonde", year: 2022, location: "The Urdang Academy, London", type: "Costume ", btype: "Set Design", ctype: "Theatre",  src: legally13_L},
-  { id: 17, title: "Snow Queen", year: 2021, location: "Rabble, Reading", type: "Costume", btype: "Theatre",  src: snowQ3_P },
-  { id: 18, title: "Immersive 70s Marrakesh", year: 2021, location: " Private Client, London", type: "Costume", btype: "Events",  src: moroccoCarousel },
+  { id: 16, title: "Legally Blonde", year: 2022, location: "The Urdang Academy, London", type: "Costume ", btype: "Set Design", ctype: "Theatre",  src: legallyport},
+  { id: 17, title: "Snow Queen", year: 2021, location: "Rabble, Reading", type: "Costume", btype: "Theatre",  src: snowport },
+  { id: 18, title: "Immersive 70s Marrakesh", year: 2021, location: " Private Client, London", type: "Costume", btype: "Events",  src: morrocoport },
   { id: 19, title: "Immersive Hitchhikers Guide to The Galaxy", year: 2021, location: " Private Client, Shotgun Carousel, Amsterdam", type: "Costume", btype: "Events",  src: hikers10_P },
   { id: 20, title: "Fish Wife", year: 2021, location: "On location in Wales", type: "Costume", btype: "Set Design", ctype: "Short Film",  src: FishWife17_L },
   { id: 21, title: "Park and Reed", year: 2020, location: " So and So Productions, on location in London", type: " Set Design", btype: "Short Film",  src: parkAndReed6_L },

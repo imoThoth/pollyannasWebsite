@@ -7,7 +7,7 @@ import animal2 from "../../images/Morroccan/morrocan2_L.jpg";
 import animal3 from "../../images/Morroccan/morrocan3_L.jpg";
 import animal4 from "../../images/Morroccan/morrocan4_L.jpg";
 import animal5 from "../../images/Morroccan/morrocan_5.jpg";
-import animal6 from "../../images/Morroccan/morrocan6_L.jpg";
+//import animal6 from "../../images/Morroccan/morrocan6_L.jpg";
 import animal7 from "../../images/Morroccan/morrocan7_L.jpg";
 import animal8 from "../../images/Morroccan/morrocan8_L.jpg";
 import animal9 from "../../images/Morroccan/morrocan1_9.jpg";
@@ -99,12 +99,12 @@ const ImmersiveMorrocan = () => {
       src: animal5,
       caption: "Caption for the eighth image",
     },
-    {
-      id: 6,
-      type: "Costume",
-      src: animal6,
-      caption: "Ninth image in the costume series",
-    },
+    // {
+    //   id: 6,
+    //   type: "Costume",
+    //   src: animal6,
+    //   caption: "Ninth image in the costume series",
+    // },
     {
       id: 7,
       type: "Costume",
