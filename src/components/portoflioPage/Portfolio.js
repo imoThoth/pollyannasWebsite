@@ -42,6 +42,10 @@ import emptyport from '../../images/emptyChair/emptyChair8_L.jpg';
 import sherlockport from '../../images/sherlockHolmes/sherlockHolmes1_L.jpg';
 import niceport from '../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg';
 import tyrantsport from '../../images/emptyChair/whiteHorseTheatreTyrantsKiss7_L.jpg';
+import deathport from '../../images/happyDeathDay/happyDeath7.jpg';
+import sinkport from '../../images/mimiSinkThePink/mimiSTP6_P.jpg';
+import romeoport from '../../images/whiteHorse24/romeoandjuliet4_L.jpg'
+
 
 
 
@@ -60,7 +64,7 @@ import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
 import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
 
 const portfolioData = [
-  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "White Horse Theatre, Germany", type: "Costume Design", btype: "Set Design",  ctype: "Theatre", src: romeoandJuliet1},
+  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "White Horse Theatre, Germany", type: "Costume Design", btype: "Set Design",  ctype: "Theatre", src: romeoport},
   { id: 2, title: "Scratch", year: 2024, location: "Dog Sky Films, on location in England", type: "Costume Design", btype: "Set Design",  ctype: "Short Film",src: scratch1},
   { id: 3, title: "Enitans Game", year: 2024, location: " PunchDrunk Enrichment, London", type: "Costume", btype: "Theatre" , src: punchdrunk5},
   { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Dark Avenue Film, on location in England", type: "Costume", btype: "Set Design", ctype: "Short Film", src: oneEIghty},
@@ -71,9 +75,9 @@ const portfolioData = [
   { id: 9, title: "Wild Animal", year: 2023, location: "Backscatter Productions, on location in Wales ",type: "Costume", btype: " Set Design", ctype: "Short Film", src: wildanimalp },
   { id: 10, title: "Sunday in The Park with George", year: 2023, location: "London College of Music, London", type: "Costume", btype: "Theatre", src: sundayp },
   { id: 11, title: "5 Years", year: 2023, location: "Sheffield & UK Tour", type: "Costume”, btype “Theatre Design", ctype: "Theatre", src: fiveYearsStolenJacket },
-  { id: 13, title: "Happy Death Day", year: 2022, location: "Dog Sky Film, on location in England,", type: "Costume", btype: "Set Design", ctype: "Short Film", src: pollyannaMacbeth },
+  { id: 13, title: "Happy Death Day", year: 2022, location: "Dog Sky Film, on location in England,", type: "Costume", btype: "Set Design", ctype: "Short Film", src: deathport },
   { id: 14, title: "Glastonbury Festival and London Pride", year: 2022, location: "London and Glastonbury", type: "Costume", btype: " Events", src: glastoport },
-  { id: 15, title: "Sink The Pink Farewell Ball", year: 2022, location: "Printworks,London ", type: "Costume", btype: "Events", src: sinkPink },
+  { id: 15, title: "Sink The Pink Farewell Ball", year: 2022, location: "Printworks,London ", type: "Costume", btype: "Events", src: sinkport },
   { id: 16, title: "Legally Blonde", year: 2022, location: "The Urdang Academy, London", type: "Costume ", btype: "Set Design", ctype: "Theatre",  src: legallyport},
   { id: 17, title: "Snow Queen", year: 2021, location: "Rabble, Reading", type: "Costume", btype: "Theatre",  src: snowport },
   { id: 18, title: "Immersive 70s Marrakesh", year: 2021, location: " Private Client, London", type: "Costume", btype: "Events",  src: morrocoport },
