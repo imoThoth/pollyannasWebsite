@@ -34,6 +34,14 @@ import glastoport from '../../images/mimiGlastoPride/mimi-GP6_L.jpg';
 import legallyport from '../../images/legallyBlonde/legally2_L.jpg'
 import snowport from'../../images/snowQ/snowQ4_L.jpg'
 import morrocoport from '../../images/Morroccan/morrocan4_L.jpg';
+import hikersport from'../../images/HitchikerWebsite/hikers3_L.jpg';
+import fishport from'../../images/fish_wife/fishWife8_L.jpg';
+import parkport from'../../images/parkAndReed/parkAndReed1_L.jpg';
+import tamingport from'../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg';
+import emptyport from '../../images/emptyChair/emptyChair8_L.jpg';
+import sherlockport from '../../images/sherlockHolmes/sherlockHolmes1_L.jpg';
+import niceport from '../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg';
+import tyrantsport from '../../images/emptyChair/whiteHorseTheatreTyrantsKiss7_L.jpg';
 
 
 
@@ -69,14 +77,14 @@ const portfolioData = [
   { id: 16, title: "Legally Blonde", year: 2022, location: "The Urdang Academy, London", type: "Costume ", btype: "Set Design", ctype: "Theatre",  src: legallyport},
   { id: 17, title: "Snow Queen", year: 2021, location: "Rabble, Reading", type: "Costume", btype: "Theatre",  src: snowport },
   { id: 18, title: "Immersive 70s Marrakesh", year: 2021, location: " Private Client, London", type: "Costume", btype: "Events",  src: morrocoport },
-  { id: 19, title: "Immersive Hitchhikers Guide to The Galaxy", year: 2021, location: " Private Client, Shotgun Carousel, Amsterdam", type: "Costume", btype: "Events",  src: hikers10_P },
-  { id: 20, title: "Fish Wife", year: 2021, location: "On location in Wales", type: "Costume", btype: "Set Design", ctype: "Short Film",  src: FishWife17_L },
-  { id: 21, title: "Park and Reed", year: 2020, location: " So and So Productions, on location in London", type: " Set Design", btype: "Short Film",  src: parkAndReed6_L },
-  { id: 22, title: "Taming of the Shrew", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: tamingOfTheShrew9_P},
-  { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: emptyChair},
-  { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: " Rudolf Steiner House,London ", type: " Costume", btype: "Theatre",  src: sherlockHolmes6_L },
-  { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "The Gatehouse, London", type: " Set Design", btype: "Costume", ctype: "Theatre", src: niceWork15_P },
-  { id: 26, title: "The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre", src: whiteHorseTheatreTyrantsKiss1_L},
+  { id: 19, title: "Immersive Hitchhikers Guide to The Galaxy", year: 2021, location: " Private Client, Shotgun Carousel, Amsterdam", type: "Costume", btype: "Events",  src: hikersport},
+  { id: 20, title: "Fish Wife", year: 2021, location: "On location in Wales", type: "Costume", btype: "Set Design", ctype: "Short Film",  src: fishport },
+  { id: 21, title: "Park and Reed", year: 2020, location: " So and So Productions, on location in London", type: " Set Design", btype: "Short Film",  src: parkport },
+  { id: 22, title: "Taming of the Shrew", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: tamingport},
+  { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: " White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: emptyport},
+  { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: " Rudolf Steiner House,London ", type: " Costume", btype: "Theatre",  src: sherlockport },
+  { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "The Gatehouse, London", type: " Set Design", btype: "Costume", ctype: "Theatre", src: niceport },
+  { id: 26, title: "The Tyrants Kiss", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre", src: tyrantsport},
   { id: 27, title: "Macbeth", year: 2018, location:" White Horse Theatre Germany",type: "Costume Design", btype: "Set Design",  ctype: "Theatre",src: macbethpotfolio},
   { id: 28, title: "Prop Making", year: [2016-2024], location: " London, Germany, Suffolk, France, China", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
   { id: 29, title: "Scenic Painting", year: [2016-2024], location: "London, Germany, Suffolk", type: " Prop Making", btype: "Theatre",  src: pollyNavbarSmall },
