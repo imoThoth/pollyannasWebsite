@@ -12,10 +12,11 @@ import hikers8 from "../../images/HitchikerWebsite/hikers8_P.jpg";
 import hikers9 from "../../images/HitchikerWebsite/hikers9_L.jpg";
 import hikers10 from "../../images/HitchikerWebsite/hikers10_P.jpg";
 import hikers11 from "../../images/HitchikerWebsite/hikers11_L.jpg";
-import hikers12 from "../../images/HitchikerWebsite/hikers12_P.jpg";
-import hikers13 from "../../images/HitchikerWebsite/hikers13_P.jpg";
+import hikers12 from "../../images/HitchikerWebsite/hikers12.jpg";
+import hikers13 from "../../images/HitchikerWebsite/hikers13.jpg";
 import hikers14 from "../../images/HitchikerWebsite/hikers14.jpg";
-import hikers15 from "../../images/HitchikerWebsite/hikers15_L.jpg";
+import hikers15 from "../../images/HitchikerWebsite/hikers15.jpg";
+import hikers16 from "../../images/HitchikerWebsite/hikers16.jpg";
 
 
 
@@ -64,13 +65,13 @@ const HitchHikers = () => {
     { id: 7, type: "Costume", src: hikers7, caption: "This is the first image caption",  },
     { id: 8, type: "Costume", src: hikers8, caption: "This is the first image caption", }, 
     { id: 9, type: "Costume", src: hikers9, caption: "This is the first image caption",  },
-    { id: 10, type: "Costume", src: hikers10 , caption: "This is the first image caption", },
+    { id: 10, type: "Costume", src: hikers10, caption: "This is the first image caption", },
     { id: 11, type: "Costume", src: hikers11, caption: "This is the first image caption",  },
     { id: 12, type: "Costume", src: hikers12, caption: "This is the first image caption",  },
     { id: 13, type: "Costume", src: hikers13, caption: "This is the first image caption",  },
     { id: 14, type: "Costume", src: hikers14, caption: "This is the first image caption",  },
     { id: 15, type: "Costume", src: hikers15, caption: "This is the first image caption",  },
-   // { id: 16, type: "Costume", src: hikers16, caption: "This is the first image caption",  },
+    { id: 16, type: "Costume", src: hikers16, caption: "This is the first image caption",  },
   ]
 
 
