@@ -13,6 +13,7 @@ import oneEightyCarousel from '../../images/oneEighty/oneHundredAndEightyCarouse
 import niceWorkCarousel from '../../images/niceWorkIfYouCanGetIt/niceWorkCarousel.jpg';
 import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 
+
 const images = [
   {id: 1, src: niceWorkCarousel, location: 'London', date: '2018', name: 'Nice Work If You Can Get It' },
   {id: 2, src: mimiCarousel, location: 'Alnwick Castle', date: '2023', name: 'Drag Mx Great Britain' },
