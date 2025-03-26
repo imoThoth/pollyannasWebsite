@@ -15,14 +15,14 @@ import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 
 
 const images = [
-  {id: 1, src: niceWorkCarousel, location: 'London', date: '2018', name: 'Nice Work If You Can Get It' },
-  {id: 2, src: mimiCarousel, location: 'Alnwick Castle', date: '2023', name: 'Drag Mx Great Britain' },
-  {id: 3, src: oneEightyCarousel, location: 'London', date: '2024', name: 'One Hundred and Eighty' },
-  {id: 4, src: punchDrunkCarousel, location: 'London', date: '2024', name: 'Enitans Game' },
-  {id: 5, src: Morroccan, location: 'London', date: '2021', name: 'Immersive 70s Marrakesh' },
-  {id: 6, src: hitchikersGuide, location: 'Amsterdam', date: '2021', name: 'Immersive Hitchhikers Guide to The Galaxy' },
-  {id: 7, src: WildAnimal, location: 'Wales', date: '2023', name: 'Wild Animal' },
-  {id: 8, src: FishWife, location: 'Wales', date: '2021', name: 'Fish Wife' }
+  {id: 1, src: niceWorkCarousel, design: 'Costume & Set', date: '2018', name: 'Nice Work If You Can Get It' },
+  {id: 2, src: mimiCarousel, design: 'Costume', date: '2023', name: 'Drag Mx Great Britain' },
+  {id: 3, src: oneEightyCarousel, design: 'Costume & Set', date: '2024', name: 'One Hundred and Eighty' },
+  {id: 4, src: punchDrunkCarousel, design: 'Costume', date: '2024', name: 'Enitans Game' },
+  {id: 5, src: Morroccan, design: 'Costume', date: '2021', name: 'Immersive 70s Marrakesh' },
+  {id: 6, src: hitchikersGuide, design: 'Costume', date: '2021', name: 'Immersive Hitchhikers Guide to The Galaxy' },
+  {id: 7, src: WildAnimal, design: 'Costume & Set', date: '2023', name: 'Wild Animal' },
+  {id: 8, src: FishWife, design: 'Costume & Set', date: '2021', name: 'Fish Wife' }
 ];
 
 const BootStrapCarousel = () => {
@@ -83,13 +83,13 @@ const BootStrapCarousel = () => {
                       <Card>
                         <Card.Img variant="top" src={image.src} alt={image.location} className="card-img-top" />
                         <Card.Body>
-                          <Card.Title className="card-title">{image.location}</Card.Title>
-                          <Card.Text className="card-text">{image.date}</Card.Text>
-                          <div className='link_text' onClick={(e) => e.stopPropagation()} >
+                        <div className='link_text' onClick={(e) => e.stopPropagation()} >
                             <Link to={`portfolio/${image.name}`} >
-                              <Card.Text className="card-text">{image.name}</Card.Text>
+                              <Card.Title className="card-title">{image.name}</Card.Title>
                           </Link>
                           </div>
+                          <Card.Text className="card-text">{image.design}</Card.Text>
+                          <Card.Text className="card-text">{image.date}</Card.Text>
                         </Card.Body>
                       </Card>
                     </Col>
