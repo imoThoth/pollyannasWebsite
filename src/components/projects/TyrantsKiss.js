@@ -7,12 +7,10 @@ import animal3 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss3_P.jpg
 import animal4 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss4_L.jpg";
 import animal5 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss5_P.jpg";
 import animal6 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss6_P.jpg";
-import animal7 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss7_L.jpg";
 import animal8 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss8_P.jpg";
 import animal9 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss9_P.jpg";
 import animal10 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss10_L.jpg";
 import animal11 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss11_L.jpg";
-import animal12 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss12_L.jpg";
 import animal13 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss13_L.jpg";
 import animal14 from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss14_L.jpg";
 
@@ -59,77 +57,53 @@ const TyrantsKiss = () => {
     {
       id: 2,
       type: "Costume",
-      src: animal2,
-      caption: "A caption for the second image",
-    },
-    {
-      id: 3,
-      type: "Costume",
       src: animal3,
       caption: "Here is the third costume image",
     },
     {
-      id: 4,
+      id: 3,
       type: "Costume",
       src: animal4,
       caption: "The fourth image has a fun outfit",
     },
     {
-      id: 5,
+      id: 4,
       type: "Costume",
       src: animal5,
       caption: "Fifth image showing a different style",
     },
     {
-      id: 6,
-      type: "Costume",
-      src: animal6,
-      caption: "Sixth image with a golden costume",
-    },
-    {
-      id: 7,
-      type: "Costume",
-      src: animal7,
-      caption: "Seventh costume photo for the gallery",
-    },
-    {
-      id: 8,
+      id: 5,
       type: "Costume",
       src: animal8,
       caption: "Caption for the eighth image",
     },
     {
-      id: 9,
+      id: 6,
       type: "Costume",
       src: animal9,
       caption: "Ninth image in the costume series",
     },
     {
-      id: 10,
+      id: 7,
       type: "Costume",
       src: animal10,
       caption: "Tenth and final costume image",
     },
     {
-      id: 11,
+      id: 8,
       type: "Costume",
       src: animal11,
       caption: "Tenth and final costume image",
     },
     {
-      id: 12,
-      type: "Costume",
-      src: animal12,
-      caption: "Tenth and final costume image",
-    },
-    {
-      id: 13,
+      id: 9,
       type: "Costume",
       src: animal13,
       caption: "Tenth and final costume image",
     },
     {
-      id: 14,
+      id: 10,
       type: "Costume",
       src: animal14,
       caption: "Tenth and final costume image",

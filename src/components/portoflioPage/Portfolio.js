@@ -25,16 +25,35 @@ import tamingOfTheShrew9_P from '../../images/tamingOfTheShrew/tamingOfTheShrew9
 import twelfthNight1_L from '../../images/twelfthNight/twelfthNight1_L.jpg';
 import romeoandJuliet1 from '../../images/whiteHorse24/romeoandJuliet1_L.jpg';
 import wildAnimal14_P from '../../images/wildShortAnimal/wildAnimal2_L.jpg';
-import wintersTale4_L from '../../images/wintersTale/wintersTale4_L.jpg';
+//import wintersTale4_L from '../../images/wintersTale/wintersTale4_L.jpg';
 import oneEIghty from '../../images/oneEighty/oneHundredAndEighty1.jpg';
-
+import wildanimalp from '../../images/wildShortAnimal/wildAnimal5_L.jpg';
+import sundayp from '../../images/sunday/sunday9_L.jpg';
+import fiveYearsStolenJacket from '../../images/fiveYears/fiveYears3_L.jpg';
+import glastoport from '../../images/mimiGlastoPride/mimi-GP6_L.jpg';
+import legallyport from '../../images/legallyBlonde/legally2_L.jpg'
+import snowport from'../../images/snowQ/snowQ4_L.jpg'
+import morrocoport from '../../images/Morroccan/morrocan4_L.jpg';
+import hikersport from'../../images/HitchikerWebsite/hikers3_L.jpg';
+import fishport from'../../images/fish_wife/fishWife8_L.jpg';
+import parkport from'../../images/parkAndReed/parkAndReed1_L.jpg';
+import tamingport from'../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg';
+import emptyport from '../../images/emptyChair/emptyChair8_L.jpg';
+import sherlockport from '../../images/sherlockHolmes/sherlockHolmes1_L.jpg';
+import niceport from '../../images/niceWorkIfYouCanGetIt/niceWork16_L.jpg';
+import tyrantsport from '../../images/emptyChair/whiteHorseTheatreTyrantsKiss7_L.jpg';
+import deathport from '../../images/happyDeathDay/happyDeath7.jpg';
+import sinkport from '../../images/mimiSinkThePink/mimiSTP6_P.jpg';
+import romeoport from '../../images/whiteHorse24/romeoandjuliet4_L.jpg'
 
 import pollyannaMacbeth from '../../images/pollyannaMacbeth.jpg';
-import pollyannaMuchado from '../../images/pollyannaMuchado.jpg';
-import pollyannaTestIImageSun from '../../images/pollyannaTestIImageSun.jpg';
-import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
-import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
+import whiteHorseTheatreTyrantsKiss1_L from "../../images/emptyChair/whiteHorseTheatreTyrantsKiss1_L.jpg";
+//import pollyannaMuchado from '../../images/pollyannaMucha.jpg';
+//import pollyannaTestIImageSun from '../../images/pollyannaTestIImageSun.jpg';
+//import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
+//import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
 import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
+import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
 
 const portfolioData = [
   { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "White Horse Theatre, Germany", type: ["Costume", "Set Design", "Theatre"], src: romeoandJuliet1 },
