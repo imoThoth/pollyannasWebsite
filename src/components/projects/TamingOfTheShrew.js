@@ -11,6 +11,10 @@ import animal7 from "../../images/tamingOfTheShrew/tamingOfTheShrew7_P.jpg";
 import animal8 from "../../images/tamingOfTheShrew/tamingOfTheShrew8_L.jpg";
 import animal9 from "../../images/tamingOfTheShrew/tamingOfTheShrew9_P.jpg";
 import animal10 from "../../images/tamingOfTheShrew/tamingOfTheShrew10_L.jpg";
+import animal11 from "../../images/tamingOfTheShrew/taming11.jpg";
+import animal12 from "../../images/tamingOfTheShrew/taming12.jpg";
+import animal13 from "../../images/tamingOfTheShrew/taming13.jpg";
+import animal14 from "../../images/tamingOfTheShrew/taming14.jpg";
 
 
 import "./sampProj.css"; // Custom CSS
@@ -104,7 +108,36 @@ const TamingOfTheShrew = () => {
       id: 10,
       type: "Costume",
       src: animal10,
-      caption: "Tenth and final costume image",
+      caption: "Tenth costume image",
+
+    },
+    {
+      id: 11,
+      type: "Costume",
+      src: animal11,
+      caption: "costume image eleven ",
+
+    },
+    {
+      id: 12,
+      type: "Costume",
+      src: animal12,
+      caption: "costume image twelve",
+
+    },
+    {
+      id: 13,
+      type: "Costume",
+      src: animal13,
+      caption: "costume image thirteen",
+
+    },
+    {
+      id: 14,
+      type: "Costume",
+      src: animal14,
+      caption: "foutneen and final costume image",
+
     },
   ];
 

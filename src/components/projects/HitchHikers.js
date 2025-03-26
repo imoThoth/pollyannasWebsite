@@ -17,6 +17,10 @@ import hikers13 from "../../images/HitchikerWebsite/hikers13.jpg";
 import hikers14 from "../../images/HitchikerWebsite/hikers14.jpg";
 import hikers15 from "../../images/HitchikerWebsite/hikers15.jpg";
 import hikers16 from "../../images/HitchikerWebsite/hikers16.jpg";
+import hikers17 from "../../images/HitchikerWebsite/hikers17.jpg";
+import hikers18 from "../../images/HitchikerWebsite/hikers18.jpg";
+import hikers19 from "../../images/HitchikerWebsite/hikers19.jpg";
+import hikers20 from "../../images/HitchikerWebsite/hikers20.jpg";
 
 
 
@@ -72,6 +76,10 @@ const HitchHikers = () => {
     { id: 14, type: "Costume", src: hikers14, caption: "This is the first image caption",  },
     { id: 15, type: "Costume", src: hikers15, caption: "This is the first image caption",  },
     { id: 16, type: "Costume", src: hikers16, caption: "This is the first image caption",  },
+    { id: 17, type: "Costume", src: hikers17, caption: "This is the first image caption",  },
+    { id: 18, type: "Costume", src: hikers18, caption: "This is the first image caption",  },
+    { id: 19, type: "Costume", src: hikers19, caption: "This is the first image caption",  },
+    { id: 20, type: "Costume", src: hikers20, caption: "This is the first image caption",  },
   ]
 
 
