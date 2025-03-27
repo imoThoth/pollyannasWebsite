@@ -101,15 +101,24 @@
 }
 
 .card-title a:hover {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: yellow;
+  text-decoration: underline;
+  transition: all 0.3s ease;
 }
 
+.link_text a:hover {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: yellow;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
 
 .link_text a {
   text-decoration: none;
-  color: inherit; /* Inherit the text color from the parent */
+  color: yellow; /* Inherit the text color from the parent */
 }
 
 
