@@ -56,8 +56,8 @@ import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
 import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
 
 const portfolioData = [
-  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "Set and Costume Designer, White Horse Theatre, Germany", type: ["Costume", "Set Design", "Theatre"], src: romeoport },
-  { id: 2, title: "Scratch", year: 2024, location: "Short Film - Production and Costume Designer, Dog Sky Films, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: scratch1 },
+  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "Set and Costume Designer, White Horse Theatre, Germany", type: ["Costume", "SetDesign", "Theatre"], src: romeoport },
+  { id: 2, title: "Scratch", year: 2024, location: "Short Film - Production and Costume Designer, Dog Sky Films, on location in England", type: ["Costume", "SetDesign", "Film & TV"], src: scratch1 },
   { id: 3, title: "Enitans Game", year: 2024, location: "Costume Designer/ Supervisor, PunchDrunk Enrichment, London", type: ["Costume", "Theatre"], src: punchdrunk5 },
   { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Short Film - Production and Costume Designer, Dark Avenue Film, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: oneEIghty },
   { id: 5, title: "Twelfth Night", year: 2024, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: twelfthNight1_L },
@@ -100,8 +100,8 @@ const Header = ({ setPortfolioData }) => {
       case "Costume":
         sortedData = sortedData.filter(item => item.type.includes("Costume") ).sort((a, b) => b.year - a.year);
         break;
-      case "Set Design":
-        sortedData = sortedData.filter(item => item.type.includes("Set Design")).sort((a, b) => b.year - a.year);
+      case "SetDesign":
+        sortedData = sortedData.filter(item => item.type.includes("SetDesign")).sort((a, b) => b.year - a.year);
         break;
       case "Theatre":
         sortedData = sortedData.filter(item => item.type.includes("Theatre")).sort((a, b) => b.year - a.year);
@@ -137,7 +137,7 @@ const Header = ({ setPortfolioData }) => {
           <select id="sort" value={sortBy} onChange={handleSortChange}>
             <option value="Props And Scenic">Props And Scenic</option>
             <option value="Costume">Costume</option>
-            <option value="Set Design">Set Design</option>
+            <option value="SetDesign">Set Design</option>
             <option value="Theatre">Theatre</option>
             <option value="Events">Events</option>
             <option value="Film & TV">Film & TV</option>
