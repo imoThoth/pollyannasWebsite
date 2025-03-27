@@ -56,39 +56,39 @@ import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
 import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
 
 const portfolioData = [
-  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "Set and Costume Designer, White Horse Theatre, Germany", type: ["Costume", "SetDesign", "Theatre"], src: romeoport },
-  { id: 2, title: "Scratch", year: 2024, location: "Short Film - Production and Costume Designer, Dog Sky Films, on location in England", type: ["Costume", "SetDesign", "Film&TV"], src: scratch1 },
+  { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "Set and Costume Designer, White Horse Theatre, Germany", type: ["Costume", "Set Design", "Theatre"], src: romeoport },
+  { id: 2, title: "Scratch", year: 2024, location: "Short Film - Production and Costume Designer, Dog Sky Films, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: scratch1 },
   { id: 3, title: "Enitans Game", year: 2024, location: "Costume Designer/ Supervisor, PunchDrunk Enrichment, London", type: ["Costume", "Theatre"], src: punchdrunk5 },
-  { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Short Film - Production and Costume Designer, Dark Avenue Film, on location in England", type: ["Costume", "SetDesign", "Film&TV"], src: oneEIghty },
+  { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Short Film - Production and Costume Designer, Dark Avenue Film, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: oneEIghty },
   { id: 5, title: "Twelfth Night", year: 2024, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: twelfthNight1_L },
   { id: 6, title: "The Lightning Thief (UK Premier)", year: 2023, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: percy6_P },
   { id: 7, title: "Drag Mx Great Britain", year: 2023, location: "Costume Designer/ Maker, Alnwick Castle", type: ["Costume", "Events"], src: mimiDragMx1_P },
   { id: 8, title: "Latitude and Glastonbury Festivals", year: 2023, location: "Costume Designer/ Maker, Suffolk and Glastonbury", type: ["Costume", "Events"], src: mimiLat4_P },
-  { id: 9, title: "Wild Animal", year: 2023, location: "Short Film - Production and Costume Designer, Backscatter Productions, on location in Wales", type: ["Costume", "SetDesign", "Film&TV"], src: wildanimalp },
+  { id: 9, title: "Wild Animal", year: 2023, location: "Short Film - Production and Costume Designer, Backscatter Productions, on location in Wales", type: ["Costume", "Set Design", "Film & TV"], src: wildanimalp },
   { id: 10, title: "Sunday in The Park with George", year: 2023, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: sundayp },
-  { id: 11, title: "5 Years", year: 2023, location: "Set and Costume Designer, Sheffield & UK Tour", type: ["Costume", "SetDesign", "Theatre"], src: fiveYearsStolenJacket },
+  { id: 11, title: "5 Years", year: 2023, location: "Set and Costume Designer, Sheffield & UK Tour", type: ["Costume", "Set Design", "Theatre"], src: fiveYearsStolenJacket },
   // { id: 12, title: "Pippin", year: 2022, location: "London College Of Music, London", type: ["Costume", "Theatre"], src: pollyNavbarSmall },
-  { id: 13, title: "Happy Death Day", year: 2022, location: "Short Film - Production Designer, Dog Sky Film, on location in England", type: ["SetDesign", "Film&TV"], src: deathport },
+  { id: 13, title: "Happy Death Day", year: 2022, location: "Short Film - Production Designer, Dog Sky Film, on location in England", type: ["Set Design", "Film & TV"], src: deathport },
   { id: 14, title: "Glastonbury Festival and London Pride", year: 2022, location: "Costume Designer/ Maker, London and Glastonbury", type: ["Costume", "Events"], src: glastoport },
   { id: 15, title: "Sink The Pink Farewell Ball", year: 2022, location: "Costume Designer/ Maker, London", type: ["Costume", "Events"], src: sinkport },
-  { id: 16, title: "Legally Blonde", year: 2022, location: "Set and Costume Designer, The Urdang Academy, London", type: ["Costume", "SetDesign", "Theatre"], src: legallyport },
+  { id: 16, title: "Legally Blonde", year: 2022, location: "Set and Costume Designer, The Urdang Academy, London", type: ["Costume", "Set Design", "Theatre"], src: legallyport },
   { id: 17, title: "Snow Queen", year: 2021, location: "Costume Designer, Rabble Theatre, Rabble, Reading", type: ["Costume", "Theatre"], src: snowport },
   { id: 18, title: "Immersive 70s Marrakesh", year: 2021, location: "Costume Designer/ Supervisor, Private Client, London", type: ["Costume", "Events"], src: morrocoport },
   { id: 19, title: "Immersive Hitchhikers Guide to The Galaxy", year: 2021, location: "Costume Designer/ Supervisor/ Maker, Private Client, Shotgun Carousel, Amsterdam", type: ["Costume", "Events"], src: hikersport },
-  { id: 20, title: "Fish Wife", year: 2021, location: "Short Film - Production and Costume Designer, On location in Wales", type: ["Costume", "SetDesign", "Film&TV"], src: fishport },
-  { id: 21, title: "Park and Reed", year: 2020, location: "Comedy TV Series - Proof of Concept - Production Designer, So and So Productions, on location in London", type: ["SetDesign", "Film&TV"], src: parkport },
-  { id: 22, title: "Taming of the Shrew", year: 2019, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "SetDesign", "Theatre"], src: tamingport },
-  { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: "Set and Costume Deisgner, White Horse Theatre Germany", type: ["Costume", "SetDesign", "Theatre"], src: emptyport },
+  { id: 20, title: "Fish Wife", year: 2021, location: "Short Film - Production and Costume Designer, On location in Wales", type: ["Costume", "Set Design", "Film & TV"], src: fishport },
+  { id: 21, title: "Park and Reed", year: 2020, location: "Comedy TV Series - Proof of Concept - Production Designer, So and So Productions, on location in London", type: ["Set Design", "Film & TV"], src: parkport },
+  { id: 22, title: "Taming of the Shrew", year: 2019, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: tamingport },
+  { id: 23, title: "The Empty Chair and Oliver Twist", year: 2019, location: "Set and Costume Deisgner, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: emptyport },
   { id: 24, title: "Sherlock Holmes and the Invisible Thing", year: 2019, location: "Costume Designer, Rudolf Steiner House, London", type: ["Costume", "Theatre"], src: sherlockport },
-  { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "Set and Costume Designer, Upstairs at The Gatehouse, London", type: ["SetDesign", "Costume", "Theatre"], src: niceport },
-  { id: 26, title: "The Tyrants Kiss", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "SetDesign", "Theatre"], src: tyrantsport },
-  { id: 27, title: "Macbeth", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "SetDesign", "Theatre"], src: macbethpotfolio },
-  { id: 28, title: "Prop Making", year: [2016, 2024], location: "London, Germany, Suffolk, France, China", type: ["PropsAndScenic", "Theatre"], src: pollyNavbarSmall },
-  { id: 29, title: "Scenic Painting", year: [2016, 2024], location: "London, Germany, Suffolk", type: ["PropsAndScenic", "Theatre"], src: pollyNavbarSmall },
-  { id: 30, title: "Scenic Painting", year: [2018, 2019, 2020, 2021, 2022, 2023, 2024], location: "London, Germany, Suffolk", type: ["PropsAndScenic", "Theatre"], src: pollyNavbarSmall }
+  { id: 25, title: "Nice Work If You Can Get It", year: 2018, location: "Set and Costume Designer, Upstairs at The Gatehouse, London", type: ["Set Design", "Costume", "Theatre"], src: niceport },
+  { id: 26, title: "The Tyrants Kiss", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: tyrantsport },
+  { id: 27, title: "Macbeth", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: macbethpotfolio },
+  { id: 28, title: "Prop Making", year: [2016, 2024], location: "London, Germany, Suffolk, France, China", type: ["Prop Making", "Theatre"], src: pollyNavbarSmall },
+  { id: 29, title: "Scenic Painting", year: [2016, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall },
+  { id: 30, title: "Scenic Painting", year: [2018, 2019, 2020, 2021, 2022, 2023, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall }
 ];
 
-const Header = ({ setPortfolioData }) => {
+const Header = ({ setPortfolioData, setCurrentPage }) => {
   const [sortBy, setSortBy] = useState("Year");
 
   const handleSortChange = (event) => {
@@ -102,20 +102,20 @@ const Header = ({ setPortfolioData }) => {
       case "Costume":
         sortedData = sortedData.filter(item => item.type.includes("Costume") ).sort((a, b) => b.year - a.year);
         break;
-      case "SetDesign":
-        sortedData = sortedData.filter(item => item.type.includes("SetDesign")).sort((a, b) => b.year - a.year);
+      case "Set Design":
+        sortedData = sortedData.filter(item => item.type.includes("Set Design")).sort((a, b) => b.year - a.year);
         break;
       case "Theatre":
         sortedData = sortedData.filter(item => item.type.includes("Theatre")).sort((a, b) => b.year - a.year);
         break;
-      case "Film&TV":
-        sortedData = sortedData.filter(item => item.type.includes("Film&TV")).sort((a, b) => b.year - a.year);
+      case "Film & TV":
+        sortedData = sortedData.filter(item => item.type.includes("Film & TV")).sort((a, b) => b.year - a.year);
         break;
       case "Events":
         sortedData = sortedData.filter(item => item.type.includes("Events")).sort((a, b) => b.year - a.year);
         break;
-      case "PropsAndScenic":
-          sortedData = sortedData.filter(item => item.type.includes("PropsAndScenic")).sort((a, b) => b.year - a.year);
+      case "Props And Scenic":
+          sortedData = sortedData.filter(item => item.type.includes("Props And Scenic")).sort((a, b) => b.year - a.year);
           break;
       case "Year":
         sortedData.sort((a, b) => a.year - b.year);
@@ -137,12 +137,12 @@ const Header = ({ setPortfolioData }) => {
         <div className="sort-options">
           <label htmlFor="sort">Sort by:</label>
           <select id="sort" value={sortBy} onChange={handleSortChange}>
-            <option value="PropsAndScenic">Props And Scenic</option>
+            <option value="Props And Scenic">Props And Scenic</option>
             <option value="Costume">Costume</option>
-            <option value="SetDesign">Set Design</option>
+            <option value="Set Design">Set Design</option>
             <option value="Theatre">Theatre</option>
             <option value="Events">Events</option>
-            <option value="Film&TV">Film & TV</option>
+            <option value="Film & TV">Film & TV</option>
             <option value="Year">Year Ascending</option>
             <option value="Year Descending">Year Descending</option>
           </select>
@@ -194,7 +194,7 @@ const Portfolio = () => {
 
   return (
     <div>
-      <Header setPortfolioData={setPortfolioDataState} />
+      <Header setPortfolioData={setPortfolioDataState} setCurrentPage={setCurrentPage} />
       <div className="portfolio">
         <div className="portfolio-list">
           {displayedItems.map((item) => (
