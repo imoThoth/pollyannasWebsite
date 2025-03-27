@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate} from 'react-router-dom';
 import "./portfolio.css";
 import headerImage from '../../images/navBarNewNew.jpg';
 import emptyChair from '../../images/emptyChair/emptyChair4_L.jpg';
@@ -156,15 +156,26 @@ const Header = ({ setPortfolioData }) => {
 const Portfolio = () => {
   const [portfolioDataState, setPortfolioDataState] = useState(portfolioData);
   const [selectedProject, setSelectedProject] = useState(null);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  // New states for pagination
-  const [currentPage, setCurrentPage] = useState(0);
+  const queryParams = new URLSearchParams(location.search);
+  const initialPage = parseInt(queryParams.get('page')) || 0;
+
+  const [currentPage, setCurrentPage] = useState(initialPage);     // New states for pagination
+
   const itemsPerPage = 7;
 
   const handleItemClick = (id) => {
     const project = portfolioData.find(item => item.id === id);
     setSelectedProject(project);
   };
+
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+    navigate(`?page=${newPage}`);
+  };
+  
 
   // Calculate the items to display based on currentPage
   const startIndex = currentPage * itemsPerPage;
@@ -173,11 +184,11 @@ const Portfolio = () => {
 
   const hasNextPage = endIndex < portfolioDataState.length;
 
-  const handleNextPage = () => {
-    if (hasNextPage) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
+  // const handleNextPage = () => {
+  //   if (hasNextPage) {
+  //     setCurrentPage(currentPage + 1);
+  //   }
+  // };
 
   return (
     <div>
@@ -196,7 +207,7 @@ const Portfolio = () => {
                    opacity: 1
                  }}>
               <h2>
-                <Link to={`${item.title}`}>
+                <Link to={`${item.title}?page=${currentPage}`}>
                   {item.title} ({item.year})
                 </Link>
               </h2>
@@ -206,13 +217,13 @@ const Portfolio = () => {
         </div>
         <div className="pagination-container">
             {currentPage > 0 && (
-              <button className="prev-page-button" onClick={() => setCurrentPage(currentPage - 1)}>
+              <button className="prev-page-button" onClick={() => handlePageChange(currentPage - 1)}>
                 Previous Page
               </button>
             )}
             
             {hasNextPage && (
-              <button className="next-page-button" onClick={handleNextPage}>
+              <button className="next-page-button" onClick={() => handlePageChange(currentPage + 1)}>
                 Next Page
               </button>
             )}
