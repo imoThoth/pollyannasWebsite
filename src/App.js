@@ -36,6 +36,9 @@ import TamingOfTheShrew from './components/projects/TamingOfTheShrew';
 import TyrantsKiss from './components/projects/TyrantsKiss';
 import SundayInThePark from './components/projects/SundayInThePark';
 import SherlockHolmesInvisibleThing from './components/projects/SherlockHolmesInvisibleThing';
+import ScenicPaintingII from './components/projects/ScenicPaintingII';
+import ScenicPainting from './components/projects/ScenicPainting';
+import PropMaking from './components/projects/PropMaking';
 
 
 
@@ -79,6 +82,9 @@ function App() {
             <Route path='/portfolio/Sherlock Holmes and the Invisible Thing' element={<SherlockHolmesInvisibleThing />} />
             <Route path='/portfolio/The Tyrants Kiss' element={<TyrantsKiss />} />
             <Route path='/portfolio/Macbeth' element={<Macbeth />} />
+            <Route path='/portfolio/Prop Making' element={<PropMaking />} />
+            <Route path='/portfolio/Scenic Painting' element={<ScenicPainting />} />
+            <Route path='/portfolio/Scenic Painting II' element={<ScenicPaintingII />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />
           </Routes>

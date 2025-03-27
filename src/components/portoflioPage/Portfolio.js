@@ -85,7 +85,7 @@ const portfolioData = [
   { id: 27, title: "Macbeth", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: macbethpotfolio },
   { id: 28, title: "Prop Making", year: [2016, 2024], location: "London, Germany, Suffolk, France, China", type: ["Prop Making", "Theatre"], src: pollyNavbarSmall },
   { id: 29, title: "Scenic Painting", year: [2016, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall },
-  { id: 30, title: "Scenic Painting", year: [2018, 2019, 2020, 2021, 2022, 2023, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall }
+  { id: 30, title: "Scenic Painting II", year: [2018, 2019, 2020, 2021, 2022, 2023, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall }
 ];
 
 const Header = ({ setPortfolioData, setCurrentPage }) => {
@@ -197,39 +197,43 @@ const Portfolio = () => {
       <Header setPortfolioData={setPortfolioDataState} setCurrentPage={setCurrentPage} />
       <div className="portfolio">
         <div className="portfolio-list">
-          {displayedItems.map((item) => (
-            <div className="portfolio-item"
-                 key={item.id}
-                 onClick={() => handleItemClick(item.id)}
-                 style={{
-                   backgroundImage: `url(${item.src})`,
-                   backgroundSize: 'cover',
-                   backgroundPosition: 'center',
-                   backgroundRepeat: 'no-repeat',
-                   opacity: 1
-                 }}>
-              <h2>
-                <Link to={`${item.title}?page=${currentPage}`}>
-                  {item.title} ({item.year})
-                </Link>
-              </h2>
-              <p>{item.location}</p>
-            </div>
-          ))}
+          {displayedItems.map((item) => {
+            const formattedYear = Array.isArray(item.year) ? item.year.join(', ') : item.year;
+
+            return (
+              <div className="portfolio-item"
+                   key={item.id}
+                   onClick={() => handleItemClick(item.id)}
+                   style={{
+                     backgroundImage: `url(${item.src})`,
+                     backgroundSize: 'cover',
+                     backgroundPosition: 'center',
+                     backgroundRepeat: 'no-repeat',
+                     opacity: 1
+                   }}>
+                <h2>
+                  <Link to={`${item.title}?page=${currentPage}`}>
+                    {item.title} ({formattedYear})
+                  </Link>
+                </h2>
+                <p>{item.location}</p>
+              </div>
+            );
+          })}
         </div>
         <div className="pagination-container">
-            {currentPage > 0 && (
-              <button className="prev-page-button" onClick={() => handlePageChange(currentPage - 1)}>
-                Previous Page
-              </button>
-            )}
-            
-            {hasNextPage && (
-              <button className="next-page-button" onClick={() => handlePageChange(currentPage + 1)}>
-                Next Page
-              </button>
-            )}
-          </div>
+          {currentPage > 0 && (
+            <button className="prev-page-button" onClick={() => handlePageChange(currentPage - 1)}>
+              Previous Page
+            </button>
+          )}
+          
+          {hasNextPage && (
+            <button className="next-page-button" onClick={() => handlePageChange(currentPage + 1)}>
+              Next Page
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );
