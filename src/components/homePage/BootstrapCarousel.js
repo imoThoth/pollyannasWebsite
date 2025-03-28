@@ -20,7 +20,7 @@ const images = [
   {id: 3, src: oneEightyCarousel, design: 'Short Film - Production Design & Costume Design', date: '2024', name: 'One Hundred and Eighty' },
   {id: 4, src: punchDrunkCarousel, design: 'Theatre - Costume Design / Supervising', date: '2024', name: 'Enitans Game' },
   {id: 5, src: Morroccan, design: 'Events - Costume Design / Supervising', date: '2021', name: 'Immersive 70s Marrakesh' },
-  {id: 6, src: hitchikersGuide, design: 'Events - Costume Design', date: '2021', name: 'Hitchhikers Guide to The Galaxy' },
+  {id: 6, src: hitchikersGuide, design: 'Events - Costume Design', date: '2021', name: 'Immersive Hitchhikers Guide to The Galaxy' },
   {id: 7, src: WildAnimal, design: 'Short Film - Production Design & Costume Design', date: '2023', name: 'Wild Animal' },
   {id: 8, src: FishWife, design: 'Short Film - Production Design & Costume Design', date: '2021', name: 'Fish Wife' }
 ];
