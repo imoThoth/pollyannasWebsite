@@ -17,7 +17,7 @@ import FishWife from '../../images/fish_wife/fishWifeCarousel.jpg';
 const images = [
   {id: 1, src: niceWorkCarousel, design: 'Theatre - Set and Costume', date: '2018', name: 'Nice Work If You Can Get It' },
   {id: 2, src: mimiCarousel, design: 'Events - Costume Design / Making', date: '2023', name: 'Drag Mx Great Britain' },
-  {id: 3, src: oneEightyCarousel, design: 'Short Film - ‘Production Design & Costume Design', date: '2024', name: 'One Hundred and Eighty' },
+  {id: 3, src: oneEightyCarousel, design: 'Short Film - Production Design & Costume Design', date: '2024', name: 'One Hundred and Eighty' },
   {id: 4, src: punchDrunkCarousel, design: 'Theatre - Costume Design / Supervising', date: '2024', name: 'Enitans Game' },
   {id: 5, src: Morroccan, design: 'Events - Costume Design / Supervising', date: '2021', name: 'Immersive 70s Marrakesh' },
   {id: 6, src: hitchikersGuide, design: 'Events - Costume Design / Supervising / Making', date: '2021', name: 'Immersive Hitchhikers Guide to The Galaxy' },
