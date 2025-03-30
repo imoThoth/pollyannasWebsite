@@ -53,7 +53,7 @@ import whiteHorseTheatreTyrantsKiss1_L from "../../images/emptyChair/whiteHorseT
 //import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
 //import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
 import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
-import propsRatSmall from '../../images/props/propsRatPortFolio.jpeg';
+import propsRatSmall from '../../images/props/propsRatPortFolio.jpg';
 import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
 
 const portfolioData = [

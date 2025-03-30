@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { TailSpin } from "react-loader-spinner";
 import "./sampProj.css"; // Custom CSS
 import styled from 'styled-components';
-import dollBlondeClothed from "../../images/props/propsDollBlondeClothed.jpeg";
-import dollManClothed from "../../images/props/propsDollManClothed.jpeg";
-import dolls from "../../images/props/propsDolls.jpeg";
-import dollsClothed from "../../images/props/propsDollsClothed.jpeg";
-import shoes from "../../images/props/propsShoes.jpeg";
-import smallShoes from "../../images/props/propsSmallShoe.jpeg";
+import dollBlondeClothed from "../../images/props/propsDollBlondeClothed.jpg";
+import dollManClothed from "../../images/props/propsDollManClothed.jpg";
+import dolls from "../../images/props/propsDolls.jpg";
+import dollsClothed from "../../images/props/propsDollsClothed.jpg";
+import shoes from "../../images/props/propsShoes.jpg";
+import smallShoes from "../../images/props/propsSmallShoe.jpg";
 import zenMountain from "../../images/navBarNewNew.jpg";
 
 
@@ -188,7 +188,7 @@ const PropMaking = () => {
    <>
      {/* Header Section */}
      <header className="project-full-width-header">
-       <h1>Twelfth Night</h1>
+       <h1>Props Making</h1>
        <div className="project-header-image">
          <img src={zenMountain} alt="Portfolio Background" />
        </div>
