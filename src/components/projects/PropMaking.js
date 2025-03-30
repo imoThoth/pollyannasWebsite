@@ -8,46 +8,79 @@ import dolls from "../../images/props/propsDolls.jpg";
 import dollsClothed from "../../images/props/propsDollsClothed.jpg";
 import shoes from "../../images/props/propsShoes.jpg";
 import smallShoes from "../../images/props/propsSmallShoe.jpg";
+import absinthe from "../../images/props/propsAbsintheLogo.jpg";
+import bag from "../../images/props/propsBag.jpg";
+import braPearls from "../../images/props/propsBraPearls.jpg";
+import carrotFan from "../../images/props/propsCarrotFan.jpg";
+import curtain from "../../images/props/propsCurtain.jpg";
+import dress from "../../images/props/propsDress.jpg";
+import eggs from "../../images/props/propsEggs.jpg";
+import featherMask from "../../images/props/propsFeatherMask.jpg";
+import featherMaskZoomed from "../../images/props/propsFeatherMaskZoomed.jpg";
+import flowers from "../../images/props/propsFlowers.jpg";
+import funerals from "../../images/props/propsFuneral.jpg";
+import funeralZoom from "../../images/props/propsFuneralZoom.jpg";
+import iceCream from "../../images/props/propsIceCream.jpg";
+import iceCreamAgain from "../../images/props/propsIceCreamAgain.jpg";
+import machineMotherBoard from "../../images/props/propsMachineMotherBoard.jpg";
+import machineRadar from "../../images/props/propsMachineRadar.jpg";
+import macineRadarZoomed from "../../images/props/propsMachineRadarZoomed.jpg";
+import magus from "../../images/props/propsMagus.jpg";
+import medusa from "../../images/props/propsMedusa.jpg";
+import medusaPerson from "../../images/props/propsMedusaPerson.jpg";
+import money from "../../images/props/propsMoney.jpg";
+import pearlHair from "../../images/props/propsPearlHair.jpg";
+import rat from "../../images/props/propsRat.jpg";
+import ratAgain from "../../images/props/propsRat2.jpg";
 import zenMountain from "../../images/navBarNewNew.jpg";
+import sFlag from "../../images/props/propsSFlag.jpg";
+import sShield from "../../images/props/propsShield.jpg";
+import star from "../../images/props/propsStar.jpg";
+import swimmingCostume from "../../images/props/propsSwimmingCostume.jpg";
+import sylkoRope from "../../images/props/propsSylkoRope.jpg";
+import treeStage from "../../images/props/propsTreeStage.jpg";
+import treeZoomed from "../../images/props/propsTreeZoomed.jpg";
+import voodooDoll from "../../images/props/propsVoodooDoll.jpg";
+import voodooStick from "../../images/props/propsVoodooStick.jpg";
+import propTree from "../../images/props/propTree.jpg";
+
 
 
 const images = [
-    {
-      id: 1,
-      type: "Props",
-      src: dollBlondeClothed,
-      caption: "This is the first image caption",
-    },
-    {
-      id: 2,
-      type: "Props",
-      src: dollManClothed,
-      caption: "A caption for the second image",
-    },
-    {
-      id: 3,
-      type: "Props",
-      src: dolls,
-      caption: "Here is the third costume image",
-    },
-    {
-      id: 4,
-      type: "Props",
-      src: dollsClothed,
-      caption: "The fourth image has a fun outfit",
-    },
-    {
-      id: 5,
-      type: "Props",
-      src: shoes,
-      caption: "Fifth image showing a different style",
-    },
-    {
-      id: 6,
-      type: "Props",
-      src: smallShoes,
-      caption: "Sixth image with a golden costume",
-    }
+  { id: 1, type: "Props", src: absinthe, caption: "absinthe" },
+  { id: 2, type: "Props", src: bag, caption: "bag" },
+  { id: 3, type: "Props", src: braPearls, caption: "braPearls" },
+  { id: 4, type: "Props", src: carrotFan, caption: "carrotFan" },
+  { id: 5, type: "Props", src: curtain, caption: "curtain" },
+  { id: 6, type: "Props", src: dress, caption: "dress" },
+  { id: 7, type: "Props", src: eggs, caption: "eggs" },
+  { id: 8, type: "Props", src: featherMask, caption: "featherMask" },
+  { id: 9, type: "Props", src: featherMaskZoomed, caption: "featherMaskZoomed" },
+  { id: 10, type: "Props", src: flowers, caption: "flowers" },
+  { id: 11, type: "Props", src: funerals, caption: "funerals" },
+  { id: 12, type: "Props", src: funeralZoom, caption: "funeralZoom" },
+  { id: 13, type: "Props", src: iceCream, caption: "iceCream" },
+  { id: 14, type: "Props", src: iceCreamAgain, caption: "iceCreamAgain" },
+  { id: 15, type: "Props", src: machineMotherBoard, caption: "machineMotherBoard" },
+  { id: 16, type: "Props", src: machineRadar, caption: "machineRadar" },
+  { id: 17, type: "Props", src: macineRadarZoomed, caption: "macineRadarZoomed" },
+  { id: 18, type: "Props", src: magus, caption: "magus" },
+  { id: 19, type: "Props", src: medusa, caption: "medusa" },
+  { id: 20, type: "Props", src: medusaPerson, caption: "medusaPerson" },
+  { id: 21, type: "Props", src: money, caption: "money" },
+  { id: 22, type: "Props", src: pearlHair, caption: "pearlHair" },
+  { id: 23, type: "Props", src: rat, caption: "rat" },
+  { id: 24, type: "Props", src: ratAgain, caption: "ratAgain" },
+  { id: 26, type: "Props", src: sFlag, caption: "sFlag" },
+  { id: 27, type: "Props", src: sShield, caption: "sShield" },
+  { id: 28, type: "Props", src: star, caption: "star" },
+  { id: 29, type: "Props", src: swimmingCostume, caption: "swimmingCostume" },
+  { id: 30, type: "Props", src: sylkoRope, caption: "sylkoRope" },
+  { id: 31, type: "Props", src: treeStage, caption: "treeStage" },
+  { id: 32, type: "Props", src: treeZoomed, caption: "treeZoomed" },
+  { id: 33, type: "Props", src: voodooDoll, caption: "voodooDoll" },
+  { id: 34, type: "Props", src: voodooStick, caption: "voodooStick" },
+  { id: 35, type: "Props", src: propTree, caption: "propTree" },
   ]
 
 /**
@@ -59,7 +92,6 @@ const images = [
  * - 12 -> factors (3, 4)
  */
 function getBestFactorPair(num) {
-  // Try to find the best factor pair with exact factors
   let bestPair = [1, num];
   let minDiff = num - 1;
 
@@ -75,17 +107,9 @@ function getBestFactorPair(num) {
       }
     }
   }
-
-  // If the number is prime or no exact factors are found, distribute the images
-  // with the remainder in its own row
-  if (bestPair[0] === 1 || bestPair[1] === 1) {
-    const rows = Math.floor(Math.sqrt(num)); // Start with the integer part of the square root
-    const cols = Math.ceil(num / rows); // Calculate columns based on rows
-    bestPair = [rows, cols];
-  }
-
   return bestPair;
 }
+
 
 const PropMaking = () => {
  // Determine best rows x columns for our images
