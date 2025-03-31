@@ -80,7 +80,13 @@ const images = [
   { id: 32, type: "Props", src: treeZoomed, caption: "treeZoomed" },
   { id: 33, type: "Props", src: voodooDoll, caption: "voodooDoll" },
   { id: 34, type: "Props", src: voodooStick, caption: "voodooStick" },
-  { id: 35, type: "Props", src: propTree, caption: "propTree" },
+  { id: 35, type: "Props", src: smallShoes, caption: "smallShoes" },
+  { id: 36, type: "Props", src: shoes, caption: "shoes" },
+  { id: 37, type: "Props", src: dollsClothed, caption: "dollsClothed" },
+  { id: 38, type: "Props", src: dolls, caption: "l" },
+  { id: 39, type: "Props", src: dollManClothed, caption: "dollManClothed" },
+  { id: 40, type: "Props", src: dollBlondeClothed, caption: "dollBlondeClothed" },
+
   ]
 
 /**
