@@ -32,7 +32,35 @@ import windowPrepared from "../../images/scenic/scenicWindowPrepared.jpg";
 import windowRoom from "../../images/scenic/scenicWindowRoom.jpg";
 import women from "../../images/scenic/scenicWomen.jpg";
 import zenMountain from "../../images/navBarNewNew.jpg";
-
+import beautfiulDrawer from "../../images/scenic/sceniecBeautifulDrawer.jpg";
+import waves from "../../images/scenic/scenicWaves.jpg";
+import tressPainting from "../../images/scenic/scenicTreesPaiting.jpg";
+import starFish from "../../images/scenic/scenicStarFish.jpg";
+import trees from "../../images/scenic/sceneicTrees.jpg";
+import paintingPub from "../../images/scenic/scenicPaitingPub.jpg";
+import paintingMoreStell from "../../images/scenic/scenicPaitingMoreStell.jpg";
+import paintingMoreSteel from "../../images/scenic/scenicPaitingMoreSteel.jpg";
+import paintingPubZoomed from "../../images/scenic/scenicPaintingPubZoomed.jpg";
+import paintingPubBeeZoomed from "../../images/scenic/scenicPaintingPubBeeZoomed.jpg";
+import painterPainting from "../../images/scenic/scenicPainterPainting.jpg";
+import moreWaves from "../../images/scenic/scenicMoreWaves.jpg";
+import moreCrashingWaves from "../../images/scenic/scenicMoreCrashingWaves.jpg";
+import halfBurntWall from "../../images/scenic/scenicHalfBurntWall.jpg";
+import drawnPencilWall from "../../images/scenic/scenicDrawnPencilWall.jpg";
+import crashingWaves from "../../images/scenic/scenicCrashingWaves.jpg";
+import burntWAll from "../../images/scenic/scenicBurntWall.jpg";
+import burntLivingRoom from "../../images/scenic/scenicBurntLivingRoom.jpg";
+import burningRooom from "../../images/scenic/scenicBurningRoom.jpg";
+import bedFrameSteelMore from "../../images/scenic/scenicBedFrameSteelMore.jpg";
+import bedFrameSteel from "../../images/scenic/scenicBedFrameSteel.jpg";
+import beautifulKitchen from "../../images/scenic/scenicBeautifulKitchen.jpg";
+import beautifulCupboardZoomed from "../../images/scenic/scenicBeautifulCupboardZoomed.jpg";
+import beautfifulTree from "../../images/scenic/scenicBeautfiulTree.jpg";
+import acornTree from "../../images/scenic/scenicAcornTrees.jpg";
+import acorn from "../../images/scenic/scenicAcorns.jpg";
+import abstractStellPicture from "../../images/scenic/scenicAbstractStellPicture.jpg";
+import abstractStellPic from "../../images/scenic/scenicAbstractStellPic.jpg";
+import abstractStell from "../../images/scenic/scenicAbstractStell.jpg";
 
 
 /**
@@ -44,6 +72,7 @@ import zenMountain from "../../images/navBarNewNew.jpg";
  * - 12 -> factors (3, 4)
  */
 function getBestFactorPair(num) {
+  // Try to find the best factor pair with exact factors
   let bestPair = [1, num];
   let minDiff = num - 1;
 
@@ -59,6 +88,15 @@ function getBestFactorPair(num) {
       }
     }
   }
+
+  // If the number is prime or no exact factors are found, distribute the images
+  // with the remainder in its own row
+  if (bestPair[0] === 1 || bestPair[1] === 1) {
+    const rows = Math.floor(Math.sqrt(num)); // Start with the integer part of the square root
+    const cols = Math.ceil(num / rows); // Calculate columns based on rows
+    bestPair = [rows, cols];
+  }
+
   return bestPair;
 }
 
@@ -92,7 +130,36 @@ const images = [
   { id: 27, type: "scenic", src: windowFrame, caption: "windowFrame" },
   { id: 28, type: "scenic", src: windowPrepared, caption: "windowPrepared" },
   { id: 29, type: "scenic", src: windowRoom, caption: "windowRoom" },
-  { id: 30, type: "scenic", src: women, caption: "women" }
+  { id: 30, type: "scenic", src: women, caption: "women" },
+  { id: 31, type: "scenic", src: beautfiulDrawer, caption: "Elegant Artistic Drawer" },
+  { id: 32, type: "scenic", src: waves, caption: "Mesmerizing Ocean Waves" },
+  { id: 33, type: "scenic", src: tressPainting, caption: "Vivid Trees Painting" },
+  { id: 34, type: "scenic", src: starFish, caption: "Radiant Starfish Delight" },
+  { id: 35, type: "scenic", src: trees, caption: "Majestic Forest Trees" },
+  { id: 36, type: "scenic", src: paintingPub, caption: "Vintage Pub Painting" },
+  { id: 37, type: "scenic", src: paintingMoreStell, caption: "Intriguing Steel Accents" },
+  { id: 38, type: "scenic", src: paintingMoreSteel, caption: "Contemporary Steel Masterpiece" },
+  { id: 39, type: "scenic", src: paintingPubZoomed, caption: "Close-Up Pub Artistry" },
+  { id: 40, type: "scenic", src: paintingPubBeeZoomed, caption: "Zoomed-In Pub Bee Art" },
+  { id: 41, type: "scenic", src: painterPainting, caption: "Painter’s Self-Portrait" },
+  { id: 42, type: "scenic", src: moreWaves, caption: "Dynamic Waves in Motion" },
+  { id: 43, type: "scenic", src: moreCrashingWaves, caption: "Powerful Crashing Waves" },
+  { id: 44, type: "scenic", src: halfBurntWall, caption: "Half-Burnt Artistic Wall" },
+  { id: 45, type: "scenic", src: drawnPencilWall, caption: "Intricate Pencil Wall Drawing" },
+  { id: 46, type: "scenic", src: crashingWaves, caption: "Dramatic Wave Crash" },
+  { id: 47, type: "scenic", src: burntWAll, caption: "Charred Wall Texture" },
+  { id: 48, type: "scenic", src: burntLivingRoom, caption: "Burnt Yet Beautiful Living Room" },
+  { id: 49, type: "scenic", src: burningRooom, caption: "Fierce Burning Room" },
+  { id: 50, type: "scenic", src: bedFrameSteelMore, caption: "Robust Steel Bed Frame Design" },
+  { id: 51, type: "scenic", src: bedFrameSteel, caption: "Sleek Steel Bed Frame" },
+  { id: 52, type: "scenic", src: beautifulKitchen, caption: "Charming Gourmet Kitchen" },
+  { id: 53, type: "scenic", src: beautifulCupboardZoomed, caption: "Detailed Cupboard Elegance" },
+  { id: 54, type: "scenic", src: beautfifulTree, caption: "Graceful Beautiful Tree" },
+  { id: 55, type: "scenic", src: acornTree, caption: "Nature's Acorn Tree" },
+  { id: 56, type: "scenic", src: acorn, caption: "Rustic Acorn Charm" },
+  { id: 57, type: "scenic", src: abstractStellPicture, caption: "Abstract Steel Artwork" },
+  { id: 58, type: "scenic", src: abstractStellPic, caption: "Modern Steel Abstraction" },
+  { id: 59, type: "scenic", src: abstractStell, caption: "Bold Steel Abstract" }
 ];
 
 const ScenicPainting = () => {
