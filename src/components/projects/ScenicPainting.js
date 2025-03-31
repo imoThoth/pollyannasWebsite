@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { TailSpin } from "react-loader-spinner"; // 1) Import the spinner from react-loader-spinner
+import "./sampProj.css"; // Custom CSS
 import styled from 'styled-components';
 import abstractPainter from "../../images/scenic/scenicAbstractPainting.jpg";
 import bath from "../../images/scenic/scenicBath.jpg";

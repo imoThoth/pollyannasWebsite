@@ -15,10 +15,16 @@
   height: 30vh;
 }
 
+h1 {
+  color: yellow;
+  font-weight: bold;
+}
+
 .project-full-width-header h1 {
   z-index: 1; /* Ensure title is above the background */
-  color: white;
+  color: yellow; /* Changed from white */
   font-size: 2rem;
+  font-weight: bold; /* Added bold text */
 }
 
 /* 
