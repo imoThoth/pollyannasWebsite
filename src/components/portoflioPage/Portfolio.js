@@ -53,9 +53,10 @@ import whiteHorseTheatreTyrantsKiss1_L from "../../images/emptyChair/whiteHorseT
 //import pollyannaTestImageSeat from '../../images/pollyannaTestImageSeat.jpg';
 //import pollyannaTestImg from '../../images/pollyannaTestImg.jpg';
 import pollyNavbarSmall from '../../images/pollyNavbarSmall.jpg';
-import windowMaking from '../../images/scenic/scenicWindowRoom.jpg';
+//import windowMaking from '../../images/scenic/scenicWindowRoom.jpg';
 //import propsportfolio from '../../images/props/props15.jpg';
 import propsport from '../../images/props/props18.jpg';
+import scenicport from '../../images/scenic/scenicPainting29.jpg';
 
 
 import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jpg';
@@ -89,7 +90,7 @@ const portfolioData = [
   { id: 26, title: "The Tyrants Kiss", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: tyrantsport },
   { id: 27, title: "Macbeth", year: 2018, location: "Set and Costume Designer, White Horse Theatre Germany", type: ["Costume", "Set Design", "Theatre"], src: macbethpotfolio },
   { id: 28, title: "Prop Making", year: [2016, 2024], location: "London, Germany, Suffolk, France, China", type: ["Props And Scenic", "Theatre"], src: propsport },
-  { id: 29, title: "Scenic Painting", year: [2016, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: windowMaking },
+  { id: 29, title: "Scenic Painting", year: [2016, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: scenicport },
   { id: 30, title: "Scenic Painting II", year: [2018, 2019, 2020, 2021, 2022, 2023, 2024], location: "London, Germany, Suffolk", type: ["Props And Scenic", "Theatre"], src: pollyNavbarSmall }
 ];
 
