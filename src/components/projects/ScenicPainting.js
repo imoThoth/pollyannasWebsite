@@ -18,7 +18,7 @@ import scenic11 from "../../images/scenic/scenicpainting11.jpg";
 import scenic12 from "../../images/scenic/scenicpainting12.jpg";
 import scenic13 from "../../images/scenic/scenicPainting13.jpg";
 import scenic14 from "../../images/scenic/scenicPanting14.jpg";
-import scenic15 from "../../images/scenic/scenicPainting15.jp";
+import scenic15 from "../../images/scenic/scenicPainting15.jpg";
 import scenic16 from "../../images/scenic/scenicPaintning16.jpg";
 import scenic17 from "../../images/scenic/scenicPainting17.jpg";
 import scenic18 from "../../images/scenic/scenicPainting18.jpg";
@@ -43,7 +43,7 @@ import scenic36 from "../../images/scenic/scenicPainting36.jpg";
 import scenic37 from "../../images/scenic/scenicPainting37.jpg";
 import scenic38 from "../../images/scenic/scenicPainting38.jpg";
 import scenic39 from "../../images/scenic/scenicPainting39.jpg";
-import scenic40 from "../../images/scenic/scenicPainting41.jpg";
+//import scenic40 from "../../images/scenic/scenicPainting41.jpg";
 import scenic41 from "../../images/scenic/scenicPainting41.jpg";
 import scenic42 from "../../images/scenic/scenicPainting42.jpg";
 import scenic43 from "../../images/scenic/scenicPainting43.jpg";
@@ -63,7 +63,7 @@ import scenic56 from "../../images/scenic/scenicPainting56.jpg";
 import scenic57 from "../../images/scenic/scenicPainting57.jpg";
 import scenic58 from "../../images/scenic/scenicPainting58.jpg";
 import scenic59 from "../../images/scenic/scenicPainting59.jpg";
-import scenic60 from "../../images/scenic/scenicPainting60.jpg";
+//import scenic60 from "../../images/scenic/scenicPainting60.jpg";
 import scenic61 from "../../images/scenic/scenicPainting61.jpg";
 import scenic62 from "../../images/scenic/scenicPainting62.jpg";
 
@@ -146,7 +146,7 @@ const images = [
   { id: 37, type: "scenic", src: scenic37, caption: "Intriguing Steel Accents" },
   { id: 38, type: "scenic", src: scenic38, caption: "Contemporary Steel Masterpiece" },
   { id: 39, type: "scenic", src: scenic39, caption: "Close-Up Pub Artistry" },
-  { id: 40, type: "scenic", src: scenic40, caption: "Zoomed-In Pub Bee Art" },
+ // { id: 40, type: "scenic", src: scenic40, caption: "Zoomed-In Pub Bee Art" },
   { id: 41, type: "scenic", src: scenic41, caption: "Painter’s Self-Portrait" },
   { id: 42, type: "scenic", src: scenic42, caption: "Dynamic Waves in Motion" },
   { id: 43, type: "scenic", src: scenic43, caption: "Powerful Crashing Waves" },
@@ -166,9 +166,9 @@ const images = [
   { id: 57, type: "scenic", src: scenic57, caption: "Abstract Steel Artwork" },
   { id: 58, type: "scenic", src: scenic58, caption: "Modern Steel Abstraction" },
   { id: 59, type: "scenic", src: scenic59, caption: "Bold Steel Abstract" },
-  { id: 59, type: "scenic", src: scenic60, caption: "Bold Steel Abstract" },
-  { id: 59, type: "scenic", src: scenic61, caption: "Bold Steel Abstract" },
-  { id: 59, type: "scenic", src: scenic62, caption: "Bold Steel Abstract" },
+  //{ id: 60, type: "scenic", src: scenic60, caption: "Bold Steel Abstract" },
+  { id: 61, type: "scenic", src: scenic61, caption: "Bold Steel Abstract" },
+  { id: 52, type: "scenic", src: scenic62, caption: "Bold Steel Abstract" },
 ];
 
 const ScenicPainting = () => {
