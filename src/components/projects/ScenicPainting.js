@@ -12,7 +12,7 @@ import scenic5 from "../../images/scenic/scenicPaiting5.jpg";
 import scenic6 from "../../images/scenic/scenicPaiting6.jpg";
 import scenic7 from "../../images/scenic/scenicPainting7.jpg";
 import scenic8 from "../../images/scenic/scenicPainting8.jpg";
-import scenic9 from "../../images/scenic/scenicPainting9.jpg";
+//import scenic9 from "../../images/scenic/scenicPainting9.jpg";
 import scenic10 from "../../images/scenic/scenicpainting10.jpg";
 import scenic11 from "../../images/scenic/scenicpainting11.jpg";
 import scenic12 from "../../images/scenic/scenicpainting12.jpg";
@@ -41,8 +41,8 @@ import scenic34 from "../../images/scenic/scenicPainting34.jpg";
 import scenic35 from "../../images/scenic/scenicPainting35.jpg";
 import scenic36 from "../../images/scenic/scenicPainting36.jpg";
 import scenic37 from "../../images/scenic/scenicPainting37.jpg";
-import scenic38 from "../../images/scenic/scenicPainting38.jpg";
-import scenic39 from "../../images/scenic/scenicPainting39.jpg";
+import scenic38 from "../../images/scenic/scenicPainting39.jpg";
+import scenic39 from "../../images/scenic/honk.jpg";
 //import scenic40 from "../../images/scenic/scenicPainting41.jpg";
 import scenic41 from "../../images/scenic/scenicPainting41.jpg";
 import scenic42 from "../../images/scenic/scenicPainting42.jpg";
@@ -63,7 +63,7 @@ import scenic56 from "../../images/scenic/scenicPainting56.jpg";
 import scenic57 from "../../images/scenic/scenicPainting57.jpg";
 import scenic58 from "../../images/scenic/scenicPainting58.jpg";
 import scenic59 from "../../images/scenic/scenicPainting59.jpg";
-//import scenic60 from "../../images/scenic/scenicPainting60.jpg";
+import scenic60 from "../../images/scenic/scenicPainting60.jpg";
 import scenic61 from "../../images/scenic/scenicPainting61.jpg";
 import scenic62 from "../../images/scenic/scenicPainting62.jpg";
 
@@ -107,68 +107,68 @@ function getBestFactorPair(num) {
 }
 
 const images = [
-  { id: 1, type: "scenic", src: scenic1, caption: "abstractPainter" },
-  { id: 2, type: "scenic", src: scenic2, caption: "bath" },
-  { id: 3, type: "scenic", src: scenic3, caption: "colorAbstract" },
-  { id: 4, type: "scenic", src: scenic4, caption: "dilapidated" },
-  { id: 5, type: "scenic", src: scenic5, caption: "dilapidatedComplete" },
-  { id: 6, type: "scenic", src: scenic6, caption: "dilapidatedZoomed" },
-  { id: 7, type: "scenic", src: scenic7, caption: "dilapidatedZoomedDoor" },
-  { id: 8, type: "scenic", src: scenic8, caption: "door" },
-  { id: 9, type: "scenic", src: scenic9, caption: "entrance" },
-  { id: 10, type: "scenic", src: scenic10, caption: "floor" },
-  { id: 11, type: "scenic", src: scenic11, caption: "floorHouse" },
-  { id: 12, type: "scenic", src: scenic12, caption: "gun" },
-  { id: 13, type: "scenic", src: scenic13, caption: "livingRoom" },
-  { id: 14, type: "scenic", src: scenic14, caption: "manWoman" },
-  { id: 15, type: "scenic", src: scenic15, caption: "nonsense" },
-  { id: 16, type: "scenic", src: scenic16, caption: "peopleStaged" },
-  { id: 17, type: "scenic", src: scenic17, caption: "rainbowBox" },
-  { id: 18, type: "scenic", src: scenic18, caption: "rainbowDoorWall" },
-  { id: 19, type: "scenic", src: scenic19, caption: "rainbowZoomed" },
-  { id: 20, type: "scenic", src: scenic20, caption: "rainbowZoomedDoor" },
-  { id: 21, type: "scenic", src: scenic21, caption: "rainbowDollWallMaking" },
-  { id: 22, type: "scenic", src: scenic22, caption: "satDown" },
-  { id: 23, type: "scenic", src: scenic23, caption: "scenicTwo" },
-  { id: 24, type: "scenic", src: scenic24, caption: "walls" },
-  { id: 25, type: "scenic", src: scenic25, caption: "wallsZoomed" },
-  { id: 26, type: "scenic", src: scenic26, caption: "window" },
-  { id: 27, type: "scenic", src: scenic27, caption: "windowFrame" },
-  { id: 28, type: "scenic", src: scenic28, caption: "windowPrepared" },
-  { id: 29, type: "scenic", src: scenic29, caption: "windowRoom" },
-  { id: 30, type: "scenic", src: scenic30, caption: "women" },
-  { id: 31, type: "scenic", src: scenic31, caption: "Elegant Artistic Drawer" },
-  { id: 32, type: "scenic", src: scenic32, caption: "Mesmerizing Ocean Waves" },
-  { id: 33, type: "scenic", src: scenic33, caption: "Vivid Trees Painting" },
-  { id: 34, type: "scenic", src: scenic34, caption: "Radiant Starfish Delight" },
-  { id: 35, type: "scenic", src: scenic35, caption: "Majestic Forest Trees" },
-  { id: 36, type: "scenic", src: scenic36, caption: "Vintage Pub Painting" },
-  { id: 37, type: "scenic", src: scenic37, caption: "Intriguing Steel Accents" },
-  { id: 38, type: "scenic", src: scenic38, caption: "Contemporary Steel Masterpiece" },
-  { id: 39, type: "scenic", src: scenic39, caption: "Close-Up Pub Artistry" },
+  { id: 1, type: "scenic", src: scenic1, caption: "Pub Sign for 'The Boatswains Mate' for Buxton International Festival, 2024" },
+  { id: 2, type: "scenic", src: scenic2, caption: "Pub Sign for 'The Boatswains Mate' for Buxton International Festival, 2024" },
+  { id: 3, type: "scenic", src: scenic3, caption: "Pub Sign for 'The Boatswains Mate' for Buxton International Festival, 2024" },
+  { id: 4, type: "scenic", src: scenic4, caption: "'The Boatswains Mate', Buxton International Festival,photo: Genevieve Girling, 2024" },
+  { id: 5, type: "scenic", src: scenic5, caption: "Paint Effect for 'Marie Curie' at Charing Cross Theatre, 2024" },
+  { id: 6, type: "scenic", src: scenic6, caption: "Paint Effect for 'Marie Curie' at Charing Cross Theatre, 2024" },
+  { id: 7, type: "scenic", src: scenic7, caption: "Paint Effect for 'Marie Curie' at Charing Cross Theatre, 2024" },
+  { id: 8, type: "scenic", src: scenic8, caption: "Paint Effect for 'Marie Curie' at Charing Cross Theatre, 2024" },
+  //{ id: 9, type: "scenic", src: scenic9, caption: "entrance" },
+  { id: 10, type: "scenic", src: scenic10, caption: "Close up of Paint effect on bed frame,'Marie Curie' 2024" },
+  { id: 11, type: "scenic", src: scenic11, caption: "Close up of Paint effect on bed frame,'Marie Curie' 2024" },
+  { id: 12, type: "scenic", src: scenic12, caption: "Sea floor painted for 'Fun on the Beach', Southwark Playhouse, 2024 " },
+  { id: 13, type: "scenic", src: scenic13, caption: "Close up of waves,'Fun on the Beach' 2024" },
+  { id: 14, type: "scenic", src: scenic14, caption: "Close up of waves,'Fun on the Beach' 2024" },
+  { id: 15, type: "scenic", src: scenic15, caption: "Starfish,'Fun on the Beach, 2024" },
+  { id: 16, type: "scenic", src: scenic16, caption: "Set for 'Thea saves her Parents' designed, built and painted by myself, Hounslow Arts Centre, 2021" },
+  { id: 17, type: "scenic", src: scenic17, caption: "Set for 'Thea saves her Parents' designed, built and painted by myself, Hounslow Arts Centre, 2021" },
+  { id: 18, type: "scenic", src: scenic18, caption: "'Thea saves her Parents' all bulit and made from recyled materials, 2021" },
+  { id: 19, type: "scenic", src: scenic19, caption: "Trees for 'Red Riding Hood', Houslow Arts Centre, 2020;" },
+  { id: 20, type: "scenic", src: scenic20, caption: "Pine Boughs and Pine cones, 'Red Riding Hood', 2020" },
+  { id: 21, type: "scenic", src: scenic21, caption: "Close up of Pine cones, 'Red Riding Hood', 2020" },
+  { id: 22, type: "scenic", src: scenic22, caption: "Painting the Trees,'Red Riding Hood', 2020 " },
+  { id: 23, type: "scenic", src: scenic23, caption: "Trees in Progress,'Red Riding Hood', 2020" },
+  { id: 24, type: "scenic", src: scenic24, caption: "Close up of glittery tree, 'Red Riding Hood', 2020" },
+  { id: 25, type: "scenic", src: scenic25, caption: "'Red Riding Hood',Hounslow Art Centre, 2020" },
+  { id: 26, type: "scenic", src: scenic26, caption: "Burnt down room for 'Lockdown Town', One Night Records, 2020" },
+  { id: 27, type: "scenic", src: scenic27, caption: "Closer view of burnt down room for 'Lockdown Town', One Night Records, 2020" },
+  { id: 28, type: "scenic", src: scenic28, caption: "Burnt down room with burnt props and setdressing for 'Lockdown Town', One Night Records, 2020" },
+  { id: 29, type: "scenic", src: scenic29, caption: "Set for Joyce, Edinburgh Fringe, 2019" },
+  { id: 30, type: "scenic", src: scenic30, caption: "Close up, Joyce, 2019 " },
+  { id: 31, type: "scenic", src: scenic31, caption: "Close up Joyce, 2019" },
+  { id: 32, type: "scenic", src: scenic32, caption: "Box, 'Joyce', 2019" },
+  { id: 33, type: "scenic", src: scenic33, caption: "Finished set complete with books,'Joyce' 2019" },
+  { id: 34, type: "scenic", src: scenic34, caption: "Reverse of Rainbow, Line drawing, Joyce, 2019" },
+  { id: 35, type: "scenic", src: scenic35, caption: "Close up of Line Drawing,'Joyce',2019" },
+  { id: 36, type: "scenic", src: scenic36, caption: "Close up of Barn wall for 'Honk' Hounslow Art Centre & UK Tour, 2019" },
+  { id: 37, type: "scenic", src: scenic37, caption: "Close up of Barn wall for 'Honk' Hounslow Art Centre & UK Tour, 2019" },
+  { id: 38, type: "scenic", src: scenic38, caption: "Barn Wall completed with corrugated roof, and bull rushes, made by me,'Honk', 2019"},
+  { id: 39, type: "scenic", src: scenic39, caption: "'Honk', UK Tour, photo: Nick Rutter, 2019" },
  // { id: 40, type: "scenic", src: scenic40, caption: "Zoomed-In Pub Bee Art" },
-  { id: 41, type: "scenic", src: scenic41, caption: "Painter’s Self-Portrait" },
-  { id: 42, type: "scenic", src: scenic42, caption: "Dynamic Waves in Motion" },
-  { id: 43, type: "scenic", src: scenic43, caption: "Powerful Crashing Waves" },
-  { id: 44, type: "scenic", src: scenic44, caption: "Half-Burnt Artistic Wall" },
-  { id: 45, type: "scenic", src: scenic45, caption: "Intricate Pencil Wall Drawing" },
-  { id: 46, type: "scenic", src: scenic46, caption: "Dramatic Wave Crash" },
-  { id: 47, type: "scenic", src: scenic47, caption: "Charred Wall Texture" },
-  { id: 48, type: "scenic", src: scenic48, caption: "Burnt Yet Beautiful Living Room" },
-  { id: 49, type: "scenic", src: scenic49, caption: "Fierce Burning Room" },
-  { id: 50, type: "scenic", src: scenic50, caption: "Robust Steel Bed Frame Design" },
-  { id: 51, type: "scenic", src: scenic51, caption: "Sleek Steel Bed Frame" },
-  { id: 52, type: "scenic", src: scenic52, caption: "Charming Gourmet Kitchen" },
-  { id: 53, type: "scenic", src: scenic53, caption: "Detailed Cupboard Elegance" },
-  { id: 54, type: "scenic", src: scenic54, caption: "Graceful Beautiful Tree" },
-  { id: 55, type: "scenic", src: scenic55, caption: "Nature's Acorn Tree" },
-  { id: 56, type: "scenic", src: scenic56, caption: "Rustic Acorn Charm" },
-  { id: 57, type: "scenic", src: scenic57, caption: "Abstract Steel Artwork" },
-  { id: 58, type: "scenic", src: scenic58, caption: "Modern Steel Abstraction" },
-  { id: 59, type: "scenic", src: scenic59, caption: "Bold Steel Abstract" },
-  //{ id: 60, type: "scenic", src: scenic60, caption: "Bold Steel Abstract" },
-  { id: 61, type: "scenic", src: scenic61, caption: "Bold Steel Abstract" },
-  { id: 52, type: "scenic", src: scenic62, caption: "Bold Steel Abstract" },
+  { id: 41, type: "scenic", src: scenic41, caption: "'Prisoner of Zenda', Suffolk Summer Theatre, 2017" },
+  { id: 42, type: "scenic", src: scenic42, caption: "Jeeves & Wooster- Perfect Nonsense', Suffolk Summer Theatre, 2018" },
+  { id: 43, type: "scenic", src: scenic43, caption: "Jeeves & Wooster- Perfect Nonsense', Suffolk Summer Theatre, 2018" },
+  { id: 44, type: "scenic", src: scenic44, caption: "Train for 'The 39 Steps', Suffolk Summer Theatre, 2016" },
+  { id: 45, type: "scenic", src: scenic45, caption: "'The 39 Steps', Suffolk Summer Theatre, 2016" },
+  { id: 46, type: "scenic", src: scenic46, caption: "'The 39 Steps', Suffolk Summer Theatre, 2016" },
+  { id: 47, type: "scenic", src: scenic47, caption: "Set for 'Body Language', 2019" },
+  { id: 48, type: "scenic", src: scenic48, caption: "Brick wall for 'Murder by the Book' Suffolk Summer Theatre, 2017" },
+  { id: 49, type: "scenic", src: scenic49, caption: "Close up of wall, 'Murder by the Book', 2017" },
+  { id: 50, type: "scenic", src: scenic50, caption: "Stain Glass window preparation, 'Murder Weapon', 2017" },
+  { id: 51, type: "scenic", src: scenic51, caption: " Flooring in Progress, 'Murder Weapon', 2017" },
+  { id: 52, type: "scenic", src: scenic52, caption: " Flooring completed, 'Murder Weapon',2017" },
+  { id: 53, type: "scenic", src: scenic53, caption: "Finsihed Set in Lighting 'Murder Weapon' Suffolk Summer Theatre, 2017" },
+  { id: 54, type: "scenic", src: scenic54, caption: "Copy of 'Battle of Germany' - Paul Nash for 'The Man Upstairs',Suffolk Summer Theatre, 2017 " },
+  { id: 55, type: "scenic", src: scenic55, caption: "'The Man Upstairs', Suffolk Summer Theatre, 2017 " },
+  { id: 56, type: "scenic", src: scenic56, caption: "'The Man Upstairs', Suffolk Summer Theatre, 2017 " },
+  { id: 57, type: "scenic", src: scenic57, caption: "Stained Glass Window for 'The Old Country' Suffolk Summer Theatre, 2016" },
+  { id: 58, type: "scenic", src: scenic58, caption: " Trees and Set painted for 'The Old Country' Costume: Miri Birch, 2016 " },
+  { id: 59, type: "scenic", src: scenic59, caption: "Trees and Set painted for 'The Old Country' Costume: Miri Birch,2016" },
+  { id: 60, type: "scenic", src: scenic60, caption: "Stained glass window in progress for 'Funny Money,2018" },
+  { id: 61, type: "scenic", src: scenic61, caption: "Abstract painting for 'Funny Money', Suffolk Summer Theatre,2018" },
+  { id: 62, type: "scenic", src: scenic62, caption: "Set for 'Don't Dress For Dinner' Costume: Miri Birch, Suffolk Summer Theatre, 2016" },
 ];
 
 const ScenicPainting = () => {
