@@ -109,23 +109,24 @@ const images = [
  * - 10 -> factors (2, 5)
  * - 12 -> factors (3, 4)
  */
+/**
+ * Finds the factor pair of `num` with the smallest difference 
+ * to ensure a "square-like" grid. Returns [rows, columns].
+ * 
+ * For example:
+ * - 10 -> factors (2, 5)
+ * - 12 -> factors (3, 4)
+ */
 function getBestFactorPair(num) {
-  let bestPair = [1, num];
-  let minDiff = num - 1;
-
-  for (let i = 1; i <= Math.sqrt(num); i++) {
-    if (num % i === 0) {
-      const factor1 = i;
-      const factor2 = num / i;
-      const diff = Math.abs(factor2 - factor1);
-
-      if (diff < minDiff) {
-        minDiff = diff;
-        bestPair = [factor1, factor2];
-      }
-    }
+  // For fewer than 5 pictures, just use one row.
+  if (num < 5) {
+    return [1, num];
   }
-  return bestPair;
+  
+  // Force a row with exactly 5 pictures.
+  const cols = 5;
+  const rows = Math.ceil(num / cols);
+  return [rows, cols];
 }
 
 
