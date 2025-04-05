@@ -78,33 +78,17 @@ import scenic62 from "../../images/scenic/scenicPainting62.jpg";
  * - 12 -> factors (3, 4)
  */
 function getBestFactorPair(num) {
-  // Try to find the best factor pair with exact factors
-  let bestPair = [1, num];
-  let minDiff = num - 1;
-
-  for (let i = 1; i <= Math.sqrt(num); i++) {
-    if (num % i === 0) {
-      const factor1 = i;
-      const factor2 = num / i;
-      const diff = Math.abs(factor2 - factor1);
-
-      if (diff < minDiff) {
-        minDiff = diff;
-        bestPair = [factor1, factor2];
-      }
-    }
+  // For fewer than 5 pictures, just use one row.
+  if (num < 5) {
+    return [1, num];
   }
-
-  // If the number is prime or no exact factors are found, distribute the images
-  // with the remainder in its own row
-  if (bestPair[0] === 1 || bestPair[1] === 1) {
-    const rows = Math.floor(Math.sqrt(num)); // Start with the integer part of the square root
-    const cols = Math.ceil(num / rows); // Calculate columns based on rows
-    bestPair = [rows, cols];
-  }
-
-  return bestPair;
+  
+  // Force a row with exactly 5 pictures.
+  const cols = 5;
+  const rows = Math.ceil(num / cols);
+  return [rows, cols];
 }
+
 
 const images = [
   { id: 1, type: "scenic", src: scenic1, caption: "Pub Sign for 'The Boatswains Mate' for Buxton International Festival, 2024" },
