@@ -54,21 +54,21 @@ function getBestFactorPair(num) {
 const WildShortAnimal = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: animal6, caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: animal2, caption: "This is the first image caption",  },
-    { id: 3, type: "Costume", src: animal3, caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: animal4, caption: "This is the first image caption",  },
-    { id: 5, type: "Costume", src: animal12, caption: "This is the first image caption", },
-    { id: 6, type: "Costume", src: animal1, caption: "This is the first image caption",  },
-    { id: 7, type: "Costume", src: animal7, caption: "This is the first image caption",  },
-    { id: 8, type: "Costume", src: animal8, caption: "This is the first image caption", }, 
-    { id: 9, type: "Costume", src: animal9, caption: "This is the first image caption",  },
-    { id: 10, type: "Costume", src: animal10, caption: "This is the first image caption",  },
-    { id: 11, type: "Costume", src: animal11, caption: "This is the first image caption",  },
-    { id: 12, type: "Costume", src: animal5, caption: "This is the first image caption",  },
-    { id: 13, type: "Costume", src: animal13, caption: "This is the first image caption",  },
-    { id: 14, type: "Costume", src: animal14, caption: "This is the first image caption",  },
-    { id: 15, type: "Costume", src: animal15, caption: "This is the first image caption",  },
+    { id: 1, type: "Costume", src: animal6, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy", },
+    { id: 2, type: "Costume", src: animal2, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy", },
+    { id: 3, type: "Costume", src: animal3, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy", },
+    { id: 4, type: "Costume", src: animal4, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy",  },
+    { id: 5, type: "Costume", src: animal12, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy", },
+    { id: 6, type: "Costume", src: animal1, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy",  },
+    { id: 7, type: "Costume", src: animal7, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy",  },
+    { id: 8, type: "Costume", src: animal8, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy", }, 
+    { id: 9, type: "Costume", src: animal9, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy",  },
+    { id: 10, type: "Costume", src: animal10, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy",  },
+    { id: 11, type: "Costume", src: animal11, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy",  },
+    { id: 12, type: "Costume", src: animal5, caption: "Costume and Production Design - Charlotte Riley & Logan Gale in Wild Animal, photo: Rory Murphy",  },
+    { id: 13, type: "Costume", src: animal13, caption: "Costume and Production Design - Liam Whiting & Kerry Joy Stewart in Wild Animal, photo: Rory Murphy",  },
+    { id: 14, type: "Costume", src: animal14, caption: "Costume and Production Design - Liam Whiting in Wild Animal, photo: Rory Murphy",  },
+    { id: 15, type: "Costume", src: animal15, caption: "Costume and Production Design -  Wild Animal, photo: Rory Murphy",  },
 
 
   ] 
