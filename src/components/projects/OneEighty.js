@@ -48,18 +48,18 @@ const OneEighty = () => {
   const images = [
 
 
-    { id: 1, type: "Costume", src: oneEighty1, caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: oneEighty2, caption: "This is the first image caption", },
-    { id: 3, type: "Costume", src: oneEighty3, caption: "This is the first image caption",},
-    { id: 4, type: "Costume", src: oneEighty4, caption: "This is the first image caption", },
-    { id: 5, type: "Costume", src: oneEighty5, caption: "This is the first image caption",},
-    { id: 6, type: "Costume", src: oneEighty6, caption: "This is the first image caption",},
-    { id: 7, type: "Costume", src: oneEighty7, caption: "This is the first image caption",}, 
-    { id: 8, type: "Costume", src: oneEighty8, caption: "This is the first image caption",},
-    { id: 9, type: "Costume", src: oneEighty9, caption: "This is the first image caption",},
-    { id: 10, type: "Costume", src: oneEighty10, caption: "This is the first image caption",},
-    { id: 11, type: "Costume", src: oneEighty11, caption: "This is the first image caption",},
-    { id: 12, type: "Costume", src: oneEighty12, caption:  "This is the first image caption", },
+    { id: 1, type: "Costume", src: oneEighty1, caption: "Costume and Production Design - Lara Peake in One Hundred and Eighty, photo: Catherine Frawley", },
+    { id: 2, type: "Costume", src: oneEighty2, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley", },
+    { id: 3, type: "Costume", src: oneEighty3, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 4, type: "Costume", src: oneEighty4, caption: "Costume and Production Design - One Hundred and Eighty, photo: Catherine Frawley", },
+    { id: 5, type: "Costume", src: oneEighty5, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 6, type: "Costume", src: oneEighty6, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 7, type: "Costume", src: oneEighty7, caption: "Costume and Production Design - Lara Peake in One Hundred and Eighty, sparkly jacket made by myself, photo: Catherine Frawley",}, 
+    { id: 8, type: "Costume", src: oneEighty8, caption: "Costume and Production Design - Nigel Barrett in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 9, type: "Costume", src: oneEighty9, caption: "Costume and Production Design - Isis Hainsworth in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 10, type: "Costume", src: oneEighty10, caption: "Costume and Production Design - Isis Hainsworth in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 11, type: "Costume", src: oneEighty11, caption: "Costume and Production Design - Isis Hainsworth in One Hundred and Eighty, photo: Catherine Frawley",},
+    { id: 12, type: "Costume", src: oneEighty12, caption:  "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley", },
     // { id: 14, type: "Costume", src: oneEightyDayJacket , caption: "This is the first image caption",}
   ];
   // Determine best rows x columns for our images
