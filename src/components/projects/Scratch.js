@@ -45,37 +45,37 @@ const Scratch = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Costume and Production Design - Gaz Hayden in Scratch",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "A caption for the second image",
+      caption: "Costume and Production Design - Gaz Hayden & Alexandra Wetherell in Scratch",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "Here is the third costume image",
+      caption: "Costume and Production Design - Gaz Hayden in Scratch",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume and Production Design - Alexandra Wetherell in Scratch",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "Costume and Production Design - Gaz Hayden in Scratch",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume and Production Design - Gaz Hayden in Scratch",
     },
   ];
 
