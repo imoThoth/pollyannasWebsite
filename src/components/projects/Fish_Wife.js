@@ -13,7 +13,7 @@ import fishwife9 from "../../images/fish_wife/fishWife9_L.jpg";
 import fishwife10 from "../../images/fish_wife/fishWife10_P.jpg";
 import fishwife11 from "../../images/fish_wife/fishWife11_L.jpg";
 import fishwife12 from "../../images/fish_wife/fishWife12_P.jpg";
-import fishwife13 from "../../images/fish_wife/fishWife13_L.jpg";
+//import fishwife13 from "../../images/fish_wife/fishWife13_L.jpg";
 import fishwife14 from "../../images/fish_wife/fishWife14_L.jpg";
 import fishwife15 from "../../images/fish_wife/fishWife15_P.jpg";
 import fishwife16 from "../../images/fish_wife/fishWife16_L.jpg";
@@ -21,6 +21,8 @@ import fishwife17 from "../../images/fish_wife/FishWife17_L.jpg";
 import fishwife18 from "../../images/fish_wife/fishWife18_L.jpg";
 import fishwife19 from "../../images/fish_wife/fishWife19_P.jpg";
 import fishwife20 from "../../images/fish_wife/fishWife20_L.jpg";
+import fishwife21 from "../../images/fish_wife/fishWife21_P.jpg";
+
 
 
 
@@ -58,26 +60,27 @@ function getBestFactorPair(num) {
 const Fish_Wife = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: fishwife1, caption: "This is the first image caption", },
-    { id: 2, type: "Costume", src: fishwife2, caption: "This is the first image caption",  },
-    { id: 3, type: "Costume", src: fishwife3, caption: "This is the first image caption", },
-    { id: 4, type: "Costume", src: fishwife4, caption: "This is the first image caption",  },
-    { id: 5, type: "Costume", src: fishwife5 , caption: "This is the first image caption", },
-    { id: 6, type: "Costume", src: fishwife6, caption: "This is the first image caption",  },
-    { id: 7, type: "Costume", src: fishwife7, caption: "This is the first image caption",  },
-    { id: 8, type: "Costume", src: fishwife8 , caption: "This is the first image caption", }, 
-    { id: 9, type: "Costume", src: fishwife9, caption: "This is the first image caption",  },
-    { id: 10, type: "Costume", src: fishwife10, caption: "This is the first image caption", },
-    { id: 11, type: "Costume", src: fishwife11, caption: "This is the first image caption",  },
-    { id: 12, type: "Costume", src: fishwife12, caption: "This is the first image caption",  },
-    { id: 13, type: "Costume", src: fishwife13, caption: "This is the first image caption",  },
-    { id: 14, type: "Costume", src: fishwife14, caption: "This is the first image caption",  },
-    { id: 15, type: "Costume", src: fishwife15, caption: "This is the first image caption",  },
-    { id: 16, type: "Costume", src: fishwife16, caption: "This is the first image caption",  },
-    { id: 17, type: "Costume", src: fishwife17, caption: "This is the first image caption",  },
-    { id: 18, type: "Costume", src: fishwife18, caption: "This is the first image caption",  },
-    { id: 19, type: "Costume", src: fishwife19, caption: "This is the first image caption",  },
-    { id: 20, type: "Costume", src: fishwife20, caption: "This is the first image caption",  },
+    { id: 1, type: "Costume", src: fishwife1, caption: "Production and Costume Design - Fish Wife, photo: David Gennard", },
+    { id: 2, type: "Costume", src: fishwife2, caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, Costume made by: Amanda Richards, Shawl made by: Andrea Elston  photo: David Gennard ",  },
+    { id: 3, type: "Costume", src: fishwife3, caption: "Production and Costume Design - Fish Wife, photo: David Gennard", },
+    { id: 4, type: "Costume", src: fishwife4, caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, Costume made by: Amanda Richards, Shawl made by: Andrea Elston  photo: David Gennard",  },
+    { id: 5, type: "Costume", src: fishwife5 , caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, Costume made by: Amanda Richards, Shawl made by: Andrea Elston  photo: David Gennard", },
+    { id: 6, type: "Costume", src: fishwife6, caption: "Production and Costume Design - Fish Wife, photo: David Gennard",  },
+    { id: 7, type: "Costume", src: fishwife7, caption: "Production and Costume Design - Fish Wife ",  },
+    { id: 8, type: "Costume", src: fishwife8 , caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, photo: David Gennard", }, 
+    { id: 9, type: "Costume", src: fishwife9, caption: "Production and Costume Design - Shango Baku in Fish Wife, photo: David Gennard",  },
+    { id: 10, type: "Costume", src: fishwife10, caption: "Scarlett Brookes in Fish Wife, photo: David Gennard", },
+    { id: 11, type: "Costume", src: fishwife11, caption: "Production and Costume Design - Fish Wife, photo: David Gennard",  },
+    { id: 12, type: "Costume", src: fishwife12, caption: "Production and Costume Design - Shango Baku in Fish Wife, photo: David Gennard",  },
+    //{ id: 13, type: "Costume", src: fishwife13, caption: "Production and Costume Design - Fish Wife, photo: David Gennard",  },
+    { id: 14, type: "Costume", src: fishwife14, caption: "Production and Costume Design - Charles Beaven in Fish Wife, photo: David Gennard",  },
+    { id: 15, type: "Costume", src: fishwife15, caption: "Production and Costume Design - Fish Wife, photo: David Gennard",  },
+    { id: 16, type: "Costume", src: fishwife16, caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, photo: David Gennard",  },
+    { id: 17, type: "Costume", src: fishwife17, caption: "Production and Costume Design - Charles Beaven in Fish Wife, photo: David Gennard",  },
+    { id: 18, type: "Costume", src: fishwife18, caption: "Production and Costume Design - Fish Wife, photo: David Gennard",  },
+    { id: 19, type: "Costume", src: fishwife19, caption: "Costume Design for Thin Old Man - Fish Wife",  },
+    { id: 20, type: "Costume", src: fishwife20, caption: "Costume Design for Cedany - Fish Wife",  },
+    { id: 21, type: "Costume", src: fishwife21, caption: "Costume Deisgn for Lir - Fish Wife",  },
   ];
 
   // Determine best rows x columns for our images
