@@ -67,7 +67,7 @@ function App() {
             <Route path='/portfolio/Romeo and Juliet, Dreaming in English, Maid Marian' element={<RomeoJuliet />} />
             <Route path='/portfolio/Scratch' element={<Scratch />} />
             <Route path='/portfolio/The Lightning Thief (UK Premier)' element={<LightningThief />} />
-            <Route path='/portfolio/Latitude and Glastonbury Festivals' element={<LatitudeGlastonbury />} />
+            <Route path='/portfolio/Latitude, Mighty Hoopla and Glastonbury Festivals' element={<LatitudeGlastonbury />} />
             <Route path='/portfolio/Sunday in The Park with George' element={<SundayInThePark />} />
             <Route path='/portfolio/5 Years' element={<FiveYears />} />
             <Route path='/portfolio/Pippin' element={<Pippin />} />

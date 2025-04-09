@@ -69,7 +69,7 @@ const portfolioData = [
   { id: 5, title: "Twelfth Night", year: 2024, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: twelfthNight1_L },
   { id: 6, title: "The Lightning Thief (UK Premier)", year: 2023, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: percy6_P },
   { id: 7, title: "Drag Mx Great Britain", year: 2023, location: "Costume Designer/ Maker, Alnwick Castle", type: ["Costume", "Events"], src: mimiDragMx1_P },
-  { id: 8, title: "Latitude and Glastonbury Festivals", year: 2023, location: "Costume Designer/ Maker, Suffolk and Glastonbury", type: ["Costume", "Events"], src: mimiLat4_P },
+  { id: 8, title: "Latitude, Mighty Hoopla and Glastonbury Festivals", year: 2023, location: "Costume Designer/ Maker, Suffolk and Glastonbury", type: ["Costume", "Events"], src: mimiLat4_P },
   { id: 9, title: "Wild Animal", year: 2023, location: "Short Film - Production and Costume Designer, Backscatter Productions, on location in Wales", type: ["Costume", "Set Design", "Film & TV"], src: wildanimalp },
   { id: 10, title: "Sunday in The Park with George", year: 2023, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: sundayp },
   { id: 11, title: "5 Years", year: 2023, location: "Set and Costume Designer, Sheffield & UK Tour", type: ["Costume", "Set Design", "Theatre"], src: fiveYearsStolenJacket },

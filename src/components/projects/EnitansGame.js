@@ -44,14 +44,14 @@ function getBestFactorPair(num) {
 const EnitansGame = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: enitansgame1, caption: "This is the first image caption"},
-    { id: 2, type: "Costume", src: enitansgame2, caption: "This is the first image caption" },
-    { id: 3, type: "Costume", src: enitansgame3, caption: "This is the first image caption" },
-    { id: 4, type: "costume", src: enitansgame4, caption: "This is the first image caption"},
-    { id: 5, type: "Costume", src: enitansgame5, caption: "This is the first image caption"},
-    { id: 6, type: "Costume", src: enitansgame6, caption: "This is the first image caption" },
-    { id: 7, type: "costume", src: enitansgame7, caption: "This is the first image caption" },
-    { id: 8, type: "Costume", src: enitansgame8, caption: "This is the first image caption"},
+    { id: 1, type: "Costume", src: enitansgame1, caption: "Costume Design/Supervising - Oyinka Yusuff & Simon Rawlings in Entian's Game, Punchdrunk Enrichment, photo: Ali Wright"},
+    { id: 2, type: "Costume", src: enitansgame2, caption: "Costume Design/Supervising - Rachel Oriowo in Entian's Game, Punchdrunk Enrichment, photo: Ali Wright" },
+    { id: 3, type: "Costume", src: enitansgame3, caption: "Costume Design/Supervising - Rachel Oriowo & Julian Smith in Entians Game, Punchdrunk Enrichment, photo: Ali Wright" },
+    { id: 4, type: "costume", src: enitansgame4, caption: "Costume Design/Supervising - Oyinka Yusuff & Julian Smith in Entians Game, Punchdrunk Enrichment, photo: Ali Wright"},
+    { id: 5, type: "Costume", src: enitansgame5, caption: "Costume Design/Supervising - Oyinka Yusuff in Entians Game, Punchdrunk Enrichment, photo: Ali Wright"},
+    { id: 6, type: "Costume", src: enitansgame6, caption: "Costume Design/Supervising - Oyinka Yusuff & Simon Rawlings in Entians Game, Punchdrunk Enrichment, photo: Ali Wright" },
+    { id: 7, type: "costume", src: enitansgame7, caption: "Costume Design/Supervising - Oyinka Yusuff in Entians Game, Punchdrunk Enrichment, photo: Ali Wright" },
+    { id: 8, type: "Costume", src: enitansgame8, caption: "Costume Design/Supervising - Costume designs for Jed & Enitan"},
   ];
 
    // Determine best rows x columns for our images

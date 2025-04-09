@@ -45,37 +45,37 @@ const GlastonburyLondonPride = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel on Stage with Olly Alexander in Custom Outfit made my me at The Glastonbury Festival on BBC",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "A caption for the second image",
+      caption: "Costume Design and Making - Mimi Chanel on the Main Stage at London Pride in same custom outfit with Homoparody",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "Here is the third costume image",
+      caption: "Costume Design and Making - Mimi Chanel on the Main Stage at London Pride in same custom outfit with Homoparody",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume Design and Making - Mimi Chanel in same custom outfit in Traflgar Sqaure.",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "Costume Design and Making - Mimi Chanel on the Main Stage at London Pride in same custom outfit with Homoparody",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume Design and Making - Mimi Chanel on the Main Stage at London Pride in same custom outfit with Homoparody",
     }
   ];
 

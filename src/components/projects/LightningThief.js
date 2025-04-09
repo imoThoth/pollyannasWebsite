@@ -58,60 +58,60 @@ const LightningThief = () => {
       id: 1,
       type: "Costume",
       src: percyjackson1,
-      caption: "This is the first image caption",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief - Directed by Anna Fox",
     },
     {
       id: 2,
       type: "Costume",
       src: percyjackson2,
-      caption: "A caption for the second image",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 3,
       type: "Costume",
       src: percyjackson3,
-      caption: "Here is the third costume image",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 4,
       type: "Costume",
       src: percyjackson4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 5,
       type: "Costume",
       src: percyjackson5,
-      caption: "Fifth image showing a different style",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 6,
       type: "Costume",
       src: percyjackson6,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 7,
       type: "Costume",
       src: percyjackson7,
-      caption: "Seventh costume photo for the gallery",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 8,
       type: "Costume",
       src: percyjackson8,
-      caption: "Caption for the eighth image",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
     },
     {
       id: 9,
       type: "Costume",
       src: percyjackson9,
-      caption: "Ninth image in the costume series",
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief",
 
       id: 10,
       type: "Costume",
       src: percyjackson10,
-      caption: ""
+      caption: "Costume Design - Students from the Musical Theatre Course at London College of Music in Percy Jackson: The Lightning Thief"
     }
   ];
 

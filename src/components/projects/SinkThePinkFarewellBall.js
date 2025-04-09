@@ -45,37 +45,37 @@ const SinkThePinkFarewellBall = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Custom outfit designed and made by me for Mimi Chanel for the Sink the Pink Farewell Ball",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "A caption for the second image",
+      caption: "Costume Design and Making - Custom outfit designed and made by me for Mimi Chanel for the Sink the Pink Farewell Ball",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "Here is the third costume image",
+      caption: "Costume Design and Making - Custom outfit designed and made by me for Mimi Chanel for the Sink the Pink Farewell Ball",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume Design and Making - Custom outfit designed and made by me for Mimi Chanel for the Sink the Pink Farewell Ball",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "Costume Design and Making - Mimi Chanel in the same outfit at the Drag MX Great Britain Press Day",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume Design and Making - Mimi Chanel in the same outfit at the Drag MX Great Britain Press Day",
     },
   ];
 

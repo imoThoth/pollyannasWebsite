@@ -43,68 +43,68 @@ function getBestFactorPair(num) {
   return bestPair;
 }
 
-const LatitudeGlastonbury = () => {
+const LatitudeMightyHooplaGlastonbury = () => {
   // Example images, each with a "caption" property to display in the modal
   const images = [
     {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel at Latitude Festival in another custom look designed and made by me.",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel performing on stage at Latitude Festival ",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel on the Barclaycard Stage at Latitude",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel on the Barclaycard Stage at Latitude, with Tianna Sealy-Jewiss & Gabriella Conradie",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "This is the first image caption",
+      caption: "Costume Design and Making - Mimi Chanel with Yasmin Finney at Mighty Hoopla in another Custom Outfit made to perform on stage with Nadine Colye",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "A caption for the second image",
+      caption: "Costume Design and Making - Mimi Chanel at Glastonbury in Silver 'Alien Superstar' custom outfit",
     },
     {
       id: 7,
       type: "Costume",
       src: animal7,
-      caption: "Here is the third costume image",
+      caption: "Costume Design and Making - Mimi Chanel at Glastonbury in Silver 'Alien Superstar' custom outfit",
     },
     {
       id: 8,
       type: "Costume",
       src: animal8,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume Design and Making - Mimi Chanel at Glastonbury in another custom outfit 'The Jester' made to perform with Elton John",
     },
     {
       id: 9,
       type: "Costume",
       src: animal9,
-      caption: "Fifth image showing a different style",
+      caption: "Costume Design and Making - Mimi Chanel at Glastonbury in another custom outfit 'The Jester' made to perform with Elton John",
     },
     {
       id: 10,
       type: "Costume",
       src: animal10,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume Design and Making - Mimi Chanel at Glastonbury in another custom outfit 'The Jester' made to perform with Elton John",
     }
   ];
 
@@ -209,7 +209,7 @@ const LatitudeGlastonbury = () => {
      <>
        {/* Header Section */}
        <header className="project-full-width-header">
-         <h1>Glastonbury Latitude</h1>
+         <h1>Latitude, Mighty Hoopla and Glastonbury Festivals</h1>
          <div className="project-header-image">
            <img src={zenMountain} alt="Portfolio Background" />
          </div>
@@ -270,4 +270,4 @@ const LatitudeGlastonbury = () => {
    );
 };
 
-export default LatitudeGlastonbury;
+export default LatitudeMightyHooplaGlastonbury;
