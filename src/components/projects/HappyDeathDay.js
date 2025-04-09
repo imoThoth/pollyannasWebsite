@@ -49,7 +49,7 @@ const HappyDeathDay = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "Production Design - Anne Kavanagh in Happy Death Day, photo: Silvia Fox ",
+      caption: "Production Design - Anne Kavanagh in Happy Death Day - Directed by Shay Kuehlmann and Kate Roxburgh, photo: Silvia Fox ",
     },
     {
       id: 2,

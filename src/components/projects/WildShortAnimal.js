@@ -54,7 +54,7 @@ function getBestFactorPair(num) {
 const WildShortAnimal = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: animal6, caption: "Costume and Production Design - Wild Animal, photo: Rory Murphy", },
+    { id: 1, type: "Costume", src: animal6, caption: "Costume and Production Design - Wild Animal - Directed by Beth Park, photo: Rory Murphy", },
     { id: 2, type: "Costume", src: animal2, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy", },
     { id: 3, type: "Costume", src: animal3, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy", },
     { id: 4, type: "Costume", src: animal4, caption: "Costume and Production Design - Charlotte Riley in Wild Animal, photo: Rory Murphy",  },

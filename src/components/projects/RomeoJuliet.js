@@ -17,6 +17,7 @@ import romeoandjuliet12 from "../../images/whiteHorse24/romeoandJuliet12_L.jpg";
 import romeoandjuliet13 from "../../images/whiteHorse24/romeoandJuliet13_L.jpg";
 import romeoandjuliet14 from "../../images/whiteHorse24/romeoandJuliet14_P.jpg";
 import romeoandjuliet15 from "../../images/whiteHorse24/romeoandJuliet15_P.jpg";
+import romeoandjuliet16 from "../../images/whiteHorse24/romeo16.jpg";
 
 
 
@@ -58,91 +59,97 @@ const RomeoJuliet = () => {
       id: 1,
       type: "Costume",
       src: romeoandjuliet1,
-      caption: "This is the first image caption",
+      caption: "Set and Costume Design - Valia Katsi & Defender Nyanhete in Romeo and Juliet - Directed by Michael Dray, Juliet dress adapted by Cecelija Berg, photo: René Golz  ",
     },
     {
       id: 2,
       type: "Costume",
       src: romeoandjuliet2,
-      caption: "A caption for the second image",
+      caption: "Set and Costume Design - Valia Katsi, Defender Nyanhete, Amy Shields & Kyle Samuel in Romeo and Juliet, Mask and flower crown made by myself, ruff made by Cecelija Berg, photo: Renè Golz",
     },
     {
       id: 3,
       type: "Costume",
       src: romeoandjuliet3,
-      caption: "Here is the third costume image",
+      caption: "Set and Costume Design - Valia Katsi & Defender Nyanhete in Romeo and Juliet, Romeo's jacket adapated by myself, photo: Jürgen Liebich",
     },
     {
       id: 4,
       type: "Costume",
       src: romeoandjuliet4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Set and Costume Design - Defender Nyanhete & Kyle Samuel in Romeo and Juliet, flower arches made my myself, Mercutio's jacket adapted by myself, photo: René Golz",
     },
     {
       id: 5,
       type: "Costume",
       src: romeoandjuliet5,
-      caption: "Fifth image showing a different style",
+      caption: "Set and Costume Design - Valia Katsi & Amy Shields in Romeo and Juliet, nurses outfit adapted by Cecelija Berg, photo: René Golz ",
     },
-    {
-      id: 6,
-      type: "Costume",
-      src: romeoandjuliet6,
-      caption: "Sixth image with a golden costume",
-    },
+    // {
+    //   id: 6,
+    //   type: "Costume",
+    //   src: romeoandjuliet6,
+    //   caption: "Sixth image with a golden costume",
+    // },
     {
       id: 7,
       type: "Costume",
       src: romeoandjuliet7,
-      caption: "Seventh costume photo for the gallery",
+      caption: "Set and Costume Design - Valia Katsi, Defender Nyanhete & Kyle Samuel in Dreaming in English - Directed by Michael Dray",
     },
     {
       id: 8,
       type: "Costume",
       src: romeoandjuliet8,
-      caption: "Caption for the eighth image",
+      caption: "Set and Costume Design - Amy Shields, Defender Nyanhete & Kyle Samuel in Dreaming in English, photo: René Golz",
     },
     {
       id: 9,
       type: "Costume",
       src: romeoandjuliet9,
-      caption: "Ninth image in the costume series",
+      caption: "Set and Costume Design - Valia Katsi & Amy Shields in Dreaming in English, ' Berlinda Baglady' dressing gown adapted by myself ",
     },
     {
       id: 10,
       type: "Costume",
       src: romeoandjuliet10,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design -  Amy Shields & Kyle Samuel in Dreaming in English, photo: René Golz",
     },
     {
       id: 11,
       type: "Costume",
       src: romeoandjuliet11,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design - Valia Katsi, Defender Nyanhete & Amy Shields in Dreaming in English, Ice Cream Hat made by myself",
     },
     {
       id: 12,
       type: "Costume",
       src: romeoandjuliet12,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design - Valia Katsi, Defender Nyanhete, Amy Shields & Kyle Samuel in Maid Marian - Directed by Michael Dray, photo: René Golz",
     },
     {
       id: 13,
       type: "Costume",
       src: romeoandjuliet13,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design - Valia Katsi, Defender Nyanhete, Amy Shields & Kyle Samuel in Maid Marian, photo: René Golz",
     },
     {
       id: 14,
       type: "Costume",
       src: romeoandjuliet14,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design -  Kyle Samuel in Maid Marian, jacket made by Katie Taylor",
     },
     {
       id: 15,
       type: "Costume",
       src: romeoandjuliet15,
-      caption: "Tenth and final costume image",
+      caption: "Set and Costume Design - Amy Shields & Defender Nyanhete in Maid Marian, photo: René Golz",
+    },
+    {
+      id: 16,
+      type: "Costume",
+      src: romeoandjuliet16,
+      caption: "Set and Costume Design - Defender Nyanhete & Kyle Samuel in Maid Marian, photo: René Golz",
     },
   ];
 

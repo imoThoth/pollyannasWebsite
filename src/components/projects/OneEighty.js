@@ -48,7 +48,7 @@ const OneEighty = () => {
   const images = [
 
 
-    { id: 1, type: "Costume", src: oneEighty1, caption: "Costume and Production Design - Lara Peake in One Hundred and Eighty, photo: Catherine Frawley", },
+    { id: 1, type: "Costume", src: oneEighty1, caption: "Costume and Production Design - Lara Peake in One Hundred and Eighty - Directed by Patrick Crellin, photo: Catherine Frawley", },
     { id: 2, type: "Costume", src: oneEighty2, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley", },
     { id: 3, type: "Costume", src: oneEighty3, caption: "Costume and Production Design - Isis Hainsworth & Lara Peake in One Hundred and Eighty, photo: Catherine Frawley",},
     { id: 4, type: "Costume", src: oneEighty4, caption: "Costume and Production Design - One Hundred and Eighty, photo: Catherine Frawley", },

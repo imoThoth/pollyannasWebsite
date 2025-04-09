@@ -60,7 +60,7 @@ function getBestFactorPair(num) {
 const Fish_Wife = () => {
 
   const images = [
-    { id: 1, type: "Costume", src: fishwife1, caption: "Production and Costume Design - Fish Wife, photo: David Gennard", },
+    { id: 1, type: "Costume", src: fishwife1, caption: "Production and Costume Design - Fish Wife - Directed by Beth Park, photo: David Gennard", },
     { id: 2, type: "Costume", src: fishwife2, caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, Costume made by: Amanda Richards, Shawl made by: Andrea Elston  photo: David Gennard ",  },
     { id: 3, type: "Costume", src: fishwife3, caption: "Production and Costume Design - Fish Wife, photo: David Gennard", },
     { id: 4, type: "Costume", src: fishwife4, caption: "Production and Costume Design - Scarlett Brookes in Fish Wife, Costume made by: Amanda Richards, Shawl made by: Andrea Elston  photo: David Gennard",  },
