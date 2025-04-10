@@ -54,89 +54,89 @@ const TamingOfTheShrew = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Set and Costume Design - Melanie Thompson as Bianca in Taming Of The Shrew - Directed by Beck Gadsby, photo: Jürgen Liebich",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "A caption for the second image",
+      caption: "Set and Costume Design - Savannah Gallo as Katherina & Melanie Thompson as Bianca, photo: Jürgen Liebich",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "Here is the third costume image",
+      caption: "Set and Costume Design - Savannah Gallo as Katherina, photo: Jürgen Liebich",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Set and Costume Design - Sam Hendrix as Lucentio & Melanie Thompson as Bianca, photo: Jürgen Liebich",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "Set and Costume Design - Melanie Thomspon, dress made by Ellie McBurnie, photo: Jürgen Liebich",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "Sixth image with a golden costume",
+      caption: "Set and Costume Design - Daniel Allen as Hortensio, photo: Jürgen Liebich",
     },
     {
       id: 7,
       type: "Costume",
       src: animal7,
-      caption: "Seventh costume photo for the gallery",
+      caption: "Set and Costume Design - Daniel Allen as Patruchio & Melanie Thompson as Gremio, photo: Jürgen Liebich",
     },
     {
       id: 8,
       type: "Costume",
       src: animal8,
-      caption: "Caption for the eighth image",
+      caption: "Set and Costume Design - Savannah Gallo, Daniel Allen & Melanie Thompson, photo: Jürgen Liebich",
     },
     {
       id: 9,
       type: "Costume",
       src: animal9,
-      caption: "Ninth image in the costume series",
+      caption: "Set and Costume Design - Melanie Thompson as Gremio, photo: Jürgen Liebich",
     },
     {
       id: 10,
       type: "Costume",
       src: animal10,
-      caption: "Tenth costume image",
+      caption: "Set and Costume Design - Melanie Thompson, Sam Hendrix, Daniel Allen & Savannah Gallo",
 
     },
     {
       id: 11,
       type: "Costume",
       src: animal11,
-      caption: "costume image eleven ",
+      caption: "Costume Design for Kate (Katherina)",
 
     },
     {
       id: 12,
       type: "Costume",
       src: animal12,
-      caption: "costume image twelve",
+      caption: " Costume Design for Bianca",
 
     },
     {
       id: 13,
       type: "Costume",
       src: animal13,
-      caption: "costume image thirteen",
+      caption: "Costume Design for Gremio",
 
     },
     {
       id: 14,
       type: "Costume",
       src: animal14,
-      caption: "foutneen and final costume image",
+      caption: "Costume Design for Lucentio",
 
     },
   ];

@@ -47,49 +47,49 @@ const SherlockHolmesInvisibleThing = () => {
       id: 1,
       type: "Costume",
       src: animal1,
-      caption: "This is the first image caption",
+      caption: "Costume Design - Stephen Chance in Sherlock Holmes & the Invisble Thing - Directed by David Phipps - Davis, photo: Alastair Hilton",
     },
     {
       id: 2,
       type: "Costume",
       src: animal2,
-      caption: "A caption for the second image",
+      caption: "Costume Design - Stephen Chance & Vanessa Fay Stanley, photo: Alastair Hilton",
     },
     {
       id: 3,
       type: "Costume",
       src: animal3,
-      caption: "Here is the third costume image",
+      caption: "Costume Design - Stephen Chance & Vanessa Fay Stanley, photo: Alastair Hilton",
     },
     {
       id: 4,
       type: "Costume",
       src: animal4,
-      caption: "The fourth image has a fun outfit",
+      caption: "Costume Design - Imogen Smith, Phillip Mansfield & Vanessa Fay Stanley, photo: Alastair Hilton",
     },
     {
       id: 5,
       type: "Costume",
       src: animal5,
-      caption: "Fifth image showing a different style",
+      caption: "Costume Design - Imogen Smith, Phillip Mansfield & Vanessa Fay Stanley, photo: Alastair Hilton",
     },
     {
       id: 6,
       type: "Costume",
       src: animal6,
-      caption: "Sixth image with a golden costume",
+      caption: "Costume Design - Vanessa Fay Stanley & Phillip Mansfield, photo: Alastair Hilton",
     },
     {
       id: 7,
       type: "Costume",
       src: animal7,
-      caption: "Seventh costume photo for the gallery",
+      caption: "Costume Design - Stephen Chance & Phillip Mansfield, photo: Alastair Hilton",
     },
     {
       id: 8,
       type: "Costume",
       src: animal8,
-      caption: "Caption for the eighth image",
+      caption: "Costume Design - Stephen Chance & Doug Cooper, photo: Alastair Hilton",
     }
   ];
 
