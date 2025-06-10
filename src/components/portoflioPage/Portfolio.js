@@ -64,7 +64,7 @@ import macbethpotfolio from '../../images/macbeth/whiteHorseTheatreMacbeth6_P.jp
 const portfolioData = [
   { id: 1, title: "Romeo and Juliet, Dreaming in English, Maid Marian", year: 2024, location: "Set and Costume Designer, White Horse Theatre, Germany", type: ["Costume", "Set Design", "Theatre"], src: romeoport },
   { id: 2, title: "Scratch", year: 2024, location: "Short Film - Production and Costume Designer, Dog Sky Films, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: scratch1 },
-  { id: 3, title: "Enitans Game", year: 2024, location: "Costume Designer/ Supervisor, PunchDrunk Enrichment, London", type: ["Costume", "Theatre"], src: punchdrunk5 },
+  { id: 3, title: "Enitans Game", year: 2024, location: "Costume Supervisor, PunchDrunk Enrichment, London", type: ["Costume", "Theatre"], src: punchdrunk5 },
   { id: 4, title: "One Hundred and Eighty", year: 2024, location: "Short Film - Production and Costume Designer, Dark Avenue Film, on location in England", type: ["Costume", "Set Design", "Film & TV"], src: oneEIghty },
   { id: 5, title: "Twelfth Night", year: 2024, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: twelfthNight1_L },
   { id: 6, title: "The Lightning Thief (UK Premier)", year: 2023, location: "Costume Designer/ Supervisor, London College of Music, London", type: ["Costume", "Theatre"], src: percy6_P },
